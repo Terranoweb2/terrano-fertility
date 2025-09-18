@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Une Révolution dans la Santé Reproductive</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1"></script>
+    <style>
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #f5f5f5;
+            margin: 0 auto;
+            padding: 40px;
+            font-family: 'Open Sans', sans-serif;
+            display: flex;
+            flex-direction: column;
+        }
+        .header-title {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 42px;
+            font-weight: 800;
+            color: #3a506b;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .innovation-badge {
+            background: #3a506b;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 30px;
+            font-size: 16px;
+            font-weight: 600;
+            display: inline-block;
+            margin-bottom: 15px;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .feature-item {
+            background: white;
+            border-radius: 12px;
+            padding: 18px;
+            margin-bottom: 15px;
+            box-shadow: 0 8px 20px rgba(28, 37, 65, 0.08);
+            border-left: 4px solid #6fffe9;
+            transition: transform 0.3s ease;
+        }
+        .feature-item:hover {
+            transform: translateY(-3px);
+        }
+        .feature-icon {
+            font-size: 24px;
+            color: #3a506b;
+            margin-right: 15px;
+        }
+        .feature-title {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 20px;
+            font-weight: 700;
+            color: #1c2541;
+            margin-bottom: 6px;
+        }
+        .feature-desc {
+            font-size: 15px;
+            color: #1c2541;
+            opacity: 0.8;
+            line-height: 1.5;
+        }
+        .unique-badge {
+            background: #6fffe9;
+            color: #1c2541;
+            padding: 3px 10px;
+            border-radius: 15px;
+            font-size: 11px;
+            font-weight: 600;
+            margin-left: 8px;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .image-container {
+            height: 200px;
+            overflow: hidden;
+            border-radius: 12px;
+            margin-bottom: 20px;
+        }
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .highlight-box {
+            background: #3a506b;
+            color: white;
+            padding: 15px;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 600;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .highlight-box::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 6px;
+            height: 100%;
+            background: #6fffe9;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <!-- Header -->
+        <div class="text-center mb-4">
+            <div class="innovation-badge">
+                <i class="fas fa-rocket mr-3"></i>
+                INNOVATION RÉVOLUTIONNAIRE
+            </div>
+            <h1 class="header-title">
+                Une Révolution dans la Santé Reproductive
+            </h1>
+        </div>
+
+        <!-- Image Section -->
+        <div class="image-container">
+            <img src="/home/ubuntu/upload/search_images/qAoP6rOweD0g.jpg" alt="Innovation en santé reproductive">
+        </div>
+
+        <!-- Main Content -->
+        <div class="grid grid-cols-2 gap-5 flex-grow">
+            <!-- Left Column -->
+            <div>
+                <div class="feature-item">
+                    <div class="flex items-start">
+                        <i class="fas fa-robot feature-icon"></i>
+                        <div>
+                            <div class="feature-title">
+                                IA Conversationnelle
+                                <span class="unique-badge">UNIQUE</span>
+                            </div>
+                            <div class="feature-desc">
+                                Première IA dédiée à la fertilité avec conversations personnalisées
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <div class="flex items-start">
+                        <i class="fas fa-chart-line feature-icon"></i>
+                        <div>
+                            <div class="feature-title">
+                                Prédictions Avancées
+                            </div>
+                            <div class="feature-desc">
+                                Calculs d'ovulation avec algorithmes adaptatifs et niveaux de confiance
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column -->
+            <div>
+                <div class="feature-item">
+                    <div class="flex items-start">
+                        <i class="fas fa-mobile-alt feature-icon"></i>
+                        <div>
+                            <div class="feature-title">
+                                Interface Ultra Moderne
+                            </div>
+                            <div class="feature-desc">
+                                Design responsive avec mode sombre/clair et animations fluides
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <div class="flex items-start">
+                        <i class="fas fa-shield-alt feature-icon"></i>
+                        <div>
+                            <div class="feature-title">
+                                Sécurité Maximale
+                            </div>
+                            <div class="feature-desc">
+                                Protection RGPD et chiffrement avancé des données personnelles
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Highlight -->
+        <div class="mt-4">
+            <div class="highlight-box">
+                <i class="fas fa-star mr-3"></i>
+                18 mois d'avance technologique sur la concurrence
+                <i class="fas fa-star ml-3"></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

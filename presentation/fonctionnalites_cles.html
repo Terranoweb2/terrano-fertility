@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonctionnalités Révolutionnaires</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1"></script>
+    <style>
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #f5f5f5;
+            margin: 0 auto;
+            padding: 40px;
+            font-family: 'Open Sans', sans-serif;
+            display: flex;
+            flex-direction: column;
+        }
+        .header-title {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 42px;
+            font-weight: 800;
+            color: #3a506b;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .pillar-container {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 8px 20px rgba(28, 37, 65, 0.08);
+            min-height: 180px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border-top: 4px solid;
+            transition: transform 0.3s ease;
+        }
+        .pillar-container:hover {
+            transform: translateY(-3px);
+        }
+        .pillar-icon {
+            font-size: 36px;
+            margin-bottom: 12px;
+            display: block;
+        }
+        .pillar-title {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #1c2541;
+        }
+        .pillar-desc {
+            font-size: 15px;
+            color: #1c2541;
+            opacity: 0.8;
+            line-height: 1.5;
+        }
+        .ai-pillar { border-top-color: #3a506b; }
+        .ai-pillar .pillar-icon { color: #3a506b; }
+        
+        .prediction-pillar { border-top-color: #6fffe9; }
+        .prediction-pillar .pillar-icon { color: #3a506b; }
+        
+        .interface-pillar { border-top-color: #3a506b; }
+        .interface-pillar .pillar-icon { color: #3a506b; }
+        
+        .security-pillar { border-top-color: #6fffe9; }
+        .security-pillar .pillar-icon { color: #3a506b; }
+        
+        .highlight-badge {
+            background: #3a506b;
+            color: white;
+            padding: 4px 10px;
+            border-radius: 15px;
+            font-size: 11px;
+            font-weight: 600;
+            margin-top: 8px;
+            display: inline-block;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .image-container {
+            height: 200px;
+            overflow: hidden;
+            border-radius: 12px;
+            margin-bottom: 20px;
+        }
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .summary-box {
+            background: #3a506b;
+            color: white;
+            padding: 15px;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 600;
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            overflow: hidden;
+        }
+        .summary-box::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 6px;
+            height: 100%;
+            background: #6fffe9;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <!-- Header -->
+        <h1 class="header-title">
+            Fonctionnalités Révolutionnaires
+        </h1>
+
+        <!-- Image Section -->
+        <div class="image-container">
+            <img src="/home/ubuntu/presentation_assets/fonctionnalites_tech.webp" alt="Fonctionnalités technologiques">
+        </div>
+
+        <!-- 4 Pillars Grid -->
+        <div class="grid grid-cols-2 gap-5 flex-grow">
+            <!-- IA Conversationnelle -->
+            <div class="pillar-container ai-pillar">
+                <i class="fas fa-robot pillar-icon"></i>
+                <div class="pillar-title">IA Conversationnelle</div>
+                <div class="pillar-desc">
+                    Première IA dédiée à la fertilité avec conseils personnalisés
+                </div>
+                <div class="highlight-badge">UNIQUE AU MONDE</div>
+            </div>
+
+            <!-- Prédictions Avancées -->
+            <div class="pillar-container prediction-pillar">
+                <i class="fas fa-chart-line pillar-icon"></i>
+                <div class="pillar-title">Prédictions Avancées</div>
+                <div class="pillar-desc">
+                    Calcul automatique de l'ovulation avec niveau de confiance
+                </div>
+                <div class="highlight-badge">92% PRÉCISION</div>
+            </div>
+
+            <!-- Interface Ultra Moderne -->
+            <div class="pillar-container interface-pillar">
+                <i class="fas fa-mobile-alt pillar-icon"></i>
+                <div class="pillar-title">Interface Ultra Moderne</div>
+                <div class="pillar-desc">
+                    Design responsive mobile-first et navigation intuitive
+                </div>
+                <div class="highlight-badge">MOBILE-FIRST</div>
+            </div>
+
+            <!-- Sécurité Maximale -->
+            <div class="pillar-container security-pillar">
+                <i class="fas fa-shield-alt pillar-icon"></i>
+                <div class="pillar-title">Sécurité Maximale</div>
+                <div class="pillar-desc">
+                    Authentification sécurisée et protection RGPD complète
+                </div>
+                <div class="highlight-badge">RGPD COMPLIANT</div>
+            </div>
+        </div>
+
+        <!-- Bottom Summary -->
+        <div class="mt-4">
+            <div class="summary-box">
+                <i class="fas fa-rocket mr-3"></i>
+                4 piliers technologiques pour révolutionner la santé reproductive féminine
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TerranoFertility - Suivi de Fertilité Intelligent</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .container {
+            background: white;
+            padding: 3rem;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 500px;
+            width: 90%;
+        }
+        
+        .logo {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        h1 {
+            color: #2d3748;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .subtitle {
+            color: #718096;
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .features {
+            display: grid;
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+        
+        .feature {
+            background: #f7fafc;
+            padding: 1rem;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .feature h3 {
+            color: #2d3748;
+            margin-bottom: 0.5rem;
+        }
+        
+        .feature p {
+            color: #718096;
+            font-size: 0.9rem;
+        }
+        
+        .status {
+            background: #e6fffa;
+            color: #234e52;
+            padding: 1rem;
+            border-radius: 10px;
+            margin: 2rem 0;
+            border: 1px solid #81e6d9;
+        }
+        
+        .api-status {
+            margin-top: 2rem;
+            padding: 1rem;
+            background: #f0fff4;
+            border-radius: 10px;
+            border: 1px solid #9ae6b4;
+        }
+        
+        .api-status h3 {
+            color: #22543d;
+            margin-bottom: 0.5rem;
+        }
+        
+        .api-endpoint {
+            background: #2d3748;
+            color: #e2e8f0;
+            padding: 0.5rem;
+            border-radius: 5px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+            margin: 0.5rem 0;
+        }
+        
+        .footer {
+            margin-top: 2rem;
+            color: #a0aec0;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">🌸</div>
+        <h1>TerranoFertility</h1>
+        <p class="subtitle">Votre compagnon intelligent pour le suivi de fertilité</p>
+        
+        <div class="status">
+            <strong>✅ Application déployée avec succès !</strong><br>
+            Backend Flask opérationnel avec toutes les fonctionnalités
+        </div>
+        
+        <div class="features">
+            <div class="feature">
+                <h3>🤖 IA Conversationnelle</h3>
+                <p>TerranoIA vous accompagne avec des conseils personnalisés</p>
+            </div>
+            
+            <div class="feature">
+                <h3>📊 Suivi Avancé</h3>
+                <p>Prédictions d'ovulation et analyse de cycles précises</p>
+            </div>
+            
+            <div class="feature">
+                <h3>🔒 Sécurité Maximale</h3>
+                <p>Données chiffrées et authentification JWT sécurisée</p>
+            </div>
+            
+            <div class="feature">
+                <h3>📱 Interface Moderne</h3>
+                <p>Design ultra moderne et responsive</p>
+            </div>
+        </div>
+        
+        <div class="api-status">
+            <h3>🚀 API REST Complète</h3>
+            <p>Toutes les fonctionnalités sont accessibles via l'API :</p>
+            <div class="api-endpoint">GET /api/health</div>
+            <div class="api-endpoint">POST /api/auth/register</div>
+            <div class="api-endpoint">POST /api/auth/login</div>
+            <div class="api-endpoint">GET /api/predictions/current</div>
+            <div class="api-endpoint">POST /api/ai/chat</div>
+        </div>
+        
+        <div class="footer">
+            <p>🔬 Développé avec Flask, React, SQLite et IA OpenRouter</p>
+            <p>💚 Prêt pour la production et l'intégration mobile</p>
+        </div>
+    </div>
+</body>
+</html>
+
