@@ -1,0 +1,97 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-id="France24.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/France24.png/512px-France24.png" group-title="News" tvg-country="FR",France 24
+https://static.france24.com/live/F24_FR_HI_HLS/live_web.m3u8
+
+#EXTINF:-1 tvg-id="NRJ12.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/NRJ12_logo_2015.svg/749px-NRJ12_logo_2015.svg.png" group-title="Entertainment" tvg-country="FR",NRJ 12
+https://nrj12.nrjaudio.fm/hls/live/2038374/nrj_12/master.m3u8
+
+#EXTINF:-1 tvg-id="Arte.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Arte_Logo_2017.svg/512px-Arte_Logo_2017.svg.png" group-title="Culture" tvg-country="FR",Arte
+https://artesimulcast.akamaized.net/hls/live/2031003/artelive_fr/index.m3u8
+
+#EXTINF:-1 tvg-id="CanalPlus.fr" tvg-logo="https://i.imgur.com/5HcyMnW.png" group-title="Entertainment" tvg-country="FR",Canal+ (1080p)
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/canalplus.m3u8
+
+#EXTINF:-1 tvg-id="CanalJ.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Canal_J_2019_Logo.png/512px-Canal_J_2019_Logo.png" group-title="Kids" tvg-country="FR",Canal J HD
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/canalj.m3u8
+
+#EXTINF:-1 tvg-id="PlanetePlus.fr" tvg-logo="https://i.imgur.com/RMbMGMg.png" group-title="Documentary" tvg-country="FR",Planete+ (1080p)
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/planeteplus.m3u8
+
+#EXTINF:-1 tvg-id="NationalGeographic.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png" group-title="Documentary" tvg-country="US",National Geographic HD
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/natgeo.m3u8
+
+#EXTINF:-1 tvg-id="NationalGeographicWild.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/512px-National_Geographic_Wild_logo.svg.png" group-title="Documentary" tvg-country="US",National Geographic Wild HD
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/natgeowild.m3u8
+
+#EXTINF:-1 tvg-id="DiscoveryChannel.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Discovery_Channel_logo.svg/512px-Discovery_Channel_logo.svg.png" group-title="Documentary" tvg-country="US",Discovery Channel HD
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/discovery.m3u8
+
+#EXTINF:-1 tvg-id="DiscoveryScience.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Discovery_Science_logo.svg/512px-Discovery_Science_logo.svg.png" group-title="Science" tvg-country="US",Discovery Science HD
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/discoveryscience.m3u8
+
+#EXTINF:-1 tvg-id="ParamountChannel.fr" tvg-logo="https://i.imgur.com/BqmDlC2.png" group-title="Movies" tvg-country="FR",Paramount Channel (1080p)
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/paramount.m3u8
+
+#EXTINF:-1 tvg-id="LEquipe.fr" tvg-logo="https://i.imgur.com/t35zhM9.png" group-title="Sports" tvg-country="FR",L'Equipe (1080p)
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/lequipe.m3u8
+
+#EXTINF:-1 tvg-id="Equidia.fr" tvg-logo="https://i.imgur.com/QPpbRcZ.png" group-title="Sports" tvg-country="FR",Equidia (1080p)
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/equidia.m3u8
+
+#EXTINF:-1 tvg-id="Africa24Sport.fr" tvg-logo="https://i.imgur.com/YWIJdai.png" group-title="Sports" tvg-country="FR",Africa 24 Sport (1080p)
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/africa24sport.m3u8
+
+#EXTINF:-1 tvg-id="BFMTechCo.fr" tvg-logo="https://i.imgur.com/FQ0FpXV.png" group-title="Science" tvg-country="FR",BFM Tech & Co (1080p)
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/bfmtech.m3u8
+
+#EXTINF:-1 tvg-id="LEspritSorcierTV.fr" tvg-logo="https://i.imgur.com/zyh8yub.png" group-title="Education" tvg-country="FR",L'Esprit Sorcier TV (1080p)
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/espritsorcier.m3u8
+
+#EXTINF:-1 tvg-id="PlutoTVAction.fr" tvg-logo="https://i.imgur.com/tDapGal.png" group-title="Movies" tvg-country="FR",Pluto TV Action
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8ed48146c6c9000797bf7e/master.m3u8
+
+#EXTINF:-1 tvg-id="PlutoTVCineRetro.fr" tvg-logo="https://i.imgur.com/y27HHe1.png" group-title="Movies" tvg-country="FR",Pluto TV Ciné Rétro
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8ed4b146c6c9000797bf80/master.m3u8
+
+#EXTINF:-1 tvg-id="PlutoTVSciFi.fr" tvg-logo="https://i.imgur.com/vSzd5m7.png" group-title="Movies" tvg-country="FR",Pluto TV Sci-Fi
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8ed4f746c6c9000797bf82/master.m3u8
+
+#EXTINF:-1 tvg-id="PlutoTVHistoire.fr" tvg-logo="https://i.imgur.com/JE5xcCV.png" group-title="Documentary" tvg-country="FR",Pluto TV Histoire
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8ed52b46c6c9000797bf84/master.m3u8
+
+#EXTINF:-1 tvg-id="PlutoTVInvestigation.fr" tvg-logo="https://i.imgur.com/8LdACfR.png" group-title="Documentary" tvg-country="FR",Pluto TV Investigation
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8ed56846c6c9000797bf86/master.m3u8
+
+#EXTINF:-1 tvg-id="PlutoTVParanormal.fr" tvg-logo="https://i.imgur.com/ApN6nfw.png" group-title="Documentary" tvg-country="FR",Pluto TV Paranormal
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8ed59a46c6c9000797bf88/master.m3u8
+
+#EXTINF:-1 tvg-id="DossiersFBI.fr" tvg-logo="https://i.imgur.com/8Zx6dA7.png" group-title="Documentary" tvg-country="FR",Dossiers FBI
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/dossiersfbi.m3u8
+
+#EXTINF:-1 tvg-id="DoctorWho.fr" tvg-logo="https://i.imgur.com/pMMabI3.png" group-title="Series" tvg-country="FR",Doctor Who
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/doctorwho.m3u8
+
+#EXTINF:-1 tvg-id="Francophonie24.fr" tvg-logo="https://i.imgur.com/uM1v1sd.png" group-title="Documentary" tvg-country="FR",Francophonie (360p)
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/francophonie.m3u8
+
+#EXTINF:-1 tvg-id="KozoomTV.fr" tvg-logo="https://i.imgur.com/M1Ee79b.png" group-title="Sports" tvg-country="FR",Kozoom TV
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/kozoom.m3u8
+
+#EXTINF:-1 tvg-id="Canal32.fr" tvg-logo="https://i.imgur.com/lAsE6kN.png" group-title="General" tvg-country="FR",Canal 32 (1080p)
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/canal32.m3u8
+
+#EXTINF:-1 tvg-id="AssembleeNationale.fr" tvg-logo="https://i.imgur.com/Eta6gUq.png" group-title="Legislative" tvg-country="FR",Assemblée Nationale (1080p)
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/assemblee.m3u8
+
+#EXTINF:-1 tvg-id="AlJazeera.qa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Al_Jazeera_English.svg/512px-Al_Jazeera_English.svg.png" group-title="News" tvg-country="QA",Al Jazeera English
+https://live-hls-web-aje.getaj.net/AJE/index.m3u8
+
+#EXTINF:-1 tvg-id="BBCWorldNews.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/BBC_World_News_red.svg/512px-BBC_World_News_red.svg.png" group-title="News" tvg-country="UK",BBC World News
+https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_world_service/t=3840/v=pv14/b=5070016/main.m3u8
+
+#EXTINF:-1 tvg-id="CNNInternational.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CNN.svg/512px-CNN.svg.png" group-title="News" tvg-country="US",CNN International
+https://cnn-cnninternational-1-gb.samsung.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="NASA.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/512px-NASA_logo.svg.png" group-title="Science" tvg-country="US",NASA TV
+https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8

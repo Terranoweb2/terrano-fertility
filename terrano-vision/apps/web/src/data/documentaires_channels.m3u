@@ -1,0 +1,19 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-id="NationalGeographic.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png" group-title="Documentary" tvg-country="US",National Geographic HD
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/natgeo.m3u8
+
+#EXTINF:-1 tvg-id="NationalGeographicWild.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/512px-National_Geographic_Wild_logo.svg.png" group-title="Documentary" tvg-country="US",National Geographic Wild HD
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/natgeowild.m3u8
+
+#EXTINF:-1 tvg-id="DiscoveryChannel.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Discovery_Channel_logo.svg/512px-Discovery_Channel_logo.svg.png" group-title="Documentary" tvg-country="US",Discovery Channel HD
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/discovery.m3u8
+
+#EXTINF:-1 tvg-id="PlanetePlus.fr" tvg-logo="https://i.imgur.com/RMbMGMg.png" group-title="Documentary" tvg-country="FR",Planete+ (1080p)
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/planeteplus.m3u8
+
+#EXTINF:-1 tvg-id="LEspritSorcierTV.fr" tvg-logo="https://i.imgur.com/zyh8yub.png" group-title="Documentary" tvg-country="FR",L'Esprit Sorcier TV (1080p)
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/espritsorcier.m3u8
+
+#EXTINF:-1 tvg-id="PlutoTVHistoire.fr" tvg-logo="https://i.imgur.com/JE5xcCV.png" group-title="Documentary" tvg-country="FR",Pluto TV Histoire
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8ed52b46c6c9000797bf84/master.m3u8

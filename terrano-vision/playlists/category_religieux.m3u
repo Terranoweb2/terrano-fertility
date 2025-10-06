@@ -1,0 +1,126 @@
+#EXTM3U
+
+# ===== TERRANOVISION - RELIGIEUX =====
+# 40 chaînes religieux
+# Généré automatiquement
+
+#EXTINF:-1 group-title="Religieux" tvg-country="FR" tvg-logo="https://i.imgur.com/ejRJqSI.png",A&R Canal Adventista (720p)
+http://51.222.9.192:3589/stream/play.m3u8
+
+#EXTINF:-1 group-title="Religieux" tvg-country="FR" tvg-logo="https://i.imgur.com/ejRJqSI.png",A&R Canal Adventista (720p)
+http://51.222.9.192:3589/stream/play.m3u8
+
+#EXTINF:-1 group-title="Religieux" tvg-country="FR" tvg-logo="https://i.imgur.com/fp2EaLJ.png",CSat TV (1080p) [Not 24/7]
+http://media.smc-host.com:1935/csat.tv/smil:csat.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="Religieux" tvg-country="FR" tvg-logo="https://i.imgur.com/fp2EaLJ.png",CSat TV (1080p) [Not 24/7]
+http://media.smc-host.com:1935/csat.tv/smil:csat.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="Religieux" tvg-country="FR" tvg-logo="https://i.imgur.com/lmKLiJ3.jpg",Canal 13 Jujuy TV (720p)
+https://genexservicios.com:19360/canal13jujuy/canal13jujuy.m3u8
+
+#EXTINF:-1 group-title="Religieux" tvg-country="FR" tvg-logo="https://i.imgur.com/lmKLiJ3.jpg",Canal 13 Jujuy TV (720p)
+https://genexservicios.com:19360/canal13jujuy/canal13jujuy.m3u8
+
+#EXTINF:-1 group-title="Religieux" tvg-country="FR" tvg-logo="https://i.imgur.com/ypG437l.png",Canal 21 (720p)
+https://stmvideo2.livecastv.com/canal21nic3/canal21nic3/playlist.m3u8
+
+#EXTINF:-1 group-title="Religieux" tvg-country="FR" tvg-logo="https://i.imgur.com/ypG437l.png",Canal 21 (720p)
+https://stmvideo2.livecastv.com/canal21nic3/canal21nic3/playlist.m3u8
+
+#EXTINF:-1 group-title="Religieux" tvg-country="FR" tvg-logo="https://i.imgur.com/eA4vt8A.png",Canal 27 (1080p)
+https://live.canal27.tv:3633/live/canal27live.m3u8
+
+#EXTINF:-1 group-title="Religieux" tvg-country="FR" tvg-logo="https://i.imgur.com/eA4vt8A.png",Canal 27 (1080p)
+https://live.canal27.tv:3633/live/canal27live.m3u8
+
+#EXTINF:-1 group-title="Religieux" tvg-country="FR" tvg-logo="https://i.imgur.com/y3bymuv.jpg",Canal 29 TVA
+https://play.agenciastreaming.com:19360/8160/8160.m3u8
+
+#EXTINF:-1 group-title="Religieux" tvg-country="FR" tvg-logo="https://i.imgur.com/y3bymuv.jpg",Canal 29 TVA
+https://play.agenciastreaming.com:19360/8160/8160.m3u8
+
+#EXTINF:-1 group-title="Religieux" tvg-country="FR" tvg-logo="https://i.imgur.com/PP4U1JL.png",Canal 30 TV Bethel (720p) [Not 24/7]
+https://s.emisoras.tv:8081/canal30tvbethel/index.m3u8
+
+#EXTINF:-1 group-title="Religieux" tvg-country="FR" tvg-logo="https://i.imgur.com/PP4U1JL.png",Canal 30 TV Bethel (720p) [Not 24/7]
+https://s.emisoras.tv:8081/canal30tvbethel/index.m3u8
+
+#EXTINF:-1 group-title="Religieux" tvg-country="FR" tvg-logo="https://i.imgur.com/P15QovY.png",Canal 65 (1080p) [Not 24/7]
+https://panel.streamingtv-mediacp.online:1936/tv65/tv65/playlist.m3u8
+
+#EXTINF:-1 group-title="Religieux" tvg-country="FR" tvg-logo="https://i.imgur.com/P15QovY.png",Canal 65 (1080p) [Not 24/7]
+https://panel.streamingtv-mediacp.online:1936/tv65/tv65/playlist.m3u8
+
+#EXTINF:-1 group-title="Religieux" tvg-country="FR" tvg-logo="https://i.imgur.com/WR2QoZn.png",Canal 98 Jesús TV (720p)
+https://cdn.streamhispanatv.net:3189/live/jesustvlive.m3u8
+
+#EXTINF:-1 group-title="Religieux" tvg-country="FR" tvg-logo="https://i.imgur.com/WR2QoZn.png",Canal 98 Jesús TV (720p)
+https://cdn.streamhispanatv.net:3189/live/jesustvlive.m3u8
+
+#EXTINF:-1 group-title="Religieux" tvg-country="FR" tvg-logo="https://i.imgur.com/DINQRep.jpg",Canal CVV International
+https://uvotv-aniview.global.ssl.fastly.net/hls/live/2119033/cvvtv/playlist.m3u8
+
+#EXTINF:-1 group-title="Religieux" tvg-country="FR" tvg-logo="https://i.imgur.com/DINQRep.jpg",Canal CVV International
+https://uvotv-aniview.global.ssl.fastly.net/hls/live/2119033/cvvtv/playlist.m3u8
+
+#EXTINF:-1 group-title="Religieux" tvg-country="FR" tvg-logo="https://i.imgur.com/cQ4ggTw.png",Canal ISB (Iglesia San Bernardo) (720p)
+https://unlimited1-us.dps.live/isb/isb.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="Religieux" tvg-country="FR" tvg-logo="https://i.imgur.com/cQ4ggTw.png",Canal ISB (Iglesia San Bernardo) (720p)
+https://unlimited1-us.dps.live/isb/isb.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="Religieux" tvg-country="FR" tvg-logo="https://i.ibb.co/x3Vdz6h/Screenshot-20231202-125205.jpg",Canal Iglesia Luz y Verdad (1080p)
+https://stream.oursnetworktv.com/latin/IglesialuzyVerdad/playlist.m3u8
+
+#EXTINF:-1 group-title="Religieux" tvg-country="FR" tvg-logo="https://i.ibb.co/x3Vdz6h/Screenshot-20231202-125205.jpg",Canal Iglesia Luz y Verdad (1080p)
+https://stream.oursnetworktv.com/latin/IglesialuzyVerdad/playlist.m3u8
+
+#EXTINF:-1 group-title="Religieux" tvg-country="FR" tvg-logo="https://i.imgur.com/rfnFqU3.png",Canal Oración Con Son (1080p)
+https://canal.mediaserver.com.co/live/oracionconson.m3u8
+
+#EXTINF:-1 group-title="Religieux" tvg-country="FR" tvg-logo="https://i.imgur.com/rfnFqU3.png",Canal Oración Con Son (1080p)
+https://canal.mediaserver.com.co/live/oracionconson.m3u8
+
+#EXTINF:-1 group-title="Religieux" tvg-country="FR" tvg-logo="https://i.postimg.cc/gjgm8h55/canalorbe21.png",Canal Orbe 21
+https://stream.arcast.net:4443/canal21/ngrp:canal21_all/playlist.m3u8
+
+#EXTINF:-1 group-title="Religieux" tvg-country="FR" tvg-logo="https://i.postimg.cc/gjgm8h55/canalorbe21.png",Canal Orbe 21
+https://stream.arcast.net:4443/canal21/ngrp:canal21_all/playlist.m3u8
+
+#EXTINF:-1 group-title="Religieux" tvg-country="FR" tvg-logo="https://i.imgur.com/Z7aKJCt.png",Canal Peniel (720p) [Not 24/7]
+https://cdn.streamhispanatv.net:3840/live/penielfamlive.m3u8
+
+#EXTINF:-1 group-title="Religieux" tvg-country="FR" tvg-logo="https://i.imgur.com/Z7aKJCt.png",Canal Peniel (720p) [Not 24/7]
+https://cdn.streamhispanatv.net:3840/live/penielfamlive.m3u8
+
+#EXTINF:-1 group-title="Religieux" tvg-country="FR" tvg-logo="https://www.canalsantamaria.com.ar/images/santamaria_logo.jpg",Canal Santa María (360p)
+https://streaming.telered.com.ar/santa-maria/streaming/mystream.m3u8
+
+#EXTINF:-1 group-title="Religieux" tvg-country="FR" tvg-logo="https://www.canalsantamaria.com.ar/images/santamaria_logo.jpg",Canal Santa María (360p)
+https://streaming.telered.com.ar/santa-maria/streaming/mystream.m3u8
+
+#EXTINF:-1 group-title="Religieux" tvg-country="FR" tvg-logo="https://i.imgur.com/D1s1Q3k.png",Canal Telefamilia (360p) [Not 24/7]
+https://stmv2.voxtvhd.com.br/telefamilia/telefamilia/playlist.m3u8
+
+#EXTINF:-1 group-title="Religieux" tvg-country="FR" tvg-logo="https://i.imgur.com/D1s1Q3k.png",Canal Telefamilia (360p) [Not 24/7]
+https://stmv2.voxtvhd.com.br/telefamilia/telefamilia/playlist.m3u8
+
+#EXTINF:-1 group-title="Religieux" tvg-country="FR" tvg-logo="https://i.imgur.com/vFi0FMZ.png",JBN Canal 39 (720p) [Not 24/7]
+https://hdbox.chunklistv.com/live?stream=jbn39
+
+#EXTINF:-1 group-title="Religieux" tvg-country="FR" tvg-logo="https://i.imgur.com/vFi0FMZ.png",JBN Canal 39 (720p) [Not 24/7]
+https://hdbox.chunklistv.com/live?stream=jbn39
+
+#EXTINF:-1 group-title="Religieux" tvg-country="FR" tvg-logo="https://i.imgur.com/MIlw7GI.png",RTV Católica Canal 40 (1080p)
+https://streaming.grupocsanetwork.com:19360/canal40/canal40.m3u8
+
+#EXTINF:-1 group-title="Religieux" tvg-country="FR" tvg-logo="https://i.imgur.com/MIlw7GI.png",RTV Católica Canal 40 (1080p)
+https://streaming.grupocsanetwork.com:19360/canal40/canal40.m3u8
+
+#EXTINF:-1 group-title="Religieux" tvg-country="FR" tvg-logo="https://i.imgur.com/TUhFzql.png",VTV Canal 17 (720p) [Not 24/7]
+https://solo.disfrutaenlared.com:1936/vtvcanal/vtvcanal/playlist.m3u8
+
+#EXTINF:-1 group-title="Religieux" tvg-country="FR" tvg-logo="https://i.imgur.com/TUhFzql.png",VTV Canal 17 (720p) [Not 24/7]
+https://solo.disfrutaenlared.com:1936/vtvcanal/vtvcanal/playlist.m3u8
+

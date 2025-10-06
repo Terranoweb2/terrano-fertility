@@ -1,0 +1,45 @@
+#EXTM3U
+
+# ===== TERRANOVISION PREMIUM PLAYLIST =====
+# Chaînes premium avec Canal+ intégré
+# Généré automatiquement
+
+#EXTINF:-1 group-title="Actualités" tvg-country="FR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/France24.png/512px-France24.png",France 24
+https://static.france24.com/live/F24_FR_HI_HLS/live_web.m3u8
+
+#EXTINF:-1 group-title="Divertissement" tvg-country="FR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/NRJ12_logo_2015.svg/749px-NRJ12_logo_2015.svg.png",NRJ 12
+https://nrj12.nrjaudio.fm/hls/live/2038374/nrj_12/master.m3u8
+
+#EXTINF:-1 group-title="Actualités" tvg-country="FR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Euronews_2016_logo.svg/512px-Euronews_2016_logo.svg.png",Euronews Français
+https://rakuten-euronews-1-gb.samsung.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 group-title="Canal+" tvg-country="FR" tvg-logo="https://i.imgur.com/lAsE6kN.png",Canal 32 (1080p)
+https://event.vedge.infomaniak.com/livecast/ik:canal32_4/manifest.m3u8
+
+#EXTINF:-1 group-title="Canal+" tvg-country="FR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Canal_J_2019_Logo.png/512px-Canal_J_2019_Logo.png",Canal J HD
+https://viamotionhsi.netplus.ch/live/eds/canalj/browser-HLS8/canalj.m3u8
+
+#EXTINF:-1 group-title="Canal+" tvg-country="FR" tvg-logo="https://i.imgur.com/5HcyMnW.png",Canal+ (1080p)
+https://viamotionhsi.netplus.ch/live/eds/canalplusclair/browser-HLS8/canalplusclair.m3u8
+
+#EXTINF:-1 group-title="Canal+" tvg-country="FR" tvg-logo="https://i.imgur.com/FMrB17k.png",Canal 9 Ixchiguán (720p)
+https://cdn.streamhispanatv.net:3859/live/ixchiguanlive.m3u8
+
+#EXTINF:-1 group-title="Canal+" tvg-country="FR" tvg-logo="https://i.imgur.com/heZeqPQ.png",Canal 11 (1080p)
+https://cootv.cootel.com.ni:8095/Canal11_CooTel/playlist.m3u8
+
+#EXTINF:-1 group-title="Canal+" tvg-country="FR" tvg-logo="https://i.imgur.com/Gad5qrd.png",Canal+ Haiti [Geo-blocked]
+https://vdo.pro-fhi.net:3605/live/dgenlcpmlive.m3u8
+
+#EXTINF:-1 group-title="Canal+" tvg-country="FR" tvg-logo="https://i.imgur.com/nb81xeU.png",WTV Canal 20 (1080p)
+https://cootv.cootel.com.ni:8095/Canal40_WTV/playlist.m3u8
+
+#EXTINF:-1 group-title="Canal+" tvg-country="FR" tvg-logo="https://i.postimg.cc/mDZnMnsL/canalplussport2.png",Canal+ Sport 2 (1080i)
+http://78.130.250.2:8023/play/a02w/index.m3u8
+
+#EXTINF:-1 group-title="Canal+" tvg-country="FR" tvg-logo="https://i.imgur.com/JUNP8Rx.png",Canal Zoom [Geo-blocked]
+https://tvlocales-live.freecaster.com/live/95d2e3af-5ab8-45a9-9dc9-f544d006b5d5/95d2e3af-5ab8-45a9-9dc9-f544d006b5d5.isml/master.m3u8
+
+#EXTINF:-1 group-title="Canal+" tvg-country="FR" tvg-logo="https://i.imgur.com/TNciMh2.png",Canal 9 en Français (1080p)
+https://livehd.vedge.infomaniak.com/livecast/livehd/master.m3u8
+

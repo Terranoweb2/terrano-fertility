@@ -1,0 +1,41 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="France24.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/France24.png/512px-France24.png" group-title="News" tvg-country="FR",France 24
+https://static.france24.com/live/F24_FR_HI_HLS/live_web.m3u8
+#EXTINF:-1 tvg-id="NRJ12.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/NRJ12_logo_2015.svg/749px-NRJ12_logo_2015.svg.png" group-title="Entertainment" tvg-country="FR",NRJ 12
+https://nrj12.nrjaudio.fm/hls/live/2038374/nrj_12/master.m3u8
+#EXTINF:-1 tvg-id="Arte.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Arte_Logo_2017.svg/512px-Arte_Logo_2017.svg.png" group-title="Culture" tvg-country="FR",Arte
+https://artesimulcast.akamaized.net/hls/live/2031003/artelive_fr/index.m3u8
+#EXTINF:-1 tvg-id="20MinutesTV.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/20_Minutes_TV_IDF_logo_%282023%29.png/320px-20_Minutes_TV_IDF_logo_%282023%29.png" group-title="News" tvg-country="FR",20 Minutes TV
+https://live-20minutestv.digiteka.com/1961167769/index.m3u8
+#EXTINF:-1 tvg-id="Euronews.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Euronews_2016_logo.svg/512px-Euronews_2016_logo.svg.png" group-title="News" tvg-country="FR",Euronews Français
+https://rakuten-euronews-1-gb.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="ABCNews.au" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/df/ABC_News_Channel.svg/640px-ABC_News_Channel.svg.png" group-title="News" tvg-country="AU",ABC News Australia
+https://abc-iview-mediapackagestreams-2.akamaized.net/out/v1/6e1cc6d25ec0480ea099a5399d73bc4b/index.m3u8
+#EXTINF:-1 tvg-id="CBCNews.ca" tvg-logo="https://i.imgur.com/1EqQGKS.png" group-title="News" tvg-country="CA",CBC News
+https://cbcnewshd-f.akamaihd.net/i/cbcnews_1@8981/index_2500_av-p.m3u8
+#EXTINF:-1 tvg-id="AlJazeera.qa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Al_Jazeera_English.svg/512px-Al_Jazeera_English.svg.png" group-title="News" tvg-country="QA",Al Jazeera English
+https://live-hls-web-aje.getaj.net/AJE/index.m3u8
+#EXTINF:-1 tvg-id="BBCWorldNews.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/BBC_World_News_red.svg/512px-BBC_World_News_red.svg.png" group-title="News" tvg-country="UK",BBC World News
+https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_world_service/t=3840/v=pv14/b=5070016/main.m3u8
+#EXTINF:-1 tvg-id="CNNInternational.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CNN.svg/512px-CNN.svg.png" group-title="News" tvg-country="US",CNN International
+https://cnn-cnninternational-1-gb.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="DWFrench.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_symbol_2012.svg/512px-Deutsche_Welle_symbol_2012.svg.png" group-title="News" tvg-country="DE",DW Français
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
+#EXTINF:-1 tvg-id="SkyNews.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Sky_News_logo.svg/512px-Sky_News_logo.svg.png" group-title="News" tvg-country="UK",Sky News
+https://skynews2-plutolive-vo.akamaized.net/cdnAkamaiLive_201/playlist.m3u8
+#EXTINF:-1 tvg-id="PlutoTVNews.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Pluto_TV_logo.svg/512px-Pluto_TV_logo.svg.png" group-title="News" tvg-country="US",Pluto TV News
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5421809a82074c0f9b1e3e31/master.m3u8
+#EXTINF:-1 tvg-id="NASA.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/512px-NASA_logo.svg.png" group-title="Science" tvg-country="US",NASA TV
+https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8
+#EXTINF:-1 tvg-id="WeatherChannel.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/The_Weather_Channel_logo_2005-present.svg/512px-The_Weather_Channel_logo_2005-present.svg.png" group-title="Weather" tvg-country="US",Weather Channel
+https://weather-lh.akamaihd.net/i/twc_1@92006/master.m3u8
+#EXTINF:-1 tvg-id="Bloomberg.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Bloomberg_logo.svg/512px-Bloomberg_logo.svg.png" group-title="Business" tvg-country="US",Bloomberg TV
+https://bloomberg.com/media-manifest/streams/eu.m3u8
+#EXTINF:-1 tvg-id="RedBullTV.at" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Red_Bull_TV_logo.svg/512px-Red_Bull_TV_logo.svg.png" group-title="Sports" tvg-country="AT",Red Bull TV
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
+#EXTINF:-1 tvg-id="FashionTV.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/512px-Fashion_TV_logo.svg.png" group-title="Lifestyle" tvg-country="FR",Fashion TV
+https://fashiontv-fashiontv-5-nl.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TravelXP.in" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/TravelXP_logo.svg/512px-TravelXP_logo.svg.png" group-title="Travel" tvg-country="IN",Travel XP
+https://travelxp-travelxp-1-gb.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="LoveNature.ca" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Love_Nature_TV.svg/512px-Love_Nature_TV.svg.png" group-title="Nature" tvg-country="CA",Love Nature
+https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8

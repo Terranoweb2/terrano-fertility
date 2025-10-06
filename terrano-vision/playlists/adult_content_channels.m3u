@@ -1,0 +1,47 @@
+#EXTM3U
+
+# ===== CONTENU ADULTE - ACCÈS RESTREINT =====
+# ⚠️  RÉSERVÉ AUX ADULTES (18+ ANS)
+# 🔞 VÉRIFICATION D'ÂGE REQUISE
+# 📊 12 chaînes adultes
+
+# === FILMS ADULTES ===
+
+#EXTINF:-1 group-title="🔞 Films Adultes" tvg-country="",🔞 FilmRise Hot Ones (720p)
+https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883082
+
+# === GÉNÉRAL ADULTE ===
+
+#EXTINF:-1 group-title="🔞 Général Adulte" tvg-country="" tvg-logo="https://i.ibb.co/sjTS4xD/logo116x90-2.png",🔞 Caribbean Hot 7 TV (720p)
+https://586a9edea75f1.streamlock.net/caribbeanhot7tv/ch7-1.stream/playlist.m3u8
+
+#EXTINF:-1 group-title="🔞 Général Adulte" tvg-country="",🔞 Hot Bench
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/6036e6e7ac69c400072afca2/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c293f94-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=7b2a6dda-f21b-4de6-9d06-1457daf9aa31
+
+#EXTINF:-1 group-title="🔞 Général Adulte" tvg-country="",🔞 Hot Ones
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/655ca3839d5ac400080d14ec/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=1b1dfff4-4b81-11ef-a8ac-e146e4e7be02&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=f4026554-ef22-4c86-818d-18371f9458ea
+
+#EXTINF:-1 group-title="🔞 Général Adulte" tvg-country="",🔞 Hot Ones
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65a803b607e03a0008925118/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7aa2c8-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=9cb9db4b-c3cb-4647-99d6-9ecd974431a8
+
+#EXTINF:-1 group-title="🔞 Général Adulte" tvg-country="",🔞 Hot Ones
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/655ca3839d5ac400080d14ec/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=bc841a97-4b91-11ef-8a44-83c5e90e038f&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=f32037b1-bd49-4906-b9ee-f9af269b3763
+
+#EXTINF:-1 group-title="🔞 Général Adulte" tvg-country="",🔞 Hot Ones
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/655ca3839d5ac400080d14ec/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=84ad8f11-4b92-11ef-aece-533610f1ea34&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=66cda8eb-183c-40ce-a92d-ae42b4ae5ea2
+
+#EXTINF:-1 group-title="🔞 Général Adulte" tvg-country="",🔞 Hotel Inspector (1080p)
+https://amg00654-itv-amg00654c4-rakuten-uk-5263.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 group-title="🔞 Général Adulte" tvg-country="",🔞 Shots! (1080p)
+https://live-nationalworld-ssai.simplestreamcdn.com/v1/master/774d979dd66704abea7c5b62cb34c6815fda0d35/shotstv-live/index.m3u8
+
+#EXTINF:-1 group-title="🔞 Général Adulte" tvg-country="" tvg-logo="https://i.imgur.com/PZhxyIT.png",🔞 Stingray Hot Country (1080p)
+https://lotus.stingray.com/manifest/ose-108ads-montreal/samsungtvplus/master.m3u8
+
+#EXTINF:-1 group-title="🔞 Général Adulte" tvg-country="" tvg-logo="https://i.imgur.com/H2ugC9L.png",🔞 Stingray Pop Adult (1080p)
+https://lotus.stingray.com/manifest/ose-104ads-montreal/samsungtvplus/master.m3u8
+
+#EXTINF:-1 group-title="🔞 Général Adulte" tvg-country="" tvg-logo="https://i.imgur.com/p3L2vSL.png",🔞 West Hollywood WeHoTV (West Hollywood CA) (360p)
+https://cdn3.wowza.com/5/M0lyamVmM2JWcjhQ/weho/G0161_004/playlist.m3u8
+

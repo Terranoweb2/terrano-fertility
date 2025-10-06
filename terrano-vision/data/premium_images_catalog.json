@@ -1,0 +1,221 @@
+{
+  "metadata": {
+    "total_images": 23,
+    "categories": {
+      "hero": 2,
+      "content": 2,
+      "canal": 16,
+      "sport": 3
+    },
+    "created_at": "2025-10-06 04:52:26"
+  },
+  "images": [
+    {
+      "url": "https://res.cloudinary.com/dxy0fiahv/image/upload/v1759491200/the-super-hero-in-the-poster-1_5000x_whuwqd.jpg",
+      "name": "hero_superhero",
+      "category": "hero",
+      "description": "Super-héros pour section hero principale",
+      "local_path": "apps/web/public/images/hero/hero_superhero.jpg",
+      "filename": "hero_superhero.jpg",
+      "size": 212330
+    },
+    {
+      "url": "https://res.cloudinary.com/dxy0fiahv/image/upload/v1759491200/the-manager-in-the-poster-1_5000x_zycxok.webp",
+      "name": "hero_manager",
+      "category": "hero",
+      "description": "Manager pour section business/premium",
+      "local_path": "apps/web/public/images/hero/hero_manager.webp",
+      "filename": "hero_manager.webp",
+      "size": 136222
+    },
+    {
+      "url": "https://res.cloudinary.com/dxy0fiahv/image/upload/v1759491200/php14pT6E_uuzhxe.avif",
+      "name": "content_action_1",
+      "category": "content",
+      "description": "Contenu action/aventure",
+      "local_path": "apps/web/public/images/content/content_action_1.avif",
+      "filename": "content_action_1.avif",
+      "size": 34539
+    },
+    {
+      "url": "https://res.cloudinary.com/dxy0fiahv/image/upload/v1759491200/php2eCjHe_pqjczy.avif",
+      "name": "content_drama_1",
+      "category": "content",
+      "description": "Contenu dramatique",
+      "local_path": "apps/web/public/images/content/content_drama_1.avif",
+      "filename": "content_drama_1.avif",
+      "size": 63906
+    },
+    {
+      "url": "https://res.cloudinary.com/dxy0fiahv/image/upload/v1759491200/myCANAL_16x9_MEA_1920x1080-xSaC_xtozvf.webp",
+      "name": "canal_premium_1",
+      "category": "canal",
+      "description": "Contenu Canal+ premium 1",
+      "local_path": "apps/web/public/images/canal/canal_premium_1.webp",
+      "filename": "canal_premium_1.webp",
+      "size": 165242
+    },
+    {
+      "url": "https://res.cloudinary.com/dxy0fiahv/image/upload/v1759491199/myCANAL_16x9_MEA_1920x1080-vJYs_c9bqcn.webp",
+      "name": "canal_premium_2",
+      "category": "canal",
+      "description": "Contenu Canal+ premium 2",
+      "local_path": "apps/web/public/images/canal/canal_premium_2.webp",
+      "filename": "canal_premium_2.webp",
+      "size": 263572
+    },
+    {
+      "url": "https://res.cloudinary.com/dxy0fiahv/image/upload/v1759491199/myCANAL_16x9_MEA_1920x1080-wb18_mayp4s.webp",
+      "name": "canal_premium_3",
+      "category": "canal",
+      "description": "Contenu Canal+ premium 3",
+      "local_path": "apps/web/public/images/canal/canal_premium_3.webp",
+      "filename": "canal_premium_3.webp",
+      "size": 102072
+    },
+    {
+      "url": "https://res.cloudinary.com/dxy0fiahv/image/upload/v1759491199/myCANAL_16x9_MEA_1920x1080-vhtL_vxhrhy.webp",
+      "name": "canal_premium_4",
+      "category": "canal",
+      "description": "Contenu Canal+ premium 4",
+      "local_path": "apps/web/public/images/canal/canal_premium_4.webp",
+      "filename": "canal_premium_4.webp",
+      "size": 105810
+    },
+    {
+      "url": "https://res.cloudinary.com/dxy0fiahv/image/upload/v1759491199/myCANAL_16x9_MEA_1920x1080-tYAq_au7hyv.webp",
+      "name": "canal_premium_5",
+      "category": "canal",
+      "description": "Contenu Canal+ premium 5",
+      "local_path": "apps/web/public/images/canal/canal_premium_5.webp",
+      "filename": "canal_premium_5.webp",
+      "size": 222240
+    },
+    {
+      "url": "https://res.cloudinary.com/dxy0fiahv/image/upload/v1759491199/myCANAL_16x9_MEA_1920x1080-RHS9_y19b6v.webp",
+      "name": "canal_premium_6",
+      "category": "canal",
+      "description": "Contenu Canal+ premium 6",
+      "local_path": "apps/web/public/images/canal/canal_premium_6.webp",
+      "filename": "canal_premium_6.webp",
+      "size": 197132
+    },
+    {
+      "url": "https://res.cloudinary.com/dxy0fiahv/image/upload/v1759491199/myCANAL_16x9_MEA_1920x1080-Qo03_bwtrod.webp",
+      "name": "canal_premium_7",
+      "category": "canal",
+      "description": "Contenu Canal+ premium 7",
+      "local_path": "apps/web/public/images/canal/canal_premium_7.webp",
+      "filename": "canal_premium_7.webp",
+      "size": 168608
+    },
+    {
+      "url": "https://res.cloudinary.com/dxy0fiahv/image/upload/v1759491199/myCANAL_16x9_MEA_1920x1080-siRK_fkcfej.webp",
+      "name": "canal_premium_8",
+      "category": "canal",
+      "description": "Contenu Canal+ premium 8",
+      "local_path": "apps/web/public/images/canal/canal_premium_8.webp",
+      "filename": "canal_premium_8.webp",
+      "size": 89686
+    },
+    {
+      "url": "https://res.cloudinary.com/dxy0fiahv/image/upload/v1759491199/myCANAL_16x9_MEA_1920x1080-qt88_hikcze.webp",
+      "name": "canal_premium_9",
+      "category": "canal",
+      "description": "Contenu Canal+ premium 9",
+      "local_path": "apps/web/public/images/canal/canal_premium_9.webp",
+      "filename": "canal_premium_9.webp",
+      "size": 143016
+    },
+    {
+      "url": "https://res.cloudinary.com/dxy0fiahv/image/upload/v1759491165/myCANAL_16x9_MEA_1920x1080-mopm_1_kcqbma.webp",
+      "name": "canal_premium_10",
+      "category": "canal",
+      "description": "Contenu Canal+ premium 10",
+      "local_path": "apps/web/public/images/canal/canal_premium_10.webp",
+      "filename": "canal_premium_10.webp",
+      "size": 359256
+    },
+    {
+      "url": "https://res.cloudinary.com/dxy0fiahv/image/upload/v1759491165/myCANAL_16x9_MEA_1920x1080-nXnI_pkis3d.webp",
+      "name": "canal_premium_11",
+      "category": "canal",
+      "description": "Contenu Canal+ premium 11",
+      "local_path": "apps/web/public/images/canal/canal_premium_11.webp",
+      "filename": "canal_premium_11.webp",
+      "size": 72836
+    },
+    {
+      "url": "https://res.cloudinary.com/dxy0fiahv/image/upload/v1759491165/myCANAL_16x9_MEA_1920x1080-mopm_tjc1di.webp",
+      "name": "canal_premium_12",
+      "category": "canal",
+      "description": "Contenu Canal+ premium 12",
+      "local_path": "apps/web/public/images/canal/canal_premium_12.webp",
+      "filename": "canal_premium_12.webp",
+      "size": 359256
+    },
+    {
+      "url": "https://res.cloudinary.com/dxy0fiahv/image/upload/v1759491165/myCANAL_16x9_MEA_1920x1080-M1ef_yijbdx.webp",
+      "name": "canal_premium_13",
+      "category": "canal",
+      "description": "Contenu Canal+ premium 13",
+      "local_path": "apps/web/public/images/canal/canal_premium_13.webp",
+      "filename": "canal_premium_13.webp",
+      "size": 449094
+    },
+    {
+      "url": "https://res.cloudinary.com/dxy0fiahv/image/upload/v1759491164/myCANAL_16x9_MEA_1920x1080-i4C-_wfpusb.webp",
+      "name": "canal_premium_14",
+      "category": "canal",
+      "description": "Contenu Canal+ premium 14",
+      "local_path": "apps/web/public/images/canal/canal_premium_14.webp",
+      "filename": "canal_premium_14.webp",
+      "size": 164402
+    },
+    {
+      "url": "https://res.cloudinary.com/dxy0fiahv/image/upload/v1759491164/myCANAL_16x9_MEA_1920x1080-gp24_iqk0mt.webp",
+      "name": "canal_premium_15",
+      "category": "canal",
+      "description": "Contenu Canal+ premium 15",
+      "local_path": "apps/web/public/images/canal/canal_premium_15.webp",
+      "filename": "canal_premium_15.webp",
+      "size": 56778
+    },
+    {
+      "url": "https://res.cloudinary.com/dxy0fiahv/image/upload/v1759491163/myCANAL_16x9_MEA_1920x1080-9UIN_wow4cz.webp",
+      "name": "canal_premium_16",
+      "category": "canal",
+      "description": "Contenu Canal+ premium 16",
+      "local_path": "apps/web/public/images/canal/canal_premium_16.webp",
+      "filename": "canal_premium_16.webp",
+      "size": 162074
+    },
+    {
+      "url": "https://res.cloudinary.com/dxy0fiahv/image/upload/v1759491162/118509880_nmsayd.webp",
+      "name": "sport_content_1",
+      "category": "sport",
+      "description": "Contenu sportif premium",
+      "local_path": "apps/web/public/images/sport/sport_content_1.webp",
+      "filename": "sport_content_1.webp",
+      "size": 177766
+    },
+    {
+      "url": "https://res.cloudinary.com/dxy0fiahv/image/upload/v1759491162/Barcelone-PSG-zSRB_im660k.webp",
+      "name": "sport_football_1",
+      "category": "sport",
+      "description": "Football Barcelone-PSG",
+      "local_path": "apps/web/public/images/sport/sport_football_1.webp",
+      "filename": "sport_football_1.webp",
+      "size": 96518
+    },
+    {
+      "url": "https://res.cloudinary.com/dxy0fiahv/image/upload/v1759491161/121058786_dho4i1.webp",
+      "name": "sport_content_2",
+      "category": "sport",
+      "description": "Contenu sportif premium 2",
+      "local_path": "apps/web/public/images/sport/sport_content_2.webp",
+      "filename": "sport_content_2.webp",
+      "size": 167078
+    }
+  ]
+}

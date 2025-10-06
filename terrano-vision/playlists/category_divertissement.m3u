@@ -1,0 +1,48 @@
+#EXTM3U
+
+# ===== TERRANOVISION - DIVERTISSEMENT =====
+# 14 chaînes divertissement
+# Généré automatiquement
+
+#EXTINF:-1 group-title="Divertissement" tvg-country="FR" tvg-logo="https://i.imgur.com/heZeqPQ.png",Canal 11 (1080p)
+https://cootv.cootel.com.ni:8095/Canal11_CooTel/playlist.m3u8
+
+#EXTINF:-1 group-title="Divertissement" tvg-country="FR" tvg-logo="https://i.imgur.com/heZeqPQ.png",Canal 11 (1080p)
+https://cootv.cootel.com.ni:8095/Canal11_CooTel/playlist.m3u8
+
+#EXTINF:-1 group-title="Divertissement" tvg-country="FR" tvg-logo="https://i.imgur.com/wNSUMhJ.png",Canal 14 Codazzi (720p) [Not 24/7]
+https://eu1.servers10.com:8081/8056/index.m3u8
+
+#EXTINF:-1 group-title="Divertissement" tvg-country="FR" tvg-logo="https://i.imgur.com/wNSUMhJ.png",Canal 14 Codazzi (720p) [Not 24/7]
+https://eu1.servers10.com:8081/8056/index.m3u8
+
+#EXTINF:-1 group-title="Divertissement" tvg-country="FR" tvg-logo="https://i.imgur.com/QQNcob1.png",Canal 15 DTP (352p)
+https://s.emisoras.tv:8081/dtp/index.m3u8
+
+#EXTINF:-1 group-title="Divertissement" tvg-country="FR" tvg-logo="https://i.imgur.com/QQNcob1.png",Canal 15 DTP (352p)
+https://s.emisoras.tv:8081/dtp/index.m3u8
+
+#EXTINF:-1 group-title="Divertissement" tvg-country="FR" tvg-logo="https://i.imgur.com/FMrB17k.png",Canal 9 Ixchiguán (720p)
+https://cdn.streamhispanatv.net:3859/live/ixchiguanlive.m3u8
+
+#EXTINF:-1 group-title="Divertissement" tvg-country="FR" tvg-logo="https://i.imgur.com/FMrB17k.png",Canal 9 Ixchiguán (720p)
+https://cdn.streamhispanatv.net:3859/live/ixchiguanlive.m3u8
+
+#EXTINF:-1 group-title="Divertissement" tvg-country="FR" tvg-logo="https://i.imgur.com/5HcyMnW.png",Canal+ (1080p)
+https://viamotionhsi.netplus.ch/live/eds/canalplusclair/browser-HLS8/canalplusclair.m3u8
+
+#EXTINF:-1 group-title="Divertissement" tvg-country="FR" tvg-logo="https://i.imgur.com/5HcyMnW.png",Canal+ (1080p)
+https://viamotionhsi.netplus.ch/live/eds/canalplusclair/browser-HLS8/canalplusclair.m3u8
+
+#EXTINF:-1 group-title="Divertissement" tvg-country="FR" tvg-logo="https://i.imgur.com/Gad5qrd.png",Canal+ Haiti [Geo-blocked]
+https://vdo.pro-fhi.net:3605/live/dgenlcpmlive.m3u8
+
+#EXTINF:-1 group-title="Divertissement" tvg-country="FR" tvg-logo="https://i.imgur.com/Gad5qrd.png",Canal+ Haiti [Geo-blocked]
+https://vdo.pro-fhi.net:3605/live/dgenlcpmlive.m3u8
+
+#EXTINF:-1 group-title="Divertissement" tvg-country="FR" tvg-logo="https://i.imgur.com/nb81xeU.png",WTV Canal 20 (1080p)
+https://cootv.cootel.com.ni:8095/Canal40_WTV/playlist.m3u8
+
+#EXTINF:-1 group-title="Divertissement" tvg-country="FR" tvg-logo="https://i.imgur.com/nb81xeU.png",WTV Canal 20 (1080p)
+https://cootv.cootel.com.ni:8095/Canal40_WTV/playlist.m3u8
+

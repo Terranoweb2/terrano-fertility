@@ -1,0 +1,30 @@
+#EXTM3U
+
+# ===== TERRANOVISION - CINEMA =====
+# 8 chaînes cinema
+# Généré automatiquement
+
+#EXTINF:-1 group-title="Cinema" tvg-country="FR" tvg-logo="https://i.imgur.com/WLqwk3t.png",Canal 2 Movies
+https://stream.ecable.tv/canal2m/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 group-title="Cinema" tvg-country="FR" tvg-logo="https://i.imgur.com/WLqwk3t.png",Canal 2 Movies
+https://stream.ecable.tv/canal2m/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 group-title="Cinema" tvg-country="FR" tvg-logo="https://i.imgur.com/mJN2XNm.png",Cinevision Canal 19 (720p)
+https://cdn.mycloudstream.io/hls/live/broadcast/etyetihk/index.m3u8
+
+#EXTINF:-1 group-title="Cinema" tvg-country="FR" tvg-logo="https://i.imgur.com/mJN2XNm.png",Cinevision Canal 19 (720p)
+https://cdn.mycloudstream.io/hls/live/broadcast/etyetihk/index.m3u8
+
+#EXTINF:-1 group-title="Cinema" tvg-country="FR" tvg-logo="https://i.imgur.com/lxWdjXG.png",MBC+ Drama (1080p)
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-plus-drama/e37251ec2aac8f6c98f75cd0fa37cd28/index.m3u8
+
+#EXTINF:-1 group-title="Cinema" tvg-country="FR" tvg-logo="https://i.imgur.com/lxWdjXG.png",MBC+ Drama (1080p)
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-plus-drama/e37251ec2aac8f6c98f75cd0fa37cd28/index.m3u8
+
+#EXTINF:-1 group-title="Cinema" tvg-country="FR",Sony Canal Novelas
+https://a89829b8dca2471ab52ea9a57bc28a35.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/CanelaTV_SonyCanalNovelas/playlist.m3u8
+
+#EXTINF:-1 group-title="Cinema" tvg-country="FR",Sony Canal Novelas
+https://a89829b8dca2471ab52ea9a57bc28a35.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/CanelaTV_SonyCanalNovelas/playlist.m3u8
+

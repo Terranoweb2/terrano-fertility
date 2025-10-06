@@ -1,0 +1,31 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="France24.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/France24.png/512px-France24.png" group-title="News" tvg-country="FR",France 24
+https://static.france24.com/live/F24_FR_HI_HLS/live_web.m3u8
+#EXTINF:-1 tvg-id="BFMTV.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/BFMTV_logo_2016.svg/512px-BFMTV_logo_2016.svg.png" group-title="News" tvg-country="FR",BFM TV
+https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_PARIS/index.m3u8?start=LIVE&end=END
+#EXTINF:-1 tvg-id="CNews.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/CNews_Logo.svg/512px-CNews_Logo.svg.png" group-title="News" tvg-country="FR",CNews
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/cnews.m3u8
+#EXTINF:-1 tvg-id="LCI.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/LCI_logo_2016.svg/512px-LCI_logo_2016.svg.png" group-title="News" tvg-country="FR",LCI
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/lci.m3u8
+#EXTINF:-1 tvg-id="TF1.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/TF1_logo_2013.svg/512px-TF1_logo_2013.svg.png" group-title="Entertainment" tvg-country="FR",TF1
+https://tf1-hls-live-ssl.tf1.fr/tf1/1/hls/live_2328.m3u8
+#EXTINF:-1 tvg-id="France2.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/France_2_logo_2018.svg/512px-France_2_logo_2018.svg.png" group-title="General" tvg-country="FR",France 2
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/france2.m3u8
+#EXTINF:-1 tvg-id="M6.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/M6_logo_2009.svg/512px-M6_logo_2009.svg.png" group-title="Entertainment" tvg-country="FR",M6
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/m6.m3u8
+#EXTINF:-1 tvg-id="20MinutesTV.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/20_Minutes_TV_IDF_logo_%282023%29.png/320px-20_Minutes_TV_IDF_logo_%282023%29.png" group-title="General" tvg-country="FR",20 Minutes TV
+https://live-20minutestv.digiteka.com/1961167769/index.m3u8
+#EXTINF:-1 tvg-id="Africa24.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Africa24_logo.png/512px-Africa24_logo.png" group-title="News" tvg-country="FR",Africa 24
+https://africa24.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8
+#EXTINF:-1 tvg-id="NRJ12.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/NRJ12_logo_2015.svg/749px-NRJ12_logo_2015.svg.png" group-title="Entertainment" tvg-country="FR",NRJ 12
+https://nrj12.nrjaudio.fm/hls/live/2038374/nrj_12/master.m3u8
+#EXTINF:-1 tvg-id="AlJazeera.qa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Al_Jazeera_English.svg/512px-Al_Jazeera_English.svg.png" group-title="News" tvg-country="QA",Al Jazeera English
+https://live-hls-web-aje.getaj.net/AJE/index.m3u8
+#EXTINF:-1 tvg-id="BBCWorldNews.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/BBC_World_News_red.svg/512px-BBC_World_News_red.svg.png" group-title="News" tvg-country="UK",BBC World News
+https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_world_service/t=3840/v=pv14/b=5070016/main.m3u8
+#EXTINF:-1 tvg-id="CNNInternational.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CNN.svg/512px-CNN.svg.png" group-title="News" tvg-country="US",CNN International
+https://cnn-cnninternational-1-gb.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="Euronews.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Euronews_2016_logo.svg/512px-Euronews_2016_logo.svg.png" group-title="News" tvg-country="FR",Euronews
+https://rakuten-euronews-1-gb.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="DWFrench.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_symbol_2012.svg/512px-Deutsche_Welle_symbol_2012.svg.png" group-title="News" tvg-country="DE",DW Français
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8

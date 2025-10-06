@@ -1,0 +1,78 @@
+#EXTM3U
+
+# ===== TERRANOVISION - REGIONAL =====
+# 24 chaînes regional
+# Généré automatiquement
+
+#EXTINF:-1 group-title="Regional" tvg-country="FR" tvg-logo="https://i.imgur.com/laNr6hF.jpg",Canal 25 Regional (720p)
+https://srv6.zcast.com.br/canalsantarosa/canalsantarosa/playlist.m3u8
+
+#EXTINF:-1 group-title="Regional" tvg-country="FR" tvg-logo="https://i.imgur.com/laNr6hF.jpg",Canal 25 Regional (720p)
+https://srv6.zcast.com.br/canalsantarosa/canalsantarosa/playlist.m3u8
+
+#EXTINF:-1 group-title="Regional" tvg-country="FR" tvg-logo="https://i.imgur.com/iJMH0UK.png",Canal 7 Santiago del Estero (720p)
+https://stream.arcast.com.ar/envivo/castv/playlist.m3u8
+
+#EXTINF:-1 group-title="Regional" tvg-country="FR" tvg-logo="https://i.imgur.com/iJMH0UK.png",Canal 7 Santiago del Estero (720p)
+https://stream.arcast.com.ar/envivo/castv/playlist.m3u8
+
+#EXTINF:-1 group-title="Regional" tvg-country="FR" tvg-logo="https://i.imgur.com/bXHHtcb.png",Canal Provincial (360p)
+https://streaming.telered.com.ar/provincial/streaming/mystream.m3u8
+
+#EXTINF:-1 group-title="Regional" tvg-country="FR" tvg-logo="https://i.imgur.com/bXHHtcb.png",Canal Provincial (360p)
+https://streaming.telered.com.ar/provincial/streaming/mystream.m3u8
+
+#EXTINF:-1 group-title="Regional" tvg-country="FR" tvg-logo="https://i.postimg.cc/jqBb0sTy/canalsurandalucia.png",Canal Sur Andalucia (1080p)
+https://dfk2a268yviz9.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ddiii1m6jt6of/CanalSurAndaluciaES.m3u8
+
+#EXTINF:-1 group-title="Regional" tvg-country="FR" tvg-logo="https://i.postimg.cc/jqBb0sTy/canalsurandalucia.png",Canal Sur Andalucia (1080p)
+https://dfk2a268yviz9.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ddiii1m6jt6of/CanalSurAndaluciaES.m3u8
+
+#EXTINF:-1 group-title="Regional" tvg-country="FR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Canal_Sur_2_-_2017_logo.png/500px-Canal_Sur_2_-_2017_logo.png",Canal Sur Andalucía 2 (720p)
+https://cdnlive.codev8.net/rtvalive/smil:channel22.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="Regional" tvg-country="FR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Canal_Sur_2_-_2017_logo.png/500px-Canal_Sur_2_-_2017_logo.png",Canal Sur Andalucía 2 (720p)
+https://cdnlive.codev8.net/rtvalive/smil:channel22.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="Regional" tvg-country="FR" tvg-logo="https://i.imgur.com/jDT5XFs.jpg",Este Canal TV (576p)
+http://synclosdragos1.syncsolutions.es:8008/live3/emision/index.m3u8
+
+#EXTINF:-1 group-title="Regional" tvg-country="FR" tvg-logo="https://i.imgur.com/jDT5XFs.jpg",Este Canal TV (576p)
+http://synclosdragos1.syncsolutions.es:8008/live3/emision/index.m3u8
+
+#EXTINF:-1 group-title="Regional" tvg-country="FR" tvg-logo="https://www.lyngsat.com/logo/tv/tt/tv-canal-sur-do.png",TV Canal Sur (1080p)
+https://streamtvs.tvcanalsur.com.do/hls/stream/index.m3u8
+
+#EXTINF:-1 group-title="Regional" tvg-country="FR" tvg-logo="https://www.lyngsat.com/logo/tv/tt/tv-canal-sur-do.png",TV Canal Sur (1080p)
+https://streamtvs.tvcanalsur.com.do/hls/stream/index.m3u8
+
+#EXTINF:-1 group-title="Regional" tvg-country="FR" tvg-logo="https://i.imgur.com/w5RYpcZ.png",TV Centro Canal Regional (720p)
+https://amixtv.com:19360/tvcentro/tvcentro.m3u8
+
+#EXTINF:-1 group-title="Regional" tvg-country="FR" tvg-logo="https://i.imgur.com/w5RYpcZ.png",TV Centro Canal Regional (720p)
+https://amixtv.com:19360/tvcentro/tvcentro.m3u8
+
+#EXTINF:-1 group-title="Regional" tvg-country="FR" tvg-logo="https://i.imgur.com/OpHYYZA.png",TV Sur Canal 14 (1080p)
+https://k20.usastreams.com:8081/tvsur/index.m3u8
+
+#EXTINF:-1 group-title="Regional" tvg-country="FR" tvg-logo="https://i.imgur.com/OpHYYZA.png",TV Sur Canal 14 (1080p)
+https://k20.usastreams.com:8081/tvsur/index.m3u8
+
+#EXTINF:-1 group-title="Regional" tvg-country="FR" tvg-logo="https://i.imgur.com/7HbISMV.png",TV Sur Canal 9 (620p) [Not 24/7]
+http://tv.ticosmedia.com:1935/TVSUR/TVSUR/playlist.m3u8
+
+#EXTINF:-1 group-title="Regional" tvg-country="FR" tvg-logo="https://i.imgur.com/7HbISMV.png",TV Sur Canal 9 (620p) [Not 24/7]
+http://tv.ticosmedia.com:1935/TVSUR/TVSUR/playlist.m3u8
+
+#EXTINF:-1 group-title="Regional" tvg-country="FR" tvg-logo="https://i.imgur.com/qsxaOFq.png",Telesur Canal 10 (720p)
+https://ss3.domint.net:3124/tls_str/telesur/playlist.m3u8
+
+#EXTINF:-1 group-title="Regional" tvg-country="FR" tvg-logo="https://i.imgur.com/qsxaOFq.png",Telesur Canal 10 (720p)
+https://ss3.domint.net:3124/tls_str/telesur/playlist.m3u8
+
+#EXTINF:-1 group-title="Regional" tvg-country="FR" tvg-logo="https://i.imgur.com/lNpgFAU.png",Vallevision Canal 10 (720p) [Not 24/7]
+https://streaming.telecablecentral.com.do/Vallevision/ValleHD/playlist.m3u8
+
+#EXTINF:-1 group-title="Regional" tvg-country="FR" tvg-logo="https://i.imgur.com/lNpgFAU.png",Vallevision Canal 10 (720p) [Not 24/7]
+https://streaming.telecablecentral.com.do/Vallevision/ValleHD/playlist.m3u8
+

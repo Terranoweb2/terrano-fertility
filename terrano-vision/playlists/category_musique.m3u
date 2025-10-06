@@ -1,0 +1,42 @@
+#EXTM3U
+
+# ===== TERRANOVISION - MUSIQUE =====
+# 12 chaînes musique
+# Généré automatiquement
+
+#EXTINF:-1 group-title="Musique" tvg-country="FR" tvg-logo="https://i.imgur.com/sgRDRBK.jpg",Canal 3 KMK TV (576i) [Not 24/7]
+https://live20.bozztv.com/giatv/giatv-KMKTV/KMKTV/chunks.m3u8
+
+#EXTINF:-1 group-title="Musique" tvg-country="FR" tvg-logo="https://i.imgur.com/sgRDRBK.jpg",Canal 3 KMK TV (576i) [Not 24/7]
+https://live20.bozztv.com/giatv/giatv-KMKTV/KMKTV/chunks.m3u8
+
+#EXTINF:-1 group-title="Musique" tvg-country="FR" tvg-logo="https://i.imgur.com/kORStT1.png",Canal TV Radio Maya TGBA (480p)
+https://stream.oursnetworktv.com/latin/radioTGBAgtm/playlist.m3u8
+
+#EXTINF:-1 group-title="Musique" tvg-country="FR" tvg-logo="https://i.imgur.com/kORStT1.png",Canal TV Radio Maya TGBA (480p)
+https://stream.oursnetworktv.com/latin/radioTGBAgtm/playlist.m3u8
+
+#EXTINF:-1 group-title="Musique" tvg-country="FR" tvg-logo="https://i.imgur.com/twldaaC.png",Maimón TV Canal 3 (720p)
+https://ss3.domint.net:3138/mtv_str/maimon/playlist.m3u8
+
+#EXTINF:-1 group-title="Musique" tvg-country="FR" tvg-logo="https://i.imgur.com/twldaaC.png",Maimón TV Canal 3 (720p)
+https://ss3.domint.net:3138/mtv_str/maimon/playlist.m3u8
+
+#EXTINF:-1 group-title="Musique" tvg-country="FR" tvg-logo="https://i.imgur.com/v1o1oT5.png",Olanchito TV Canal 23
+https://dvrfl03.bozztv.com/hondu/hondu-otvcanal23/index.m3u8
+
+#EXTINF:-1 group-title="Musique" tvg-country="FR" tvg-logo="https://i.imgur.com/v1o1oT5.png",Olanchito TV Canal 23
+https://dvrfl03.bozztv.com/hondu/hondu-otvcanal23/index.m3u8
+
+#EXTINF:-1 group-title="Musique" tvg-country="FR" tvg-logo="https://i.imgur.com/569xc5o.png",Radio Coatán Canal 21 (720p)
+https://tv.portalexpress.es:3571/hybrid/play.m3u8
+
+#EXTINF:-1 group-title="Musique" tvg-country="FR" tvg-logo="https://i.imgur.com/569xc5o.png",Radio Coatán Canal 21 (720p)
+https://tv.portalexpress.es:3571/hybrid/play.m3u8
+
+#EXTINF:-1 group-title="Musique" tvg-country="FR" tvg-logo="https://i.ibb.co/NNyDWsz/download-8.png",Radiocanal San Francisco (1080p)
+http://204.199.3.2/.m3u8
+
+#EXTINF:-1 group-title="Musique" tvg-country="FR" tvg-logo="https://i.ibb.co/NNyDWsz/download-8.png",Radiocanal San Francisco (1080p)
+http://204.199.3.2/.m3u8
+

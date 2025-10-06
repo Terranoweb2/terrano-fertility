@@ -1,0 +1,48 @@
+#EXTM3U
+
+# ===== TERRANOVISION - EDUCATIF =====
+# 14 chaînes educatif
+# Généré automatiquement
+
+#EXTINF:-1 group-title="Educatif" tvg-country="FR" tvg-logo="https://i.imgur.com/r7czgOc.png",Canal 15 ILCE Summa Sabres (720p)
+https://live-ilce.ovp-vivaro.digital/ovp-origin-abr/ngrp:6359ef999f3fb_all/playlist.m3u8
+
+#EXTINF:-1 group-title="Educatif" tvg-country="FR" tvg-logo="https://i.imgur.com/r7czgOc.png",Canal 15 ILCE Summa Sabres (720p)
+https://live-ilce.ovp-vivaro.digital/ovp-origin-abr/ngrp:6359ef999f3fb_all/playlist.m3u8
+
+#EXTINF:-1 group-title="Educatif" tvg-country="FR" tvg-logo="https://i.imgur.com/DGBMuEs.png",Canal 15 Nicaragüense (1080p) [Not 24/7]
+https://cootv.cootel.com.ni:8095/Canal15_CooTel/playlist.m3u8
+
+#EXTINF:-1 group-title="Educatif" tvg-country="FR" tvg-logo="https://i.imgur.com/DGBMuEs.png",Canal 15 Nicaragüense (1080p) [Not 24/7]
+https://cootv.cootel.com.ni:8095/Canal15_CooTel/playlist.m3u8
+
+#EXTINF:-1 group-title="Educatif" tvg-country="FR" tvg-logo="https://i.imgur.com/OOB7nrS.png",Canal Educação (720p)
+https://canaleducacao-stream.ebc.com.br/index.m3u8
+
+#EXTINF:-1 group-title="Educatif" tvg-country="FR" tvg-logo="https://i.imgur.com/OOB7nrS.png",Canal Educação (720p)
+https://canaleducacao-stream.ebc.com.br/index.m3u8
+
+#EXTINF:-1 group-title="Educatif" tvg-country="FR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/97/Savoir_m%C3%A9dia_logo_3.png",Canal Savoir (360p)
+https://hls.savoir.media/live/stream.m3u8
+
+#EXTINF:-1 group-title="Educatif" tvg-country="FR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/97/Savoir_m%C3%A9dia_logo_3.png",Canal Savoir (360p)
+https://hls.savoir.media/live/stream.m3u8
+
+#EXTINF:-1 group-title="Educatif" tvg-country="FR" tvg-logo="https://i.imgur.com/ht4tUOc.png",Canal Saúde (720p) [Not 24/7]
+https://arkyvbre1g.zoeweb.tv/fiocruz/fiocruz.stream/playlist.m3u8
+
+#EXTINF:-1 group-title="Educatif" tvg-country="FR" tvg-logo="https://i.imgur.com/ht4tUOc.png",Canal Saúde (720p) [Not 24/7]
+https://arkyvbre1g.zoeweb.tv/fiocruz/fiocruz.stream/playlist.m3u8
+
+#EXTINF:-1 group-title="Educatif" tvg-country="FR" tvg-logo="https://i.imgur.com/dbJKErB.png",SET Televisión Canal 26.2 (720p) [Not 24/7]
+http://189.240.210.28:1935/live/setpuebla/playlist.m3u8
+
+#EXTINF:-1 group-title="Educatif" tvg-country="FR" tvg-logo="https://i.imgur.com/dbJKErB.png",SET Televisión Canal 26.2 (720p) [Not 24/7]
+http://189.240.210.28:1935/live/setpuebla/playlist.m3u8
+
+#EXTINF:-1 group-title="Educatif" tvg-country="FR" tvg-logo="https://i.imgur.com/9qL4LJF.png",TV Nuevo León Canal 28 (XHMNL-TDT) (720p)
+https://s5.mexside.net:1936/canal28/canal28/playlist.m3u8
+
+#EXTINF:-1 group-title="Educatif" tvg-country="FR" tvg-logo="https://i.imgur.com/9qL4LJF.png",TV Nuevo León Canal 28 (XHMNL-TDT) (720p)
+https://s5.mexside.net:1936/canal28/canal28/playlist.m3u8
+

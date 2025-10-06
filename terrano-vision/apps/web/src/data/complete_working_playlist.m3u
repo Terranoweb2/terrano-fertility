@@ -1,0 +1,31 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="france24.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/France24.png/512px-France24.png" group-title="News",France 24
+https://static.france24.com/live/F24_FR_HI_HLS/live_web.m3u8
+#EXTINF:-1 tvg-id="nrj12.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/NRJ12_logo_2015.svg/749px-NRJ12_logo_2015.svg.png" group-title="France",NRJ 12
+https://nrj12.nrjaudio.fm/hls/live/2038374/nrj_12/master.m3u8
+#EXTINF:-1 tvg-id="20minutes.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/20_Minutes_TV_IDF_logo_%282023%29.png/320px-20_Minutes_TV_IDF_logo_%282023%29.png" group-title="News",20 Minutes TV
+https://live-20minutestv.digiteka.com/1961167769/index.m3u8
+#EXTINF:-1 tvg-id="euronews.com" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Euronews_2016_logo.svg/512px-Euronews_2016_logo.svg.png" group-title="News",Euronews
+https://rakuten-euronews-1-gb.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="arte.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/ARTE_Logo_2017.svg/512px-ARTE_Logo_2017.svg.png" group-title="Culture",Arte
+https://artesimulcast.akamaized.net/hls/live/2031003/artelive_fr/index.m3u8
+#EXTINF:-1 tvg-id="tf1.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/TF1_logo_2013.svg/512px-TF1_logo_2013.svg.png" group-title="France",TF1
+https://tf1-hls-live-ssl.tf1.fr/tf1/1/hls/live_2328.m3u8
+#EXTINF:-1 tvg-id="france2.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/France_2_logo_2018.svg/512px-France_2_logo_2018.svg.png" group-title="France",France 2
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/france2.m3u8
+#EXTINF:-1 tvg-id="m6.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/M6_logo_2009.svg/512px-M6_logo_2009.svg.png" group-title="France",M6
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/m6.m3u8
+#EXTINF:-1 tvg-id="cnews.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/CNews_Logo.svg/512px-CNews_Logo.svg.png" group-title="News",CNews
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/cnews.m3u8
+#EXTINF:-1 tvg-id="bfmtv.com" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/BFMTV_logo_2016.svg/512px-BFMTV_logo_2016.svg.png" group-title="News",BFM TV
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/bfmtv.m3u8
+#EXTINF:-1 tvg-id="lci.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/LCI_logo_2016.svg/512px-LCI_logo_2016.svg.png" group-title="News",LCI
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/lci.m3u8
+#EXTINF:-1 tvg-id="rmc.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RMC_D%C3%A9couverte_logo_2017.svg/512px-RMC_D%C3%A9couverte_logo_2017.svg.png" group-title="Documentaire",RMC Découverte
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/rmcdecouverte.m3u8
+#EXTINF:-1 tvg-id="natgeo.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png" group-title="Documentaire",National Geographic
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/natgeo.m3u8
+#EXTINF:-1 tvg-id="eurosport1.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Eurosport_1_logo.svg/512px-Eurosport_1_logo.svg.png" group-title="Sport",Eurosport 1
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/eurosport1.m3u8
+#EXTINF:-1 tvg-id="lequipe.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/La_Cha%C3%AEne_L%27%C3%89quipe_logo_2012.svg/512px-La_Cha%C3%AEne_L%27%C3%89quipe_logo_2012.svg.png" group-title="Sport",L'Équipe
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/lequipe.m3u8

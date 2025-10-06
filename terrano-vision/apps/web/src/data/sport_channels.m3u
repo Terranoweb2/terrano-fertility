@@ -1,0 +1,16 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-id="LEquipe.fr" tvg-logo="https://i.imgur.com/t35zhM9.png" group-title="Sports" tvg-country="FR",L'Equipe (1080p)
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/lequipe.m3u8
+
+#EXTINF:-1 tvg-id="Equidia.fr" tvg-logo="https://i.imgur.com/QPpbRcZ.png" group-title="Sports" tvg-country="FR",Equidia (1080p)
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/equidia.m3u8
+
+#EXTINF:-1 tvg-id="Africa24Sport.fr" tvg-logo="https://i.imgur.com/YWIJdai.png" group-title="Sports" tvg-country="FR",Africa 24 Sport (1080p)
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/africa24sport.m3u8
+
+#EXTINF:-1 tvg-id="KozoomTV.fr" tvg-logo="https://i.imgur.com/M1Ee79b.png" group-title="Sports" tvg-country="FR",Kozoom TV
+https://raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/kozoom.m3u8
+
+#EXTINF:-1 tvg-id="RedBullTV.at" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Red_Bull_TV_logo.svg/512px-Red_Bull_TV_logo.svg.png" group-title="Sports" tvg-country="AT",Red Bull TV
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8

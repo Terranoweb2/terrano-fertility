@@ -1,0 +1,100 @@
+================================================================================
+🔍 RAPPORT DE RECHERCHE AVANCÉE - TERRANOVISION
+================================================================================
+
+📊 STATISTIQUES GÉNÉRALES:
+   • Total chaînes trouvées: 11040
+   • Chaînes Canal+: 279
+   • Chaînes spécialisées adultes: 1
+
+📺 CHAÎNES CANAL+ TROUVÉES:
+    1. Canal 32 (1080p)
+       Groupe: General
+       URL: https://event.vedge.infomaniak.com/livecast/ik:canal32_4/manifest.m3u8...
+
+    2. Canal J HD
+       Groupe: General
+       URL: https://viamotionhsi.netplus.ch/live/eds/canalj/browser-HLS8/canalj.m3u8...
+
+    3. Canal+ (1080p)
+       Groupe: General
+       URL: https://viamotionhsi.netplus.ch/live/eds/canalplusclair/browser-HLS8/canalpluscl...
+
+    4. Canal 2 Movies
+       Groupe: Movies
+       URL: https://stream.ecable.tv/canal2m/tracks-v1a1/mono.m3u8...
+
+    5. MBC+ Drama (1080p)
+       Groupe: Movies
+       URL: https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-plus-drama/e37251ec2aac8f...
+
+    6. Sony Canal Novelas
+       Groupe: Movies
+       URL: https://a89829b8dca2471ab52ea9a57bc28a35.mediatailor.us-east-1.amazonaws.com/v1/...
+
+    7. Canal 9 Ixchiguán (720p)
+       Groupe: Entertainment
+       URL: https://cdn.streamhispanatv.net:3859/live/ixchiguanlive.m3u8...
+
+    8. Canal 11 (1080p)
+       Groupe: Entertainment
+       URL: https://cootv.cootel.com.ni:8095/Canal11_CooTel/playlist.m3u8...
+
+    9. Canal 14 Codazzi (720p) [Not 24/7]
+       Groupe: Entertainment
+       URL: https://eu1.servers10.com:8081/8056/index.m3u8...
+
+   10. Canal 15 DTP (352p)
+       Groupe: Entertainment
+       URL: https://s.emisoras.tv:8081/dtp/index.m3u8...
+
+   11. Canal+ Haiti [Geo-blocked]
+       Groupe: Entertainment
+       URL: https://vdo.pro-fhi.net:3605/live/dgenlcpmlive.m3u8...
+
+   12. TV Canal Sur (1080p)
+       Groupe: Entertainment
+       URL: https://streamtvs.tvcanalsur.com.do/hls/stream/index.m3u8...
+
+   13. WTV Canal 20 (1080p)
+       Groupe: Entertainment
+       URL: https://cootv.cootel.com.ni:8095/Canal40_WTV/playlist.m3u8...
+
+   14. Canal Savoir (360p)
+       Groupe: Education
+       URL: https://hls.savoir.media/live/stream.m3u8...
+
+   15. Canal Zoom [Geo-blocked]
+       Groupe: General
+       URL: https://tvlocales-live.freecaster.com/live/95d2e3af-5ab8-45a9-9dc9-f544d006b5d5/...
+
+   16. Canal 9 en Français (1080p)
+       Groupe: Undefined
+       URL: https://livehd.vedge.infomaniak.com/livecast/livehd/master.m3u8...
+
+   17. Canal Alpha Jura (1080p)
+       Groupe: Undefined
+       URL: https://canalalphaju.vedge.infomaniak.com/livecast/ik:canalalphaju/playlist.m3u8...
+
+   18. Canal Alpha Neuchatel (1080p) [Not 24/7]
+       Groupe: Undefined
+       URL: https://canalalpha.vedge.infomaniak.com/livecast/ik:canalalpha/playlist.m3u8...
+
+   19. A&R Canal Adventista (720p)
+       Groupe: Religious
+       URL: http://51.222.9.192:3589/stream/play.m3u8...
+
+   20. Alsacias Televisión (ATV | Canal 28) (720p)
+       Groupe: General
+       URL: https://s.emisoras.tv:8081/atv/index.m3u8...
+
+🔞 CHAÎNES SPÉCIALISÉES ADULTES (Information):
+   • Nombre total: 1
+   • Ces chaînes nécessitent une vérification d'âge
+   • Conformité légale requise selon juridiction
+
+💡 RECOMMANDATIONS:
+   • Tester la fonctionnalité des URLs avant intégration
+   • Vérifier les droits de diffusion
+   • Implémenter un contrôle parental pour contenu sensible
+   • Respecter les réglementations locales

@@ -1,0 +1,502 @@
+================================================================================
+📺 CLASSIFICATION DÉTAILLÉE DES CHAÎNES CANAL+
+================================================================================
+
+📊 STATISTIQUES GÉNÉRALES:
+   • Total chaînes classifiées: 280
+
+📈 RÉPARTITION PAR CATÉGORIE:
+   • General: 205 chaînes (73.2%)
+   • Religieux: 20 chaînes (7.1%)
+   • Actualites: 13 chaînes (4.6%)
+   • Regional: 12 chaînes (4.3%)
+   • Educatif: 7 chaînes (2.5%)
+   • Divertissement: 7 chaînes (2.5%)
+   • Musique: 6 chaînes (2.1%)
+   • Cinema: 4 chaînes (1.4%)
+   • Jeunesse: 3 chaînes (1.1%)
+   • Sport: 2 chaînes (0.7%)
+   • Documentaire: 1 chaînes (0.4%)
+
+📺 GENERAL (205 chaînes)
+------------------------------------------------------------
+ 1. ARTV Canal Parlamento (720p) [Not 24/7]
+    📡 Qualité: 720p
+    📂 Groupe: Legislative
+    🖼️  Logo: Disponible
+    🔗 URL: https://playout172.livextend.cloud/liveiframe/_def...
+
+ 2. Alsacias Televisión (ATV | Canal 28) (720p)
+    📡 Qualité: 720p
+    📂 Groupe: General
+    🖼️  Logo: Disponible
+    🔗 URL: https://s.emisoras.tv:8081/atv/index.m3u8...
+
+ 3. CTV Canal 76 (720p)
+    📡 Qualité: 720p
+    📂 Groupe: General
+    🖼️  Logo: Disponible
+    🔗 URL: https://vdo2.streamgato.us:3978/live/ctvlive.m3u8...
+
+ 4. Canal 1 (1080p) [Geo-blocked]
+    📡 Qualité: 1080p
+    📂 Groupe: General
+    🖼️  Logo: Disponible
+    🔗 URL: https://mdstrm.com/live-stream-playlist/5a5e1c2568...
+
+ 5. Canal 1 (720p)
+    📡 Qualité: 720p
+    📂 Groupe: General
+    🖼️  Logo: Disponible
+    🔗 URL: https://59ef525c24caa.streamlock.net/canal1cr/cana...
+
+ 6. Canal 10 (1080p)
+    📡 Qualité: 1080p
+    📂 Groupe: General
+    🖼️  Logo: Disponible
+    🔗 URL: https://dgh4r3ro3i2mi.cloudfront.net/Canal10NI/7d8...
+
+ 7. Canal 10 (576i) [Geo-blocked]
+    📡 Qualité: HD
+    📂 Groupe: General
+    🖼️  Logo: Disponible
+    🔗 URL: https://acceso.radiosportstv.online:3285/live/cana...
+
+ 8. Canal 10 Cancún (720p) [Not 24/7]
+    📡 Qualité: 720p
+    📂 Groupe: Undefined
+    🖼️  Logo: Disponible
+    🔗 URL: http://stream2.dynalias.com:1935/live/tvlive1/play...
+
+ 9. Canal 10 Chiapas (720p)
+    📡 Qualité: 720p
+    📂 Groupe: General
+    🖼️  Logo: Disponible
+    🔗 URL: https://5ca9af4645e15.streamlock.net/chiapas/video...
+
+10. Canal 10 Durango
+    📡 Qualité: HD
+    📂 Groupe: Undefined
+    🖼️  Logo: Disponible
+    🔗 URL: https://5e50264bd6766.streamlock.net/canal10durang...
+
+    ... et 195 autres chaînes
+
+
+⛪ RELIGIEUX (20 chaînes)
+------------------------------------------------------------
+ 1. A&R Canal Adventista (720p)
+    📡 Qualité: 720p
+    📂 Groupe: Religious
+    🖼️  Logo: Disponible
+    🔗 URL: http://51.222.9.192:3589/stream/play.m3u8...
+
+ 2. CSat TV (1080p) [Not 24/7]
+    📡 Qualité: 1080p
+    📂 Groupe: Religious
+    🖼️  Logo: Disponible
+    🔗 URL: http://media.smc-host.com:1935/csat.tv/smil:csat.s...
+
+ 3. Canal 13 Jujuy TV (720p)
+    📡 Qualité: 720p
+    📂 Groupe: Religious
+    🖼️  Logo: Disponible
+    🔗 URL: https://genexservicios.com:19360/canal13jujuy/cana...
+
+ 4. Canal 21 (720p)
+    📡 Qualité: 720p
+    📂 Groupe: Religious
+    🖼️  Logo: Disponible
+    🔗 URL: https://stmvideo2.livecastv.com/canal21nic3/canal2...
+
+ 5. Canal 27 (1080p)
+    📡 Qualité: 1080p
+    📂 Groupe: Religious
+    🖼️  Logo: Disponible
+    🔗 URL: https://live.canal27.tv:3633/live/canal27live.m3u8...
+
+ 6. Canal 29 TVA
+    📡 Qualité: HD
+    📂 Groupe: Religious
+    🖼️  Logo: Disponible
+    🔗 URL: https://play.agenciastreaming.com:19360/8160/8160....
+
+ 7. Canal 30 TV Bethel (720p) [Not 24/7]
+    📡 Qualité: 720p
+    📂 Groupe: Religious
+    🖼️  Logo: Disponible
+    🔗 URL: https://s.emisoras.tv:8081/canal30tvbethel/index.m...
+
+ 8. Canal 65 (1080p) [Not 24/7]
+    📡 Qualité: 1080p
+    📂 Groupe: Religious
+    🖼️  Logo: Disponible
+    🔗 URL: https://panel.streamingtv-mediacp.online:1936/tv65...
+
+ 9. Canal 98 Jesús TV (720p)
+    📡 Qualité: 720p
+    📂 Groupe: Religious
+    🖼️  Logo: Disponible
+    🔗 URL: https://cdn.streamhispanatv.net:3189/live/jesustvl...
+
+10. Canal CVV International
+    📡 Qualité: HD
+    📂 Groupe: Religious
+    🖼️  Logo: Disponible
+    🔗 URL: https://uvotv-aniview.global.ssl.fastly.net/hls/li...
+
+    ... et 10 autres chaînes
+
+
+📰 ACTUALITES (13 chaînes)
+------------------------------------------------------------
+ 1. Canal 1 Mar Menor-Torre Pacheco (1080p)
+    📡 Qualité: 1080p
+    📂 Groupe: General;News
+    🖼️  Logo: Disponible
+    🔗 URL: https://directo.tuwebtv.es/canal1.m3u8...
+
+ 2. Canal 24 Horas Canarias (720p)
+    📡 Qualité: 720p
+    📂 Groupe: News;Public
+    🖼️  Logo: Disponible
+    🔗 URL: https://ztnr.rtve.es/ztnr/5473142.m3u8...
+
+ 3. Canal 24 Horas Catalunya (720p)
+    📡 Qualité: 720p
+    📂 Groupe: News;Public
+    🖼️  Logo: Disponible
+    🔗 URL: https://ztnr.rtve.es/ztnr/4952053.m3u8...
+
+ 4. Canal 26
+    📡 Qualité: HD
+    📂 Groupe: News
+    🖼️  Logo: Disponible
+    🔗 URL: https://stream-gtlc.telecentro.net.ar/hls/canal26h...
+
+ 5. Canal 33 Tijuana (720p)
+    📡 Qualité: 720p
+    📂 Groupe: General;News
+    🖼️  Logo: Disponible
+    🔗 URL: https://5f2c1b0d880e5.streamlock.net/canal33tijuan...
+
+ 6. Canal 38 (720p)
+    📡 Qualité: 720p
+    📂 Groupe: News
+    🖼️  Logo: Disponible
+    🔗 URL: https://cdn.jmvstream.com/w/LVW-8503/LVW8503_d0V5o...
+
+ 7. Canal 4 (480p) [Not 24/7]
+    📡 Qualité: HD
+    📂 Groupe: News
+    🖼️  Logo: Disponible
+    🔗 URL: http://138.117.4.70:8075/Canal04_CooTelmnbv/playli...
+
+ 8. Canal E (720p)
+    📡 Qualité: 720p
+    📂 Groupe: Business;News
+    🖼️  Logo: Disponible
+    🔗 URL: https://unlimited1-us.dps.live/perfiltv/perfiltv.s...
+
+ 9. Canal I (720p)
+    📡 Qualité: 720p
+    📂 Groupe: News
+    🖼️  Logo: Disponible
+    🔗 URL: https://vcp10.myplaytv.com/canali/canali/playlist....
+
+10. Canal N
+    📡 Qualité: HD
+    📂 Groupe: News
+    🖼️  Logo: Disponible
+    🔗 URL: http://181.188.216.5:18000/play/a01p/index.m3u8...
+
+    ... et 3 autres chaînes
+
+
+🌍 REGIONAL (12 chaînes)
+------------------------------------------------------------
+ 1. Canal 25 Regional (720p)
+    📡 Qualité: 720p
+    📂 Groupe: General
+    🖼️  Logo: Disponible
+    🔗 URL: https://srv6.zcast.com.br/canalsantarosa/canalsant...
+
+ 2. Canal 7 Santiago del Estero (720p)
+    📡 Qualité: 720p
+    📂 Groupe: Undefined
+    🖼️  Logo: Disponible
+    🔗 URL: https://stream.arcast.com.ar/envivo/castv/playlist...
+
+ 3. Canal Provincial (360p)
+    📡 Qualité: HD
+    📂 Groupe: General
+    🖼️  Logo: Disponible
+    🔗 URL: https://streaming.telered.com.ar/provincial/stream...
+
+ 4. Canal Sur Andalucia (1080p)
+    📡 Qualité: 1080p
+    📂 Groupe: General;Public
+    🖼️  Logo: Disponible
+    🔗 URL: https://dfk2a268yviz9.cloudfront.net/v1/master/372...
+
+ 5. Canal Sur Andalucía 2 (720p)
+    📡 Qualité: 720p
+    📂 Groupe: General;Public
+    🖼️  Logo: Disponible
+    🔗 URL: https://cdnlive.codev8.net/rtvalive/smil:channel22...
+
+ 6. Este Canal TV (576p)
+    📡 Qualité: HD
+    📂 Groupe: General
+    🖼️  Logo: Disponible
+    🔗 URL: http://synclosdragos1.syncsolutions.es:8008/live3/...
+
+ 7. TV Canal Sur (1080p)
+    📡 Qualité: 1080p
+    📂 Groupe: Entertainment
+    🖼️  Logo: Disponible
+    🔗 URL: https://streamtvs.tvcanalsur.com.do/hls/stream/ind...
+
+ 8. TV Centro Canal Regional (720p)
+    📡 Qualité: 720p
+    📂 Groupe: General
+    🖼️  Logo: Disponible
+    🔗 URL: https://amixtv.com:19360/tvcentro/tvcentro.m3u8...
+
+ 9. TV Sur Canal 14 (1080p)
+    📡 Qualité: 1080p
+    📂 Groupe: Undefined
+    🖼️  Logo: Disponible
+    🔗 URL: https://k20.usastreams.com:8081/tvsur/index.m3u8...
+
+10. TV Sur Canal 9 (620p) [Not 24/7]
+    📡 Qualité: HD
+    📂 Groupe: Undefined
+    🖼️  Logo: Disponible
+    🔗 URL: http://tv.ticosmedia.com:1935/TVSUR/TVSUR/playlist...
+
+    ... et 2 autres chaînes
+
+
+🎓 EDUCATIF (7 chaînes)
+------------------------------------------------------------
+ 1. Canal 15 ILCE Summa Sabres (720p)
+    📡 Qualité: 720p
+    📂 Groupe: Education
+    🖼️  Logo: Disponible
+    🔗 URL: https://live-ilce.ovp-vivaro.digital/ovp-origin-ab...
+
+ 2. Canal 15 Nicaragüense (1080p) [Not 24/7]
+    📡 Qualité: 1080p
+    📂 Groupe: Education
+    🖼️  Logo: Disponible
+    🔗 URL: https://cootv.cootel.com.ni:8095/Canal15_CooTel/pl...
+
+ 3. Canal Educação (720p)
+    📡 Qualité: 720p
+    📂 Groupe: Education
+    🖼️  Logo: Disponible
+    🔗 URL: https://canaleducacao-stream.ebc.com.br/index.m3u8...
+
+ 4. Canal Savoir (360p)
+    📡 Qualité: HD
+    📂 Groupe: Education
+    🖼️  Logo: Disponible
+    🔗 URL: https://hls.savoir.media/live/stream.m3u8...
+
+ 5. Canal Saúde (720p) [Not 24/7]
+    📡 Qualité: 720p
+    📂 Groupe: Education;Lifestyle
+    🖼️  Logo: Disponible
+    🔗 URL: https://arkyvbre1g.zoeweb.tv/fiocruz/fiocruz.strea...
+
+ 6. SET Televisión Canal 26.2 (720p) [Not 24/7]
+    📡 Qualité: 720p
+    📂 Groupe: Education
+    🖼️  Logo: Disponible
+    🔗 URL: http://189.240.210.28:1935/live/setpuebla/playlist...
+
+ 7. TV Nuevo León Canal 28 (XHMNL-TDT) (720p)
+    📡 Qualité: 720p
+    📂 Groupe: Education
+    🖼️  Logo: Disponible
+    🔗 URL: https://s5.mexside.net:1936/canal28/canal28/playli...
+
+
+🎭 DIVERTISSEMENT (7 chaînes)
+------------------------------------------------------------
+ 1. Canal 11 (1080p)
+    📡 Qualité: 1080p
+    📂 Groupe: Entertainment
+    🖼️  Logo: Disponible
+    🔗 URL: https://cootv.cootel.com.ni:8095/Canal11_CooTel/pl...
+
+ 2. Canal 14 Codazzi (720p) [Not 24/7]
+    📡 Qualité: 720p
+    📂 Groupe: Entertainment
+    🖼️  Logo: Disponible
+    🔗 URL: https://eu1.servers10.com:8081/8056/index.m3u8...
+
+ 3. Canal 15 DTP (352p)
+    📡 Qualité: HD
+    📂 Groupe: Entertainment
+    🖼️  Logo: Disponible
+    🔗 URL: https://s.emisoras.tv:8081/dtp/index.m3u8...
+
+ 4. Canal 9 Ixchiguán (720p)
+    📡 Qualité: 720p
+    📂 Groupe: Entertainment
+    🖼️  Logo: Disponible
+    🔗 URL: https://cdn.streamhispanatv.net:3859/live/ixchigua...
+
+ 5. Canal+ (1080p)
+    📡 Qualité: 1080p
+    📂 Groupe: Entertainment
+    🖼️  Logo: Disponible
+    🔗 URL: https://viamotionhsi.netplus.ch/live/eds/canalplus...
+
+ 6. Canal+ Haiti [Geo-blocked]
+    📡 Qualité: HD
+    📂 Groupe: Entertainment
+    🖼️  Logo: Disponible
+    🔗 URL: https://vdo.pro-fhi.net:3605/live/dgenlcpmlive.m3u...
+
+ 7. WTV Canal 20 (1080p)
+    📡 Qualité: 1080p
+    📂 Groupe: Entertainment
+    🖼️  Logo: Disponible
+    🔗 URL: https://cootv.cootel.com.ni:8095/Canal40_WTV/playl...
+
+
+🎵 MUSIQUE (6 chaînes)
+------------------------------------------------------------
+ 1. Canal 3 KMK TV (576i) [Not 24/7]
+    📡 Qualité: HD
+    📂 Groupe: Music
+    🖼️  Logo: Disponible
+    🔗 URL: https://live20.bozztv.com/giatv/giatv-KMKTV/KMKTV/...
+
+ 2. Canal TV Radio Maya TGBA (480p)
+    📡 Qualité: HD
+    📂 Groupe: Religious
+    🖼️  Logo: Disponible
+    🔗 URL: https://stream.oursnetworktv.com/latin/radioTGBAgt...
+
+ 3. Maimón TV Canal 3 (720p)
+    📡 Qualité: 720p
+    📂 Groupe: Music
+    🖼️  Logo: Disponible
+    🔗 URL: https://ss3.domint.net:3138/mtv_str/maimon/playlis...
+
+ 4. Olanchito TV Canal 23
+    📡 Qualité: HD
+    📂 Groupe: General
+    🖼️  Logo: Disponible
+    🔗 URL: https://dvrfl03.bozztv.com/hondu/hondu-otvcanal23/...
+
+ 5. Radio Coatán Canal 21 (720p)
+    📡 Qualité: 720p
+    📂 Groupe: General
+    🖼️  Logo: Disponible
+    🔗 URL: https://tv.portalexpress.es:3571/hybrid/play.m3u8...
+
+ 6. Radiocanal San Francisco (1080p)
+    📡 Qualité: 1080p
+    📂 Groupe: General
+    🖼️  Logo: Disponible
+    🔗 URL: http://204.199.3.2/.m3u8...
+
+
+🎬 CINEMA (4 chaînes)
+------------------------------------------------------------
+ 1. Canal 2 Movies
+    📡 Qualité: HD
+    📂 Groupe: Movies
+    🖼️  Logo: Disponible
+    🔗 URL: https://stream.ecable.tv/canal2m/tracks-v1a1/mono....
+
+ 2. Cinevision Canal 19 (720p)
+    📡 Qualité: 720p
+    📂 Groupe: General
+    🖼️  Logo: Disponible
+    🔗 URL: https://cdn.mycloudstream.io/hls/live/broadcast/et...
+
+ 3. MBC+ Drama (1080p)
+    📡 Qualité: 1080p
+    📂 Groupe: Movies
+    🖼️  Logo: Disponible
+    🔗 URL: https://shd-gcp-live.edgenextcdn.net/live/bitmovin...
+
+ 4. Sony Canal Novelas
+    📡 Qualité: HD
+    📂 Groupe: Movies
+    🔗 URL: https://a89829b8dca2471ab52ea9a57bc28a35.mediatail...
+
+
+👶 JEUNESSE (3 chaînes)
+------------------------------------------------------------
+ 1. Canal IPe (1080p)
+    📡 Qualité: 1080p
+    📂 Groupe: Family
+    🖼️  Logo: Disponible
+    🔗 URL: https://cdnhd.iblups.com/hls/3f2cb1658d114f2693eff...
+
+ 2. Canal J HD
+    📡 Qualité: 720p
+    📂 Groupe: Kids
+    🖼️  Logo: Disponible
+    🔗 URL: https://viamotionhsi.netplus.ch/live/eds/canalj/br...
+
+ 3. Talanga TV Canal 39 (480p) [Not 24/7]
+    📡 Qualité: HD
+    📂 Groupe: Family
+    🖼️  Logo: Disponible
+    🔗 URL: https://stream.oursnetworktv.com/latin/Tv39Talanga...
+
+
+🏃 SPORT (2 chaînes)
+------------------------------------------------------------
+ 1. Canal do Inter (720p) [Not 24/7]
+    📡 Qualité: 720p
+    📂 Groupe: Sports
+    🖼️  Logo: Disponible
+    🔗 URL: https://video01.soultv.com.br/internacional/intern...
+
+ 2. Canal+ Sport 2 (1080i)
+    📡 Qualité: HD
+    📂 Groupe: Sports
+    🖼️  Logo: Disponible
+    🔗 URL: http://78.130.250.2:8023/play/a02w/index.m3u8...
+
+
+📖 DOCUMENTAIRE (1 chaînes)
+------------------------------------------------------------
+ 1. Planete+ (1080p)
+    📡 Qualité: 1080p
+    📂 Groupe: Undefined
+    🖼️  Logo: Disponible
+    🔗 URL: https://viamotionhsi.netplus.ch/live/eds/planetepl...
+
+
+💡 RECOMMANDATIONS PAR CATÉGORIE:
+
+🏃 SPORT:
+   • Idéal pour les abonnements Premium (12K-20K XOF)
+   • Contenu à forte valeur ajoutée
+   • Vérifier les droits de diffusion sportive
+
+📖 DOCUMENTAIRES:
+   • Contenu éducatif premium
+   • Parfait pour différenciation concurrentielle
+   • Audience fidèle et engagée
+
+🎬 CINÉMA:
+   • Contenu premium à forte demande
+   • Justifie les prix d'abonnement élevés
+   • Attention aux droits de diffusion
+
+🎯 CONCLUSION:
+   • 2 chaînes sport pour abonnements premium
+   • 1 chaînes documentaires pour contenu éducatif
+   • 4 chaînes cinéma pour divertissement
+   • 0 chaîne(s) adulte nécessitant contrôle parental

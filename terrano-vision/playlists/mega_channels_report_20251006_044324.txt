@@ -1,0 +1,33 @@
+🔍 MEGA CHANNEL HUNTER - RAPPORT DÉTAILLÉ
+================================================================================
+
+📊 STATISTIQUES GÉNÉRALES
+Total chaînes découvertes: 2674
+Chaînes avec logos: 139
+Taux de logos: 5.2%
+Sources traitées: 16
+Objectif 2500+ atteint: ✅ OUI
+
+📺 RÉPARTITION PAR QUALITÉ
+: 2577 chaînes
+720p: 87 chaînes
+4K: 6 chaînes
+480p: 4 chaînes
+
+🌍 RÉPARTITION PAR PAYS (TOP 10)
+: 2674 chaînes
+
+📂 RÉPARTITION PAR CATÉGORIE (TOP 10)
+General: 638 chaînes
+Undefined: 525 chaînes
+News: 245 chaînes
+Entertainment: 171 chaînes
+Music: 167 chaînes
+Religious: 142 chaînes
+Movies: 109 chaînes
+Series: 74 chaînes
+Sports: 69 chaînes
+Kids: 68 chaînes
+
+🔗 RÉPARTITION PAR TYPE DE FLUX
+HLS: 2674 chaînes

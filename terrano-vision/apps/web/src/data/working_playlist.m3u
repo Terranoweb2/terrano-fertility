@@ -1,0 +1,11 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="france24.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/France24.png/512px-France24.png" group-title="News",France 24
+https://static.france24.com/live/F24_FR_HI_HLS/live_web.m3u8
+#EXTINF:-1 tvg-id="nrj12.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/NRJ12_logo_2015.svg/749px-NRJ12_logo_2015.svg.png" group-title="France",NRJ 12
+https://nrj12.nrjaudio.fm/hls/live/2038374/nrj_12/master.m3u8
+#EXTINF:-1 tvg-id="20minutes.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/20_Minutes_2018_logo.svg/512px-20_Minutes_2018_logo.svg.png" group-title="News",20 Minutes TV
+https://live-20minutestv.digiteka.com/1961167769/index.m3u8
+#EXTINF:-1 tvg-id="africa24.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Africa24_logo.png/512px-Africa24_logo.png" group-title="News",Africa 24
+https://africa24.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8
+#EXTINF:-1 tvg-id="arte.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/ARTE_Logo_2017.svg/512px-ARTE_Logo_2017.svg.png" group-title="Culture",Arte HD
+https://artesimulcast.akamaized.net/hls/live/2031003/artelive_fr/index.m3u8

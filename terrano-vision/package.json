@@ -1,0 +1,25 @@
+{
+  "name": "terrano-vision",
+  "version": "1.0.0",
+  "description": "Application mobile de streaming TerranoVision",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"pnpm -C apps/server dev\" \"pnpm -C apps/web dev\"",
+    "build": "pnpm -C apps/web build && pnpm -C apps/server build",
+    "start": "pnpm -C apps/server start",
+    "test": "pnpm -C apps/web test",
+    "lint": "pnpm -C apps/web lint && pnpm -C apps/server lint",
+    "format": "prettier --write \"**/*.{js,ts,tsx,json,md}\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "prettier": "^3.0.3",
+    "@typescript-eslint/eslint-plugin": "^6.7.4",
+    "@typescript-eslint/parser": "^6.7.4",
+    "eslint": "^8.50.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}

@@ -1,0 +1,850 @@
+#EXTM3U
+
+# === CINÉMA ===
+
+#EXTINF:-1 group-title="Cinéma" tvg-logo="https://i.imgur.com/WLqwk3t.png" tvg-country="FR",Canal 2 Movies
+https://stream.ecable.tv/canal2m/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 group-title="Cinéma" tvg-logo="https://i.imgur.com/mJN2XNm.png" tvg-country="FR",Cinevision Canal 19 (720p)
+https://cdn.mycloudstream.io/hls/live/broadcast/etyetihk/index.m3u8
+
+# === DOCUMENTAIRES ===
+
+#EXTINF:-1 group-title="Documentaires" tvg-logo="https://i.imgur.com/RMbMGMg.png" tvg-country="FR",Planete+ (1080p)
+https://viamotionhsi.netplus.ch/live/eds/planeteplus/browser-HLS8/planeteplus.m3u8
+
+# === GÉNÉRAL ===
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/ejRJqSI.png" tvg-country="FR",A&R Canal Adventista (720p)
+http://51.222.9.192:3589/stream/play.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.postimg.cc/qBtbT4bX/artv.png" tvg-country="FR",ARTV Canal Parlamento (720p) [Not 24/7]
+https://playout172.livextend.cloud/liveiframe/_definst_/liveartvabr/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/SbuD1UW.png" tvg-country="FR",Alsacias Televisión (ATV | Canal 28) (720p)
+https://s.emisoras.tv:8081/atv/index.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/fp2EaLJ.png" tvg-country="FR",CSat TV (1080p) [Not 24/7]
+http://media.smc-host.com:1935/csat.tv/smil:csat.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/nLRLsPn.png" tvg-country="FR",CTV Canal 76 (720p)
+https://vdo2.streamgato.us:3978/live/ctvlive.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Channel_1_%28Colombia%29_-_2017_logo.svg/512px-Channel_1_%28Colombia%29_-_2017_logo.svg.png" tvg-country="FR",Canal 1 (1080p) [Geo-blocked]
+https://mdstrm.com/live-stream-playlist/5a5e1c2568b1910913db5fe2.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.ibb.co/KhNS8Dy/cropped-logoo-1.png" tvg-country="FR",Canal 1 (720p)
+https://59ef525c24caa.streamlock.net/canal1cr/canal1cr/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/MQOwCdZ.png" tvg-country="FR",Canal 1 Mar Menor-Torre Pacheco (1080p)
+https://directo.tuwebtv.es/canal1.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/ztp781b.png" tvg-country="FR",Canal 10 (1080p)
+https://dgh4r3ro3i2mi.cloudfront.net/Canal10NI/7d8e90910905c4165b7180d8db1d8b68.sdp/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/TO6WQbW.png" tvg-country="FR",Canal 10 (576i) [Geo-blocked]
+https://acceso.radiosportstv.online:3285/live/canal10costaricalive.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/TvTn3hO.png" tvg-country="FR",Canal 10 Cancún (720p) [Not 24/7]
+http://stream2.dynalias.com:1935/live/tvlive1/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/dw6puHC.png" tvg-country="FR",Canal 10 Chiapas (720p)
+https://5ca9af4645e15.streamlock.net/chiapas/videochiapas/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/H34quHQ.png" tvg-country="FR",Canal 10 Durango
+https://5e50264bd6766.streamlock.net/canal10durango/videocanal10durango/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/ojQ6wzX.png" tvg-country="FR",Canal 10 Empordà (360p) [Not 24/7]
+http://ventdelnord.tv:8080/escala/directe.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/kAbrHqt.jpeg" tvg-country="FR",Canal 10 SOL TV (1080p)
+http://190.211.140.89:8081/SVTranscoder/SOLTVabr.stream/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/ygNKJXx.png" tvg-country="FR",Canal 100 Chinique (480p)
+https://cdn.streamhispanatv.net:3295/live/canal100chilive.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/heZeqPQ.png" tvg-country="FR",Canal 11 (1080p)
+https://cootv.cootel.com.ni:8095/Canal11_CooTel/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/Sht2Rd4.png" tvg-country="FR",Canal 11 (1080p) [Not 24/7]
+https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223/canal11hn/canal11hn.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Repretel_11_logo.png/512px-Repretel_11_logo.png" tvg-country="FR",Canal 11 (720p) [Geo-blocked]
+https://alba-cr-repretel-c11.stream.mediatiquestream.com/index.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/itqQEux.png" tvg-country="FR",Canal 11 TuTV (349p)
+https://stream.giostreaming.net:19360/canal11/canal11.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/yYExcq1.jpg" tvg-country="FR",Canal 11 de la Costa (720p)
+https://vivo.solumedia.com:19360/dadaproductora/dadaproductora.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/UGDbp3O.png" tvg-country="FR",Canal 12 (220p)
+https://alba-sv-c12-c12.stream.mediatiquestream.com/index.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/VYcTRbd.png" tvg-country="FR",Canal 12 Puerto Madryn (720p) [Not 24/7]
+https://5f700d5b2c46f.streamlock.net/madryntv/madryntv/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/SlycKgZ.png" tvg-country="FR",Canal 13 Bajío (720p) [Not 24/7]
+https://dbdfj5y8nz2u4.cloudfront.net/c13bajio/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/SlycKgZ.png" tvg-country="FR",Canal 13 Campeche (720p) [Not 24/7]
+https://dbdfj5y8nz2u4.cloudfront.net/c13campeche/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/SlycKgZ.png" tvg-country="FR",Canal 13 Chiapas (720p) [Not 24/7]
+https://dbdfj5y8nz2u4.cloudfront.net/c13chiapas/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/INKZvlN.png" tvg-country="FR",Canal 13 Esquipulas (720p)
+https://tv91.hostingnuclear.com:19360/intercable/intercable.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/SlycKgZ.png" tvg-country="FR",Canal 13 Guadalajara (720p) [Not 24/7]
+https://dbdfj5y8nz2u4.cloudfront.net/c13guadalajara/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/lmKLiJ3.jpg" tvg-country="FR",Canal 13 Jujuy TV (720p)
+https://genexservicios.com:19360/canal13jujuy/canal13jujuy.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/OI97Sgq.png" tvg-country="FR",Canal 13 La Rioja (480p)
+http://arcast.net:1935/mp/mp/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/SlycKgZ.png" tvg-country="FR",Canal 13 Michoacán (720p) [Not 24/7]
+https://dbdfj5y8nz2u4.cloudfront.net/c13michoacan/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/SlycKgZ.png" tvg-country="FR",Canal 13 Oaxaca (720p) [Not 24/7]
+https://dbdfj5y8nz2u4.cloudfront.net/c13oaxaca/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/SlycKgZ.png" tvg-country="FR",Canal 13 Puebla (720p) [Not 24/7]
+https://dbdfj5y8nz2u4.cloudfront.net/c13puebla/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/SlycKgZ.png" tvg-country="FR",Canal 13 Tabasco (720p) [Not 24/7]
+https://dbdfj5y8nz2u4.cloudfront.net/c13tabasco/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/SlycKgZ.png" tvg-country="FR",Canal 13 Tapachula (720p) [Not 24/7]
+https://dbdfj5y8nz2u4.cloudfront.net/c13tapachula/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/v4o9q3u.jpg" tvg-country="FR",Canal 13 Tierra Caliente (768p) [Not 24/7]
+https://stream.oursnetworktv.com/latin/encoder30/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/SlycKgZ.png" tvg-country="FR",Canal 13 Yucatán (720p) [Not 24/7]
+https://dbdfj5y8nz2u4.cloudfront.net/c13yucatan/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/wNSUMhJ.png" tvg-country="FR",Canal 14 Codazzi (720p) [Not 24/7]
+https://eu1.servers10.com:8081/8056/index.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/1aNEo6U.png" tvg-country="FR",Canal 14 San Carlos (720p) [Not 24/7]
+http://tvn.obix.tv:1935/TVN/CH14.stream_720p/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/QQNcob1.png" tvg-country="FR",Canal 15 DTP (352p)
+https://s.emisoras.tv:8081/dtp/index.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/r7czgOc.png" tvg-country="FR",Canal 15 ILCE Summa Sabres (720p)
+https://live-ilce.ovp-vivaro.digital/ovp-origin-abr/ngrp:6359ef999f3fb_all/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/DGBMuEs.png" tvg-country="FR",Canal 15 Nicaragüense (1080p) [Not 24/7]
+https://cootv.cootel.com.ni:8095/Canal15_CooTel/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/LsrCVy3.jpg" tvg-country="FR",Canal 15 Usulután (720p) [Not 24/7]
+https://streaming.grupocsanetwork.com:19360/canal15/canal15.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.ibb.co/2YvKhjW4/Quisqueya-17-AZUL.png" tvg-country="FR",Canal 17 RTVD (720p)
+https://protvradiostream.com:1936/rtvd17/ngrp:rtvd17_all/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-country="FR",Canal 17 TV Nosara
+https://acceso.radiosportstv.online:3430/hybrid/play.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-country="FR",Canal 17 TV Nosara (720p)
+https://latamvdo.com:3870/hybrid/play.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/NXfHKV7.png" tvg-country="FR",Canal 2 (1080p)
+https://cootv.cootel.com.ni:8095/Canal02_CooTel/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Canal_2_TCS.png/512px-Canal_2_TCS.png" tvg-country="FR",Canal 2 (480p) [Not 24/7]
+https://telecorporacion-es.cdn.vustreams.com/live/d3e259fa-736d-46b0-b1c9-71caf946ace9/live.isml/live.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/Nn8BtH5.png" tvg-country="FR",Canal 2 (576p) [Geo-blocked]
+https://alba-cr-repretel-c2.stream.mediatiquestream.com/index.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/Yv8XIGW.png" tvg-country="FR",Canal 2 Alpavisión Neiva (720p) [Not 24/7]
+https://stmv1.voxtvhd.com.br/alpavision/alpavision/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/BzA2z7m.png" tvg-country="FR",Canal 2 International
+http://69.64.57.208/canal2international/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/YqTNXDf.png" tvg-country="FR",Canal 2 Misiones (1080p)
+https://nd106.republicaservers.com:4433/hls/canal2misioness/index.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.ibb.co/q5NPdK2/canal2-logo.png" tvg-country="FR",Canal 2 de Ushuaia (1080p)
+https://nd106.republicaservers.com:4433/hls/c6611/index.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/wkjNYOD.png" tvg-country="FR",Canal 20 (720p) [Not 24/7]
+https://desuchi.com/streams/live/tv.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/9RoBASf.png" tvg-country="FR",Canal 2000 La Solana (720p) [Not 24/7]
+http://canal2000.berkano-systems.net/streaming/streams/canal2000.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/znmWqhW.png" tvg-country="FR",Canal 21
+https://tls-cl.cdnz.cl/canal21tv/live/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/ypG437l.png" tvg-country="FR",Canal 21 (720p)
+https://stmvideo2.livecastv.com/canal21nic3/canal21nic3/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/W9E6qc3.png" tvg-country="FR",Canal 21 Chignahuapan (720p)
+https://stream.oursnetworktv.com/latin/pueblamx/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/W9E6qc3.png" tvg-country="FR",Canal 21 Jalisco (720p) [Not 24/7]
+https://stream.oursnetworktv.com/latin/encoder22/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/22oVtx0.png" tvg-country="FR",Canal 21 Rioverde (720p) [Not 24/7]
+https://stream.oursnetworktv.com/latin/encoder91/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/Am7yMXg.png" tvg-country="FR",Canal 21 TV (1080p)
+https://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/7Tb7CF4.jpg" tvg-country="FR",Canal 21 Táchira (360p)
+https://stmv2.voxtvhd.com.br/canal21/canal21/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/R4wXVxf.png" tvg-country="FR",Canal 22 (720p)
+https://5f700d5b2c46f.streamlock.net/canal22/canal22/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/6qiYvhe.png" tvg-country="FR",Canal 22 Nacional (720p) [Geo-blocked]
+https://5fc584f3f19c9.streamlock.net/canal22/smil:canal22.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/IUVRm5L.png" tvg-country="FR",Canal 24 Horas Canarias (720p)
+https://ztnr.rtve.es/ztnr/5473142.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/IUVRm5L.png" tvg-country="FR",Canal 24 Horas Catalunya (720p)
+https://ztnr.rtve.es/ztnr/4952053.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/lmWu73V.png" tvg-country="FR",Canal 25 (1080p) [Not 24/7]
+https://live20.bozztv.com/akamaissh101/ssh101/canal25stgo/chunks.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/7igGMwH.png" tvg-country="FR",Canal 25 Jundiaí (404p) [Not 24/7]
+https://stream01.msolutionbrasil.com.br/hls/canal25/live.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/laNr6hF.jpg" tvg-country="FR",Canal 25 Regional (720p)
+https://srv6.zcast.com.br/canalsantarosa/canalsantarosa/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/512px-Canal_26_logo_%282022%29.svg.png" tvg-country="FR",Canal 26
+https://stream-gtlc.telecentro.net.ar/hls/canal26hls/0/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/PAvnVN9.png" tvg-country="FR",Canal 26 Aguascalientes (1080p)
+https://60417ddeaf0d9.streamlock.net/telemetrika3/smil:telemetrika3.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/eA4vt8A.png" tvg-country="FR",Canal 27 (1080p)
+https://live.canal27.tv:3633/live/canal27live.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/y3bymuv.jpg" tvg-country="FR",Canal 29 TVA
+https://play.agenciastreaming.com:19360/8160/8160.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/WIrVAa2.png" tvg-country="FR",Canal 3
+https://uvotv-aniview.global.ssl.fastly.net/hls/live/2119690/canal3/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/yCykjIp.png" tvg-country="FR",Canal 3 (480p) [Not 24/7]
+https://dy434h3s52eoj.cloudfront.net/Canal3GT/01582b1c46c04a847aa7c4936d1eeba7.sdp/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/cnKCZkK.png" tvg-country="FR",Canal 3 Biar (480p) [Not 24/7]
+https://avantstreaming.es/hls/canal3.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/F7QcNTf.png" tvg-country="FR",Canal 3 Bénin (720p)
+https://live.creacast.com/bluediamond/stream/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/mdfiWG9.png" tvg-country="FR",Canal 3 Impresionante (480p)
+https://cloud2.streaminglivehd.com:1936/8048/8048/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/sgRDRBK.jpg" tvg-country="FR",Canal 3 KMK TV (576i) [Not 24/7]
+https://live20.bozztv.com/giatv/giatv-KMKTV/KMKTV/chunks.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/SsNFudZ.png" tvg-country="FR",Canal 3 La Pampa (1080p)
+https://stream.arcast.com.ar/c3lapampa/ngrp:c3lapampa_all/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/bd2afET.png" tvg-country="FR",Canal 3 Las Heras (720p)
+https://stream.arcast.com.ar/canal3/canal3/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/MWakZfV.png" tvg-country="FR",Canal 3 Monde
+https://uvotv-aniview.global.ssl.fastly.net/hls/live/2119695/canal3monde/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/Yf35GQC.png" tvg-country="FR",Canal 3 Niger
+https://uvotv-aniview.global.ssl.fastly.net/hls/live/2119695/canal3niger/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/xv13N7q.jpg" tvg-country="FR",Canal 30 Cintalapa (720p) [Not 24/7]
+https://rpn3.bozztv.com/ssh101/ssh101/canal30mx/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/PP4U1JL.png" tvg-country="FR",Canal 30 TV Bethel (720p) [Not 24/7]
+https://s.emisoras.tv:8081/canal30tvbethel/index.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/lAsE6kN.png" tvg-country="FR",Canal 32 (1080p)
+https://event.vedge.infomaniak.com/livecast/ik:canal32_4/manifest.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/dS4Gb0Q.jpg" tvg-country="FR",Canal 32 STO (720p) [Not 24/7]
+https://s.emisoras.tv:8081/stocanal32hn/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/HisGao7.png" tvg-country="FR",Canal 32 Telemax (720p) [Not 24/7]
+https://cdn.streamhispanatv.net:3824/live/telemaxlive.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-country="FR",Canal 33 Madrid
+https://media2.streambrothers.com:1936/8140/8140/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://iili.io/JCt1Nbn.png" tvg-country="FR",Canal 33 Tijuana (720p)
+https://5f2c1b0d880e5.streamlock.net/canal33tijuana/videocanal33tijuana/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/bZMEiYe.png" tvg-country="FR",Canal 34 San Juan (720p)
+https://streamyes.alsolnet.com/canal34hd/live/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.ibb.co/Kw1JNrm/Logo-Canal-yepotv.png" tvg-country="FR",Canal 35 Yepocapa (720p)
+https://cdn.streamhispanatv.net:3948/live/yepotvlive.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/7ib3wEh.png" tvg-country="FR",Canal 37 San Juan de los Lagos (270p)
+https://stream.oursnetworktv.com/latin/encoder80/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/co7TCWC.png" tvg-country="FR",Canal 38 (720p)
+https://cdn.jmvstream.com/w/LVW-8503/LVW8503_d0V5oduFlK/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Canal_4_TCS.png/512px-Canal_4_TCS.png" tvg-country="FR",Canal 4 (1080p) [Not 24/7]
+http://tmp-sv3.teleon.live:8080/play/a011/index.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/nhgtZdt.png" tvg-country="FR",Canal 4 (480p) [Not 24/7]
+http://138.117.4.70:8075/Canal04_CooTelmnbv/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/5arZEgO.png" tvg-country="FR",Canal 4 (720p) [Geo-blocked]
+https://alba-cr-repretel-c4.stream.mediatiquestream.com/index.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/tQh8C3s.png" tvg-country="FR",Canal 4 Catalunya (1080p)
+https://limited35.todostreaming.es/live/mitjans-livestream.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/tQh8C3s.png" tvg-country="FR",Canal 4 Mallorca (1080p)
+https://limited35.todostreaming.es/live/mitjans-livestream1.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/t3O3O9M.png" tvg-country="FR",Canal 4 Mancha Centro (720p) [Not 24/7]
+https://5924d3ad0efcf.streamlock.net/canal4/canal4live/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/tElJr3e.png" tvg-country="FR",Canal 4 Posadas (576p)
+https://iptv.ixfo.com.ar:30443/live/C4POS/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/eiqpffH.png" tvg-country="FR",Canal 4 RD (1080p)
+https://protvradiostream.com:1936/canal4rd-1/ngrp:canal4rd-1_all/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/MsCnwRA.png" tvg-country="FR",Canal 4 San Juan (576p)
+https://streamlov.alsolnet.com/canal4sanjuan/live/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/XfJ31cF.jpg" tvg-country="FR",Canal 4 de Matehuala (360p) [Not 24/7]
+https://stream.oursnetworktv.com/latin/encoder203/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/xUiQvk8.png" tvg-country="FR",Canal 40 Caucete
+https://canalsj.kozow.com/canal40/tracks-v1/index.fmp4.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/YDp8MlN.png" tvg-country="FR",Canal 44 Chihuahua (720p) [Not 24/7]
+https://5e50264bd6766.streamlock.net/canal442/videocanal442/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/oRudPXX.png" tvg-country="FR",Canal 44 Ciudad Juárez (720p) [Geo-blocked]
+https://5e50264bd6766.streamlock.net/canal44/videocanal44/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/yEfSnGt.png" tvg-country="FR",Canal 45 (576p)
+https://nlb1-live.emitstream.com/hls/625csn5et2iszm9oze65/master.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.ibb.co/P6CBtbs/Screenshot-20231201-163704.jpg" tvg-country="FR",Canal 47 TV Puerto Escondido (480p)
+https://stream.oursnetworktv.com/latin/encoder28/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/uZdVSoW.png" tvg-country="FR",Canal 5 (720p)
+http://104.238.205.28:8989/278329_.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.ibb.co/XzcYYMc/Canal-5-alcorta-ver.jpg" tvg-country="FR",Canal 5 Del Pueblo [Not 24/7]
+https://stmv4.voxtvhd.com.br/canal5pueblo/canal5pueblo/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/4hEYFa9.png" tvg-country="FR",Canal 5 El Líder (720p) [Not 24/7]
+https://mdstrm.com/live-stream-playlist/6287fda8ea3b8b397d1ca2ed.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/VwUiSVF.png" tvg-country="FR",Canal 5 Pico Truncado (540p)
+https://stream.arcast.com.ar/canal5picotruncado/canal5picotruncado/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/WX0esjQ.png" tvg-country="FR",Canal 5 Santa Fe (240p)
+https://stream.arcast.com.ar/c5sf/c5sf/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/iOYlKpF.png" tvg-country="FR",Canal 50.1 Juárez (XEJ-TDT) (614p)
+https://stream.oursnetworktv.com/latin/juarez50/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/xhVEEA1.png" tvg-country="FR",Canal 51 (720p)
+https://tvcn51.com/hls/cn51480.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/9BwZyhM.jpg" tvg-country="FR",Canal 55 Telemorisco TV (720p)
+http://canal.mediaserver.com.co/live/telemorisco.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/pwRVbCz.png" tvg-country="FR",Canal 56 (576p) [Not 24/7]
+https://videos.canal56.com/directe/stream/index.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/HcLs5eM.png" tvg-country="FR",Canal 56 (720p)
+https://vdopanel.jlahozconsulting.com/p/3124/hybrid/play.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/vygCUNz.png" tvg-country="FR",Canal 6 (480p)
+https://envivo.canal6.com.hn/hls/0/stream.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/M4muPLK.png" tvg-country="FR",Canal 6 (480p) [Not 24/7]
+https://telecorporacion.cdn.vustreams.com/live/b164ebe7-decf-4a5a-8aea-5bb56fb92dfc/live.isml/live.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/nfKJftW.png" tvg-country="FR",Canal 6 (720p) [Geo-blocked]
+https://alba-cr-repretel-c6.stream.mediatiquestream.com/index.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/4IGzNdq.png" tvg-country="FR",Canal 6 CDMX
+https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/652e91fd6208700008dcaf7blivestitch/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&profilesFromStream=true&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/6BWAZdq.png" tvg-country="FR",Canal 6 Nicaragüense (480p) [Not 24/7]
+http://138.117.4.70:8075/Canal06_CooTel/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/KJWNPiz.jpg" tvg-country="FR",Canal 6 Panadish (720p)
+https://stream.meteorito.cloud:1947/canal6/smil:canal6.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/OamBiS5.png" tvg-country="FR",Canal 6 Posadas (1080p)
+https://iptv.ixfo.com.ar:30443/live/c6digital/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/8eBwYai.png" tvg-country="FR",Canal 6 Tecpán (720p) [Not 24/7]
+https://stream.oursnetworktv.com/latin/encoder6tecpan/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/OJ1nAOY.jpg" tvg-country="FR",Canal 6 de Tamazula (480p) [Not 24/7]
+https://stream.oursnetworktv.com/latin/encoder6/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/P15QovY.png" tvg-country="FR",Canal 65 (1080p) [Not 24/7]
+https://panel.streamingtv-mediacp.online:1936/tv65/tv65/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.ibb.co/BrvQsWm/C7neuquenlogo2023.png" tvg-country="FR",Canal 7 Neuquén (1080p)
+https://stream.arcast.com.ar/c7nq/ngrp:c7nq_all/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/cAxlcsR.png" tvg-country="FR",Canal 7 SLP (1080p) [Not 24/7]
+https://mvtvstream.com:444/live/6456eb2e56ab7/index.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/CudG6sl.png" tvg-country="FR",Canal 7 Salta (1080p)
+https://vivo.solumedia.com:19360/cooperativa/cooperativa.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/iJMH0UK.png" tvg-country="FR",Canal 7 Santiago del Estero (720p)
+https://stream.arcast.com.ar/envivo/castv/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.ibb.co/0cqcyz4/Logo-2020-azul-El-lider-de-la-zona.png" tvg-country="FR",Canal 7 Talanga Visión (720p)
+https://stream.oursnetworktv.com/latin/talangatv/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/WRYsbjX.png" tvg-country="FR",Canal 74 San Antonio
+https://eu1.servers10.com:8081/8050/index.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/HYuSqJy.png" tvg-country="FR",Canal 79 La Costa (240p)
+https://streamconex.com:19360/lacosta/lacosta.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/HYuSqJy.png" tvg-country="FR",Canal 79 Puan (240p)
+https://streamconex.com:19360/puan/puan.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/I93ypGY.png" tvg-country="FR",Canal 79 Santa Clara del Mar (240p)
+https://streamconex.com:19360/santaclara-1/santaclara-1.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/nefPi2Y.png" tvg-country="FR",Canal 8 (720p) [Not 24/7]
+https://mdstrm.com/live-stream-playlist/5a7b1e63a8da282c34d65445.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/O5MrFjY.png" tvg-country="FR",Canal 8 Catacaos (720p) [Not 24/7]
+https://live.obslivestream.com/canal8/index.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/Nenn6gE.png" tvg-country="FR",Canal 8 Santa Rosa (720p)
+https://cdn.streamhispanatv.net:3697/live/canal8starosalive.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/peOIG1F.png" tvg-country="FR",Canal 8 TV+ (720p)
+https://movil.ejeserver.com/live/canal8tv.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/7knekJU.png" tvg-country="FR",Canal 9 (720p) [Geo-blocked]
+http://201.201.149.86:8080/livestream/stream.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/2Sekew2.png" tvg-country="FR",Canal 9 Barbe TV (720p) [Not 24/7]
+https://cdn.streamhispanatv.net:3549/live/barbetvlive.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/J2G1WMs.png" tvg-country="FR",Canal 9 Bío Bío Televisión (1080p) [Not 24/7]
+https://unlimited6-cl.dps.live/c9/c9.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/FMrB17k.png" tvg-country="FR",Canal 9 Ixchiguán (720p)
+https://cdn.streamhispanatv.net:3859/live/ixchiguanlive.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ad/Canal_9_Litoral_2021.png" tvg-country="FR",Canal 9 Litoral (720p)
+https://stream.arcast.live/ahora/ahora/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/xqgRFpC.png" tvg-country="FR",Canal 9 Resistencia (720p)
+http://coninfo.net:1935/9linklivert/smil:9linkmultibr.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/JUtAzg4.png" tvg-country="FR",Canal 9 Televida (720p)
+https://unlimited1-us.dps.live/televidaar/televidaar.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/ytg9oTf.png" tvg-country="FR",Canal 9 Tolimán (720p)
+https://cdn.streamhispanatv.net:3237/live/canal9tvgtlive.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/TNciMh2.png" tvg-country="FR",Canal 9 en Français (1080p)
+https://livehd.vedge.infomaniak.com/livecast/livehd/master.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/WR2QoZn.png" tvg-country="FR",Canal 98 Jesús TV (720p)
+https://cdn.streamhispanatv.net:3189/live/jesustvlive.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/eQ8xHK9.jpg" tvg-country="FR",Canal Alpha Jura (1080p)
+https://canalalphaju.vedge.infomaniak.com/livecast/ik:canalalphaju/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/eQ8xHK9.jpg" tvg-country="FR",Canal Alpha Neuchatel (1080p) [Not 24/7]
+https://canalalpha.vedge.infomaniak.com/livecast/ik:canalalpha/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-country="FR",Canal America TV (720p)
+http://newyorkstream.ddns.net:5854/enlacecanalamerica/encoderRD/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/DINQRep.jpg" tvg-country="FR",Canal CVV International
+https://uvotv-aniview.global.ssl.fastly.net/hls/live/2119033/cvvtv/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/iKLGBbA.png" tvg-country="FR",Canal Catorce (720p)
+https://tv.livestreaminggroup.info:3052/live/catorcetvlive.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/3QPJIpa.png" tvg-country="FR",Canal Coín (1080p)
+https://canalcoin.garjim.es/hls/directo.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/JO5yuNC.png" tvg-country="FR",Canal DTV (720p)
+https://s.emisoras.tv:8081/dtv/index.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/uWhVKL3.png" tvg-country="FR",Canal Diocesano (576p)
+https://nlb2-live.emitstream.com/hls/5i3pxfuz4az356yu22ij/master.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.ibb.co/34vsSzS/1439-Canal-Diplomatico.png" tvg-country="FR",Canal Diplomático (720p) [Not 24/7]
+https://vcp.myplaytv.com/canaldiplomatico/canaldiplomatico/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/BYsyNHZ.jpg" tvg-country="FR",Canal Dos Yopal (720p)
+http://131.221.41.94/hls/canal2.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/0WrKIxm.png" tvg-country="FR",Canal Doñana (720p) [Not 24/7]
+https://secure5.todostreaming.es/live/division-alm.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.ibb.co/y4pkxH3/Qtc8-M2-PG-400x400.jpg" tvg-country="FR",Canal E (720p)
+https://unlimited1-us.dps.live/perfiltv/perfiltv.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/OOB7nrS.png" tvg-country="FR",Canal Educação (720p)
+https://canaleducacao-stream.ebc.com.br/index.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/CEXMA_new.png/500px-CEXMA_new.png" tvg-country="FR",Canal Extremadura (576p) [Not 24/7]
+https://cdnlive.codev8.net/canalextremaduralive/smil:channel1DVR.smil/playlist.m3u8?DVR=
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/3eWFu7N.png" tvg-country="FR",Canal Extremadura Satelite (1080p)
+https://canalextremadura-live.flumotion.cloud/canalextremadura/live_all/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/rHPY0Yv.png" tvg-country="FR",Canal Gov (720p)
+https://canalgov-stream.ebc.com.br/index.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/vKfOavW.png" tvg-country="FR",Canal I (720p)
+https://vcp10.myplaytv.com/canali/canali/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Identidad_Peruana_ipe_2020.png/1200px-Identidad_Peruana_ipe_2020.png" tvg-country="FR",Canal IPe (1080p)
+https://cdnhd.iblups.com/hls/3f2cb1658d114f2693eff18d83199e67.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/cQ4ggTw.png" tvg-country="FR",Canal ISB (Iglesia San Bernardo) (720p)
+https://unlimited1-us.dps.live/isb/isb.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.ibb.co/x3Vdz6h/Screenshot-20231202-125205.jpg" tvg-country="FR",Canal Iglesia Luz y Verdad (1080p)
+https://stream.oursnetworktv.com/latin/IglesialuzyVerdad/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Canal_J_2019_Logo.png/512px-Canal_J_2019_Logo.png" tvg-country="FR",Canal J HD
+https://viamotionhsi.netplus.ch/live/eds/canalj/browser-HLS8/canalj.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/LnWWKzP.png" tvg-country="FR",Canal Libras (720p)
+https://canallibras-stream.ebc.com.br/mux_video_ts/index-1.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/H3JzQ1G.jpg" tvg-country="FR",Canal Luz Televisión (1080p)
+https://5d8d85cf2c308.streamlock.net:1936/CanalLuz/enDirecto/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.postimg.cc/CK8hXzBB/canalmacau.png" tvg-country="FR",Canal Macau Ch. 92 (720p) [Not 24/7]
+https://live3.tdm.com.mo/ch2/ch2.live/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.postimg.cc/XJ0jb4d2/canalmotor.png" tvg-country="FR",Canal Motor (720p)
+https://digicom.hls.iptvdc.com/canalmotor/index.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/puOrL7B.jpg" tvg-country="FR",Canal Multivision (720p)
+https://5790d294af2dc.streamlock.net/MULTIVISIONRD/MULTIVISIONRD/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/QSUOxtM.png" tvg-country="FR",Canal Málaga RTV (720p) [Not 24/7]
+https://canalmalaga-tv-live.flumotion.com/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/ODMa27W.jpg" tvg-country="FR",Canal Más Televisión (720p)
+https://movil.ejeserver.com/live/teledoradahd.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/Xytvw3J.png" tvg-country="FR",Canal N
+http://181.188.216.5:18000/play/a01p/index.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/edaAexc.png" tvg-country="FR",Canal Nets (720p) [Not 24/7]
+https://movil.ejeserver.com/live/nets.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/qjMxX1d.png" tvg-country="FR",Canal Nubeh TV (720p)
+https://vcp.myplaytv.com/nubehtv/nubehtv/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.ibb.co/YND5HXD/Captura.png" tvg-country="FR",Canal Ocho TV (1080p)
+https://ssh101.bozztv.com/ssh101/ochotv/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/rfnFqU3.png" tvg-country="FR",Canal Oración Con Son (1080p)
+https://canal.mediaserver.com.co/live/oracionconson.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.postimg.cc/gjgm8h55/canalorbe21.png" tvg-country="FR",Canal Orbe 21
+https://stream.arcast.net:4443/canal21/ngrp:canal21_all/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/BUO0wH6.png" tvg-country="FR",Canal Parlamento (360p) [Not 24/7]
+https://congresodirecto.akamaized.net/hls/live/2037973/canalparlamento/master.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/fLpkHfZ.png" tvg-country="FR",Canal Parlamento del Congreso de Jalisco (720p) [Not 24/7]
+https://60417ddeaf0d9.streamlock.net/srtc/smil:srtc.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/Z7aKJCt.png" tvg-country="FR",Canal Peniel (720p) [Not 24/7]
+https://cdn.streamhispanatv.net:3840/live/penielfamlive.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/bXHHtcb.png" tvg-country="FR",Canal Provincial (360p)
+https://streaming.telered.com.ar/provincial/streaming/mystream.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/hs2YVJ3.png" tvg-country="FR",Canal Ricos (480p)
+https://5d82644094cc0.streamlock.net/ricostv/ricostv/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/w9R9IIX.png" tvg-country="FR",Canal Rural (1080p)
+https://607d2a1a47b1f.streamlock.net/crur/smil:canalrural.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/QXjdiun.png" tvg-country="FR",Canal SCN (720p)
+https://live.tvcontrolcp.com:1936/sancarlostv/sancarlostv/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-country="FR",Canal San Roque (1080p) [Not 24/7]
+https://cdnlivevlc.codev8.net/aytosanroquelive/smil:channel1.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://www.canalsantamaria.com.ar/images/santamaria_logo.jpg" tvg-country="FR",Canal Santa María (360p)
+https://streaming.telered.com.ar/santa-maria/streaming/mystream.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/97/Savoir_m%C3%A9dia_logo_3.png" tvg-country="FR",Canal Savoir (360p)
+https://hls.savoir.media/live/stream.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/ht4tUOc.png" tvg-country="FR",Canal Saúde (720p) [Not 24/7]
+https://arkyvbre1g.zoeweb.tv/fiocruz/fiocruz.stream/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/0cq0BPp.png" tvg-country="FR",Canal Sete (1080p)
+http://189.51.193.70:1935/canalsete/xpl-c7/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/94rn7pb.png" tvg-country="FR",Canal Sierra de Cádiz (1080p) [Not 24/7]
+https://s.emisoras.tv:8081/sierradecadiz/index.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/gK0M1jB.png" tvg-country="FR",Canal Sol (720p)
+https://5790d294af2dc.streamlock.net/sol65/sol65/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.postimg.cc/jqBb0sTy/canalsurandalucia.png" tvg-country="FR",Canal Sur Andalucia (1080p)
+https://dfk2a268yviz9.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ddiii1m6jt6of/CanalSurAndaluciaES.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Canal_Sur_2_-_2017_logo.png/500px-Canal_Sur_2_-_2017_logo.png" tvg-country="FR",Canal Sur Andalucía 2 (720p)
+https://cdnlive.codev8.net/rtvalive/smil:channel22.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/A3JscwS.png" tvg-country="FR",Canal Sur Noticias
+https://cdnlive.codev8.net/rtvalive/smil:channel42.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/g5QKQ2E.png" tvg-country="FR",Canal TRV (480p) [Not 24/7]
+https://stream.oursnetworktv.com/latin/encoder44/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/kORStT1.png" tvg-country="FR",Canal TV Radio Maya TGBA (480p)
+https://stream.oursnetworktv.com/latin/radioTGBAgtm/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/D1s1Q3k.png" tvg-country="FR",Canal Telefamilia (360p) [Not 24/7]
+https://stmv2.voxtvhd.com.br/telefamilia/telefamilia/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/XiszuLl.png" tvg-country="FR",Canal Visof (720p)
+https://stream.oursnetworktv.com/latin/Visof/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/JUNP8Rx.png" tvg-country="FR",Canal Zoom [Geo-blocked]
+https://tvlocales-live.freecaster.com/live/95d2e3af-5ab8-45a9-9dc9-f544d006b5d5/95d2e3af-5ab8-45a9-9dc9-f544d006b5d5.isml/master.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/xAC6gQO.png" tvg-country="FR",Canal del Congreso 45.1 (480p) [Not 24/7]
+https://edgeplay.canaldelcongreso.gob.mx/live_sd1/smil:canal-sd1.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/TtVZR5W.png" tvg-country="FR",Canal del Congreso 45.2 (480p) [Not 24/7]
+https://edgeplay.canaldelcongreso.gob.mx/live_sd2/smil:canal-sd2.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/DS3166S.png" tvg-country="FR",Canal del Congreso 45.3 (1080p) [Not 24/7]
+https://edgeplay.canaldelcongreso.gob.mx/live_hd1/smil:canal-hd1.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/k29So6X.png" tvg-country="FR",Canal do Criador (1080p)
+https://607d2a1a47b1f.streamlock.net/crur/smil:canaldocriador.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/TQFWEIS.png" tvg-country="FR",Canal do Inter (720p) [Not 24/7]
+https://video01.soultv.com.br/internacional/internacional/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/5HcyMnW.png" tvg-country="FR",Canal+ (1080p)
+https://viamotionhsi.netplus.ch/live/eds/canalplusclair/browser-HLS8/canalplusclair.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/Gad5qrd.png" tvg-country="FR",Canal+ Haiti [Geo-blocked]
+https://vdo.pro-fhi.net:3605/live/dgenlcpmlive.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/90h9abf.png" tvg-country="FR",Ceiba Vision Canal 36
+https://dvrfl03.bozztv.com/hondu/hondu-ceibavisionhd/index.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://imgur.com/Z1K1tyl.jpg" tvg-country="FR",Delta TV Canal 50
+https://rdn.essastream.com:3949/live/deltatv50live.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://imgur.com/ccFwraQ.png" tvg-country="FR",Ecos Canal 57 [Not 24/7]
+https://2-fss-1.streamhoster.com/pl_122/206532-5753032-1/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/jDT5XFs.jpg" tvg-country="FR",Este Canal TV (576p)
+http://synclosdragos1.syncsolutions.es:8008/live3/emision/index.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/XZqg1Pj.png" tvg-country="FR",Hatoscsatorna (360p) [Not 24/7]
+https://hatoscsatorna.hu:8082/Hatoscsatorna/livestream/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/R3icGuG.png" tvg-country="FR",IERTBCS Canal 8 La Paz (1080p) [Not 24/7]
+https://60ed5b6d0df78.streamlock.net:1936/iertbcs/iertbcs/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/vFi0FMZ.png" tvg-country="FR",JBN Canal 39 (720p) [Not 24/7]
+https://hdbox.chunklistv.com/live?stream=jbn39
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/k1oW0C6.png" tvg-country="FR",Jacal Canal 5 (720p) [Not 24/7]
+https://stream.oursnetworktv.com/latin/jacaltv/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/PmFBL7x.png" tvg-country="FR",Lapacho TV Canal 11 (720p)
+https://vivo.solumedia.com:19360/lapacho/lapacho.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/fc5IHSy.png" tvg-country="FR",Lenca Television Canal 40 (720p) [Not 24/7]
+https://lencatelevision.com/hls/stream.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/EvX5aqI.png" tvg-country="FR",Luna TV Canal 53 (720p)
+https://tv.wracanal10.com:3671/live/lunatvcanal53live.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/lxWdjXG.png" tvg-country="FR",MBC+ Drama (1080p)
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-plus-drama/e37251ec2aac8f6c98f75cd0fa37cd28/index.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/twldaaC.png" tvg-country="FR",Maimón TV Canal 3 (720p)
+https://ss3.domint.net:3138/mtv_str/maimon/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/u5ECnZd.png" tvg-country="FR",Megavision Canal 43 (480p) [Not 24/7]
+https://server2grupocam.com/megavision/MV/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/voyVP6X.png" tvg-country="FR",Megavisión Canal 19 (720p)
+https://mgv-channel19.akamaized.net/hls/live/2093190/MGV_CHANNEL19/master.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/HbdYU9k.png" tvg-country="FR",Megavisión Canal 21 (720p)
+https://mgv-channel21.akamaized.net/hls/live/2093191/MGV_CHANNEL21/master.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/QNbcxyn.png" tvg-country="FR",Mi Canal (576p) [Not 24/7]
+http://ms.android-iptv.com/live/V7rA1feOk3/FkGkEh8Spe/6671.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/IHKBGmu.png" tvg-country="FR",Multicanal Catamayo (720p) [Not 24/7]
+https://multicanal.streamseguro.com/hls/streaming.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/6bdj2BV.jpg" tvg-country="FR",Multivisión Canal 3 (720p) [Not 24/7]
+https://stream.digitalgt.com:3136/live/multivisionlive.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/QQBd052.png" tvg-country="FR",Nex TV Canal 21 (1080p)
+https://vcp4.myplaytv.com:1936/nextv/nextv/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/v1o1oT5.png" tvg-country="FR",Olanchito TV Canal 23
+https://dvrfl03.bozztv.com/hondu/hondu-otvcanal23/index.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/DwziwMY.png" tvg-country="FR",Porto Canal (720p)
+https://pull-live-156-1.global.ssl.fastly.net/pc5865dc25400thmb-ea6bf03b14fa318f7133/smil:pc1-jhrgyuoqe5865db-68tkgb14fa318f7133f03.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-country="FR",Punto Canal 40 (720p)
+https://ss5.domint.net:3042/ptv_str/puntotv/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/tnOGWqL.png" tvg-country="FR",RTV Canal 57 (720p)
+https://streaming.grupocsanetwork.com:19360/canal57/canal57.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/MIlw7GI.png" tvg-country="FR",RTV Católica Canal 40 (1080p)
+https://streaming.grupocsanetwork.com:19360/canal40/canal40.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/569xc5o.png" tvg-country="FR",Radio Coatán Canal 21 (720p)
+https://tv.portalexpress.es:3571/hybrid/play.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.ibb.co/NNyDWsz/download-8.png" tvg-country="FR",Radiocanal San Francisco (1080p)
+http://204.199.3.2/.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/ZONPQhR.png" tvg-country="FR",Ready TV Canal 6 (720p) [Not 24/7]
+https://streaming.telecablecentral.com.do/ReadyTV/ReadyHD/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-country="FR",Ric+
+https://streams2.sofast.tv/WiseM3U8_32/sofast/cleanhls/master.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/EXnsmhx.png" tvg-country="FR",Romana TV Canal 42 (480p)
+https://videoserver.tmcreativos.com:19360/cvmhbyrcat/cvmhbyrcat.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/dbJKErB.png" tvg-country="FR",SET Televisión Canal 26.1 (720p) [Not 24/7]
+http://189.240.210.28:1935/envivo/puecom/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/dbJKErB.png" tvg-country="FR",SET Televisión Canal 26.2 (720p) [Not 24/7]
+http://189.240.210.28:1935/live/setpuebla/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/qnx8nBP.png" tvg-country="FR",SQCS Canal 4 (720p)
+https://5fa5de1a545ae.streamlock.net/4982/4982/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/Dut8Ftk.png" tvg-country="FR",Sony Canal Competencias (1080p)
+https://spt-competencias-2-us.roku.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/ohE9IgP.png" tvg-country="FR",Sony Canal Escape Perfecto
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/605e479d5b8229000763e697/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2bb095-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=e52ea0d7-7d74-4383-8afa-27a135057740
+
+#EXTINF:-1 group-title="Général" tvg-country="FR",Sony Canal Novelas
+https://a89829b8dca2471ab52ea9a57bc28a35.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/CanelaTV_SonyCanalNovelas/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/eotfCMd.png" tvg-country="FR",Super Canal Yurimaguas (720p) [Not 24/7]
+https://live.obslivestream.com/supercanal/index.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/HQiKyHy.jpg" tvg-country="FR",TEN Canal 10 (720p) [Not 24/7]
+https://raw.githubusercontent.com/BellezaEmporium/IPTV_Exception/master/channels/hn/tentv.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://www.lyngsat.com/logo/tv/tt/tv-canal-sur-do.png" tvg-country="FR",TV Canal Sur (1080p)
+https://streamtvs.tvcanalsur.com.do/hls/stream/index.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/w5RYpcZ.png" tvg-country="FR",TV Centro Canal Regional (720p)
+https://amixtv.com:19360/tvcentro/tvcentro.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/QJW6khK.jpg" tvg-country="FR",TV Color Canal 36 (720p)
+https://video.compuwebecuador.com:3067/live/tvcolorlive.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/DHyRWc0.png" tvg-country="FR",TV Montana Canal 10 (1080p) [Not 24/7]
+https://live20.bozztv.com/akamaissh101/ssh101/tvmontanahd/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/9qL4LJF.png" tvg-country="FR",TV Nuevo León Canal 28 (XHMNL-TDT) (720p)
+https://s5.mexside.net:1936/canal28/canal28/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/OpHYYZA.png" tvg-country="FR",TV Sur Canal 14 (1080p)
+https://k20.usastreams.com:8081/tvsur/index.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/7HbISMV.png" tvg-country="FR",TV Sur Canal 9 (620p) [Not 24/7]
+http://tv.ticosmedia.com:1935/TVSUR/TVSUR/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.ibb.co/dtrcnBL/Unnamed-41.jpg" tvg-country="FR",TV5 Tu Canal (768p)
+https://stream.oursnetworktv.com/latin/encoder48/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/5GiUzHC.jpg" tvg-country="FR",Talanga TV Canal 39 (480p) [Not 24/7]
+https://stream.oursnetworktv.com/latin/Tv39Talanga/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/BACuUSc.png" tvg-country="FR",TeleDanlí Canal 9 (720p) [Not 24/7]
+https://cloud2.streaminglivehd.com:1936/8224/8224/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/brcLLUc.png" tvg-country="FR",TelePortal Canal 53.1 (1080p) [Geo-blocked]
+https://live20.bozztv.com/giatv/giatv-miseñalhd/miseñalhd/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/3g6SbSt.png" tvg-country="FR",Telecanal (720p)
+http://45.232.210.1:8029/play/a00s/index.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/90cTK8S.png" tvg-country="FR",Telecanal 12 (720p) [Not 24/7]
+https://rdn.essastream.com:3258/live/telecanal12live.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/hEJ6lZ9.png" tvg-country="FR",Telecanal 28 (360p) [Not 24/7]
+https://vdo2.streamgato.us:3841/live/telecanal28tvlive.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/qsxaOFq.png" tvg-country="FR",Telesur Canal 10 (720p)
+https://ss3.domint.net:3124/tls_str/telesur/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/uDLhsDM.png" tvg-country="FR",Televisión Comayagua Canal 40 (720p) [Not 24/7]
+https://mediacp.us:8081/8034/index.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/QKvINA6.png" tvg-country="FR",UDG TV Canal 44 (720p) [Not 24/7]
+https://d1sx1b16qowo88.cloudfront.net/out/v1/c278fcc434d1437eb31ff105c6b4a538/index.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/TUhFzql.png" tvg-country="FR",VTV Canal 17 (720p) [Not 24/7]
+https://solo.disfrutaenlared.com:1936/vtvcanal/vtvcanal/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/qjm4B0J.png" tvg-country="FR",VTV Canal 32 (1080p)
+https://cnn.livestreaminggroup.info:3507/live/vtv32live.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/lNpgFAU.png" tvg-country="FR",Vallevision Canal 10 (720p) [Not 24/7]
+https://streaming.telecablecentral.com.do/Vallevision/ValleHD/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/352jxnd.png" tvg-country="FR",Vegavisión Canal 18 (720p)
+https://rdn.essastream.com:3400/live/canal18hdlive.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/nb81xeU.png" tvg-country="FR",WTV Canal 20 (1080p)
+https://cootv.cootel.com.ni:8095/Canal40_WTV/playlist.m3u8
+
+#EXTINF:-1 group-title="Général" tvg-logo="https://i.imgur.com/rjmGc9p.png" tvg-country="FR",WXWZ-LD1 (MásTV Canal 23) (720p)
+https://5bf8041cb3fed.streamlock.net/mastvpr/mastvpr/playlist.m3u8
+
+# === SPORT ===
+
+#EXTINF:-1 group-title="Sport" tvg-logo="https://i.postimg.cc/mDZnMnsL/canalplussport2.png" tvg-country="FR",Canal+ Sport 2 (1080i)
+http://78.130.250.2:8023/play/a02w/index.m3u8
+

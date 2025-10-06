@@ -1,0 +1,84 @@
+#EXTM3U
+
+# ===== TERRANOVISION - ACTUALITES =====
+# 26 chaînes actualites
+# Généré automatiquement
+
+#EXTINF:-1 group-title="Actualites" tvg-country="FR" tvg-logo="https://i.imgur.com/MQOwCdZ.png",Canal 1 Mar Menor-Torre Pacheco (1080p)
+https://directo.tuwebtv.es/canal1.m3u8
+
+#EXTINF:-1 group-title="Actualites" tvg-country="FR" tvg-logo="https://i.imgur.com/MQOwCdZ.png",Canal 1 Mar Menor-Torre Pacheco (1080p)
+https://directo.tuwebtv.es/canal1.m3u8
+
+#EXTINF:-1 group-title="Actualites" tvg-country="FR" tvg-logo="https://i.imgur.com/IUVRm5L.png",Canal 24 Horas Canarias (720p)
+https://ztnr.rtve.es/ztnr/5473142.m3u8
+
+#EXTINF:-1 group-title="Actualites" tvg-country="FR" tvg-logo="https://i.imgur.com/IUVRm5L.png",Canal 24 Horas Canarias (720p)
+https://ztnr.rtve.es/ztnr/5473142.m3u8
+
+#EXTINF:-1 group-title="Actualites" tvg-country="FR" tvg-logo="https://i.imgur.com/IUVRm5L.png",Canal 24 Horas Catalunya (720p)
+https://ztnr.rtve.es/ztnr/4952053.m3u8
+
+#EXTINF:-1 group-title="Actualites" tvg-country="FR" tvg-logo="https://i.imgur.com/IUVRm5L.png",Canal 24 Horas Catalunya (720p)
+https://ztnr.rtve.es/ztnr/4952053.m3u8
+
+#EXTINF:-1 group-title="Actualites" tvg-country="FR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/512px-Canal_26_logo_%282022%29.svg.png",Canal 26
+https://stream-gtlc.telecentro.net.ar/hls/canal26hls/0/playlist.m3u8
+
+#EXTINF:-1 group-title="Actualites" tvg-country="FR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/512px-Canal_26_logo_%282022%29.svg.png",Canal 26
+https://stream-gtlc.telecentro.net.ar/hls/canal26hls/0/playlist.m3u8
+
+#EXTINF:-1 group-title="Actualites" tvg-country="FR" tvg-logo="https://iili.io/JCt1Nbn.png",Canal 33 Tijuana (720p)
+https://5f2c1b0d880e5.streamlock.net/canal33tijuana/videocanal33tijuana/playlist.m3u8
+
+#EXTINF:-1 group-title="Actualites" tvg-country="FR" tvg-logo="https://iili.io/JCt1Nbn.png",Canal 33 Tijuana (720p)
+https://5f2c1b0d880e5.streamlock.net/canal33tijuana/videocanal33tijuana/playlist.m3u8
+
+#EXTINF:-1 group-title="Actualites" tvg-country="FR" tvg-logo="https://i.imgur.com/co7TCWC.png",Canal 38 (720p)
+https://cdn.jmvstream.com/w/LVW-8503/LVW8503_d0V5oduFlK/playlist.m3u8
+
+#EXTINF:-1 group-title="Actualites" tvg-country="FR" tvg-logo="https://i.imgur.com/co7TCWC.png",Canal 38 (720p)
+https://cdn.jmvstream.com/w/LVW-8503/LVW8503_d0V5oduFlK/playlist.m3u8
+
+#EXTINF:-1 group-title="Actualites" tvg-country="FR" tvg-logo="https://i.imgur.com/nhgtZdt.png",Canal 4 (480p) [Not 24/7]
+http://138.117.4.70:8075/Canal04_CooTelmnbv/playlist.m3u8
+
+#EXTINF:-1 group-title="Actualites" tvg-country="FR" tvg-logo="https://i.imgur.com/nhgtZdt.png",Canal 4 (480p) [Not 24/7]
+http://138.117.4.70:8075/Canal04_CooTelmnbv/playlist.m3u8
+
+#EXTINF:-1 group-title="Actualites" tvg-country="FR" tvg-logo="https://i.ibb.co/y4pkxH3/Qtc8-M2-PG-400x400.jpg",Canal E (720p)
+https://unlimited1-us.dps.live/perfiltv/perfiltv.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="Actualites" tvg-country="FR" tvg-logo="https://i.ibb.co/y4pkxH3/Qtc8-M2-PG-400x400.jpg",Canal E (720p)
+https://unlimited1-us.dps.live/perfiltv/perfiltv.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="Actualites" tvg-country="FR" tvg-logo="https://i.imgur.com/vKfOavW.png",Canal I (720p)
+https://vcp10.myplaytv.com/canali/canali/playlist.m3u8
+
+#EXTINF:-1 group-title="Actualites" tvg-country="FR" tvg-logo="https://i.imgur.com/vKfOavW.png",Canal I (720p)
+https://vcp10.myplaytv.com/canali/canali/playlist.m3u8
+
+#EXTINF:-1 group-title="Actualites" tvg-country="FR" tvg-logo="https://i.imgur.com/Xytvw3J.png",Canal N
+http://181.188.216.5:18000/play/a01p/index.m3u8
+
+#EXTINF:-1 group-title="Actualites" tvg-country="FR" tvg-logo="https://i.imgur.com/Xytvw3J.png",Canal N
+http://181.188.216.5:18000/play/a01p/index.m3u8
+
+#EXTINF:-1 group-title="Actualites" tvg-country="FR" tvg-logo="https://i.imgur.com/A3JscwS.png",Canal Sur Noticias
+https://cdnlive.codev8.net/rtvalive/smil:channel42.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="Actualites" tvg-country="FR" tvg-logo="https://i.imgur.com/A3JscwS.png",Canal Sur Noticias
+https://cdnlive.codev8.net/rtvalive/smil:channel42.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="Actualites" tvg-country="FR" tvg-logo="https://i.imgur.com/fc5IHSy.png",Lenca Television Canal 40 (720p) [Not 24/7]
+https://lencatelevision.com/hls/stream.m3u8
+
+#EXTINF:-1 group-title="Actualites" tvg-country="FR" tvg-logo="https://i.imgur.com/fc5IHSy.png",Lenca Television Canal 40 (720p) [Not 24/7]
+https://lencatelevision.com/hls/stream.m3u8
+
+#EXTINF:-1 group-title="Actualites" tvg-country="FR" tvg-logo="https://i.ibb.co/dtrcnBL/Unnamed-41.jpg",TV5 Tu Canal (768p)
+https://stream.oursnetworktv.com/latin/encoder48/playlist.m3u8
+
+#EXTINF:-1 group-title="Actualites" tvg-country="FR" tvg-logo="https://i.ibb.co/dtrcnBL/Unnamed-41.jpg",TV5 Tu Canal (768p)
+https://stream.oursnetworktv.com/latin/encoder48/playlist.m3u8
+
