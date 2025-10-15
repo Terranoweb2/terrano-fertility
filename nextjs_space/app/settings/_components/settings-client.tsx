@@ -234,72 +234,87 @@ export default function SettingsClient() {
       
       {/* Header */}
       <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-pink-100 shadow-sm">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center gap-4 h-16">
+        <div className="max-w-5xl mx-auto px-3 sm:px-6 lg:px-8">
+          <div className="flex items-center gap-2 sm:gap-4 h-14 sm:h-16">
             <Link href="/dashboard">
-              <Button variant="ghost" size="sm">
-                <ArrowLeft className="w-4 h-4 mr-2" />
-                Retour
+              <Button variant="ghost" size="sm" className="h-8 sm:h-10">
+                <ArrowLeft className="w-4 h-4 sm:mr-2" />
+                <span className="hidden sm:inline">Retour</span>
               </Button>
             </Link>
             <div>
-              <h1 className="text-xl font-semibold text-gray-900">Paramètres</h1>
+              <h1 className="text-lg sm:text-xl font-semibold text-gray-900">Paramètres</h1>
             </div>
           </div>
         </div>
       </header>
 
       {/* Content */}
-      <main className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <Tabs defaultValue="profile" className="space-y-6">
-          <TabsList className="grid w-full grid-cols-2 md:grid-cols-5 bg-white/80">
-            <TabsTrigger value="profile" className="data-[state=active]:bg-gradient-to-r data-[state=active]:from-pink-500 data-[state=active]:to-purple-500 data-[state=active]:text-white">
-              <User className="w-4 h-4 mr-2" />
-              <span className="hidden sm:inline">Profil</span>
+      <main className="max-w-5xl mx-auto px-3 sm:px-6 lg:px-8 py-4 sm:py-8">
+        <Tabs defaultValue="profile" className="space-y-4 sm:space-y-6">
+          <TabsList className="grid w-full grid-cols-5 bg-white/80 h-auto p-1">
+            <TabsTrigger 
+              value="profile" 
+              className="data-[state=active]:bg-gradient-to-r data-[state=active]:from-pink-500 data-[state=active]:to-purple-500 data-[state=active]:text-white text-xs sm:text-sm px-2 py-2 sm:py-2.5"
+            >
+              <User className="w-4 h-4" />
+              <span className="hidden md:inline ml-2">Profil</span>
             </TabsTrigger>
-            <TabsTrigger value="health" className="data-[state=active]:bg-gradient-to-r data-[state=active]:from-pink-500 data-[state=active]:to-purple-500 data-[state=active]:text-white">
-              <Heart className="w-4 h-4 mr-2" />
-              <span className="hidden sm:inline">Santé</span>
+            <TabsTrigger 
+              value="health" 
+              className="data-[state=active]:bg-gradient-to-r data-[state=active]:from-pink-500 data-[state=active]:to-purple-500 data-[state=active]:text-white text-xs sm:text-sm px-2 py-2 sm:py-2.5"
+            >
+              <Heart className="w-4 h-4" />
+              <span className="hidden md:inline ml-2">Santé</span>
             </TabsTrigger>
-            <TabsTrigger value="notifications" className="data-[state=active]:bg-gradient-to-r data-[state=active]:from-pink-500 data-[state=active]:to-purple-500 data-[state=active]:text-white">
-              <Bell className="w-4 h-4 mr-2" />
-              <span className="hidden sm:inline">Notifications</span>
+            <TabsTrigger 
+              value="notifications" 
+              className="data-[state=active]:bg-gradient-to-r data-[state=active]:from-pink-500 data-[state=active]:to-purple-500 data-[state=active]:text-white text-xs sm:text-sm px-2 py-2 sm:py-2.5"
+            >
+              <Bell className="w-4 h-4" />
+              <span className="hidden md:inline ml-2">Notifs</span>
             </TabsTrigger>
-            <TabsTrigger value="privacy" className="data-[state=active]:bg-gradient-to-r data-[state=active]:from-pink-500 data-[state=active]:to-purple-500 data-[state=active]:text-white">
-              <Shield className="w-4 h-4 mr-2" />
-              <span className="hidden sm:inline">Confidentialité</span>
+            <TabsTrigger 
+              value="privacy" 
+              className="data-[state=active]:bg-gradient-to-r data-[state=active]:from-pink-500 data-[state=active]:to-purple-500 data-[state=active]:text-white text-xs sm:text-sm px-2 py-2 sm:py-2.5"
+            >
+              <Shield className="w-4 h-4" />
+              <span className="hidden md:inline ml-2">Confidentialité</span>
             </TabsTrigger>
-            <TabsTrigger value="security" className="data-[state=active]:bg-gradient-to-r data-[state=active]:from-pink-500 data-[state=active]:to-purple-500 data-[state=active]:text-white">
-              <Lock className="w-4 h-4 mr-2" />
-              <span className="hidden sm:inline">Sécurité</span>
+            <TabsTrigger 
+              value="security" 
+              className="data-[state=active]:bg-gradient-to-r data-[state=active]:from-pink-500 data-[state=active]:to-purple-500 data-[state=active]:text-white text-xs sm:text-sm px-2 py-2 sm:py-2.5"
+            >
+              <Lock className="w-4 h-4" />
+              <span className="hidden md:inline ml-2">Sécurité</span>
             </TabsTrigger>
           </TabsList>
 
           {/* Profile Tab */}
-          <TabsContent value="profile" className="space-y-6">
+          <TabsContent value="profile" className="space-y-4 sm:space-y-6">
             {/* Photo de profil */}
             <Card>
-              <CardHeader>
-                <CardTitle>Photo de profil</CardTitle>
-                <CardDescription>
+              <CardHeader className="p-4 sm:p-6">
+                <CardTitle className="text-lg sm:text-xl">Photo de profil</CardTitle>
+                <CardDescription className="text-sm">
                   Personnalisez votre photo de profil
                 </CardDescription>
               </CardHeader>
-              <CardContent>
-                <div className="flex flex-col sm:flex-row items-center gap-6">
-                  <Avatar className="w-24 h-24">
+              <CardContent className="p-4 sm:p-6">
+                <div className="flex flex-col items-center gap-4 sm:gap-6">
+                  <Avatar className="w-20 h-20 sm:w-24 sm:h-24">
                     <AvatarImage src={profileImageUrl || undefined} />
-                    <AvatarFallback className="text-2xl bg-gradient-to-r from-pink-500 to-purple-500 text-white">
+                    <AvatarFallback className="text-xl sm:text-2xl bg-gradient-to-r from-pink-500 to-purple-500 text-white">
                       {getInitials()}
                     </AvatarFallback>
                   </Avatar>
                   
-                  <div className="flex flex-col gap-3 flex-1">
-                    <div className="flex flex-wrap gap-2">
+                  <div className="flex flex-col gap-3 w-full">
+                    <div className="flex flex-col sm:flex-row gap-2 w-full">
                       <Button
                         onClick={() => fileInputRef.current?.click()}
                         disabled={isLoading}
-                        className="bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600"
+                        className="bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600 w-full sm:w-auto"
                       >
                         <Upload className="w-4 h-4 mr-2" />
                         Changer la photo
@@ -309,13 +324,14 @@ export default function SettingsClient() {
                           variant="outline"
                           onClick={handleDeleteImage}
                           disabled={isLoading}
+                          className="w-full sm:w-auto"
                         >
                           <Trash2 className="w-4 h-4 mr-2" />
                           Supprimer
                         </Button>
                       )}
                     </div>
-                    <p className="text-sm text-gray-500">
+                    <p className="text-xs sm:text-sm text-gray-500 text-center sm:text-left">
                       JPG, PNG ou GIF. Maximum 5MB.
                     </p>
                   </div>
@@ -325,16 +341,16 @@ export default function SettingsClient() {
 
             {/* Informations personnelles */}
             <Card>
-              <CardHeader>
-                <CardTitle>Informations personnelles</CardTitle>
-                <CardDescription>
+              <CardHeader className="p-4 sm:p-6">
+                <CardTitle className="text-lg sm:text-xl">Informations personnelles</CardTitle>
+                <CardDescription className="text-sm">
                   Gérez vos informations de compte
                 </CardDescription>
               </CardHeader>
-              <CardContent className="space-y-4">
+              <CardContent className="space-y-4 p-4 sm:p-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="space-y-2">
-                    <Label htmlFor="firstName">Prénom</Label>
+                    <Label className="text-sm sm:text-base" htmlFor="firstName">Prénom</Label>
                     <Input
                       id="firstName"
                       value={formData.firstName}
@@ -343,7 +359,7 @@ export default function SettingsClient() {
                     />
                   </div>
                   <div className="space-y-2">
-                    <Label htmlFor="lastName">Nom</Label>
+                    <Label className="text-sm sm:text-base" htmlFor="lastName">Nom</Label>
                     <Input
                       id="lastName"
                       value={formData.lastName}
@@ -354,7 +370,7 @@ export default function SettingsClient() {
                 </div>
                 
                 <div className="space-y-2">
-                  <Label htmlFor="email">Adresse email</Label>
+                  <Label className="text-sm sm:text-base" htmlFor="email">Adresse email</Label>
                   <Input
                     id="email"
                     type="email"
@@ -368,7 +384,7 @@ export default function SettingsClient() {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="space-y-2">
-                    <Label htmlFor="language">
+                    <Label className="text-sm sm:text-base" htmlFor="language">
                       <Languages className="w-4 h-4 inline mr-1" />
                       Langue
                     </Label>
@@ -386,7 +402,7 @@ export default function SettingsClient() {
                   </div>
 
                   <div className="space-y-2">
-                    <Label htmlFor="country">
+                    <Label className="text-sm sm:text-base" htmlFor="country">
                       <MapPin className="w-4 h-4 inline mr-1" />
                       Pays
                     </Label>
@@ -408,7 +424,7 @@ export default function SettingsClient() {
                 <Button 
                   onClick={handleSaveProfile}
                   disabled={isLoading}
-                  className="bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600"
+                  className="bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600 w-full sm:w-auto"
                 >
                   <Save className="w-4 h-4 mr-2" />
                   Sauvegarder les modifications
@@ -418,17 +434,17 @@ export default function SettingsClient() {
           </TabsContent>
 
           {/* Health Tab */}
-          <TabsContent value="health" className="space-y-6">
+          <TabsContent value="health" className="space-y-4 sm:space-y-6">
             <Card>
-              <CardHeader>
-                <CardTitle>Informations de santé</CardTitle>
-                <CardDescription>
+              <CardHeader className="p-4 sm:p-6">
+                <CardTitle className="text-lg sm:text-xl">Informations de santé</CardTitle>
+                <CardDescription className="text-sm">
                   Paramètres liés à votre cycle et fertilité
                 </CardDescription>
               </CardHeader>
-              <CardContent className="space-y-4">
+              <CardContent className="space-y-4 p-4 sm:p-6">
                 <div className="space-y-2">
-                  <Label htmlFor="dateOfBirth">
+                  <Label className="text-sm sm:text-base" htmlFor="dateOfBirth">
                     <Calendar className="w-4 h-4 inline mr-1" />
                     Date de naissance
                   </Label>
@@ -442,7 +458,7 @@ export default function SettingsClient() {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="space-y-2">
-                    <Label htmlFor="cycleLength">Durée moyenne du cycle (jours)</Label>
+                    <Label className="text-sm sm:text-base" htmlFor="cycleLength">Durée moyenne du cycle (jours)</Label>
                     <Input
                       id="cycleLength"
                       type="number"
@@ -457,7 +473,7 @@ export default function SettingsClient() {
                   </div>
 
                   <div className="space-y-2">
-                    <Label htmlFor="periodLength">Durée moyenne des règles (jours)</Label>
+                    <Label className="text-sm sm:text-base" htmlFor="periodLength">Durée moyenne des règles (jours)</Label>
                     <Input
                       id="periodLength"
                       type="number"
@@ -475,7 +491,7 @@ export default function SettingsClient() {
                 <Button 
                   onClick={handleSaveProfile}
                   disabled={isLoading}
-                  className="bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600"
+                  className="bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600 w-full sm:w-auto"
                 >
                   <Save className="w-4 h-4 mr-2" />
                   Sauvegarder
@@ -485,19 +501,19 @@ export default function SettingsClient() {
           </TabsContent>
 
           {/* Notifications Tab */}
-          <TabsContent value="notifications" className="space-y-6">
+          <TabsContent value="notifications" className="space-y-4 sm:space-y-6">
             <Card>
-              <CardHeader>
-                <CardTitle>Préférences de notifications</CardTitle>
-                <CardDescription>
+              <CardHeader className="p-4 sm:p-6">
+                <CardTitle className="text-lg sm:text-xl">Préférences de notifications</CardTitle>
+                <CardDescription className="text-sm">
                   Gérez comment vous souhaitez être notifiée
                 </CardDescription>
               </CardHeader>
-              <CardContent className="space-y-4">
-                <div className="flex items-center justify-between">
-                  <div className="space-y-0.5">
-                    <Label>Rappels de période</Label>
-                    <p className="text-sm text-gray-500">
+              <CardContent className="space-y-4 p-4 sm:p-6">
+                <div className="flex items-center justify-between gap-4">
+                  <div className="space-y-0.5 flex-1">
+                    <Label className="text-sm sm:text-base">Rappels de période</Label>
+                    <p className="text-xs sm:text-sm text-gray-500">
                       Recevez des notifications avant vos règles
                     </p>
                   </div>
@@ -511,10 +527,10 @@ export default function SettingsClient() {
 
                 <Separator />
 
-                <div className="flex items-center justify-between">
-                  <div className="space-y-0.5">
-                    <Label>Alertes de fenêtre fertile</Label>
-                    <p className="text-sm text-gray-500">
+                <div className="flex items-center justify-between gap-4">
+                  <div className="space-y-0.5 flex-1">
+                    <Label className="text-sm sm:text-base">Alertes de fenêtre fertile</Label>
+                    <p className="text-xs sm:text-sm text-gray-500">
                       Notifications pendant votre période fertile
                     </p>
                   </div>
@@ -528,10 +544,10 @@ export default function SettingsClient() {
 
                 <Separator />
 
-                <div className="flex items-center justify-between">
-                  <div className="space-y-0.5">
-                    <Label>Rappels de symptômes</Label>
-                    <p className="text-sm text-gray-500">
+                <div className="flex items-center justify-between gap-4">
+                  <div className="space-y-0.5 flex-1">
+                    <Label className="text-sm sm:text-base">Rappels de symptômes</Label>
+                    <p className="text-xs sm:text-sm text-gray-500">
                       Rappels quotidiens pour enregistrer vos symptômes
                     </p>
                   </div>
@@ -545,10 +561,10 @@ export default function SettingsClient() {
 
                 <Separator />
 
-                <div className="flex items-center justify-between">
-                  <div className="space-y-0.5">
-                    <Label>Contenu éducatif</Label>
-                    <p className="text-sm text-gray-500">
+                <div className="flex items-center justify-between gap-4">
+                  <div className="space-y-0.5 flex-1">
+                    <Label className="text-sm sm:text-base">Contenu éducatif</Label>
+                    <p className="text-xs sm:text-sm text-gray-500">
                       Articles et conseils sur la fertilité
                     </p>
                   </div>
@@ -562,10 +578,10 @@ export default function SettingsClient() {
 
                 <Separator />
 
-                <div className="flex items-center justify-between">
-                  <div className="space-y-0.5">
-                    <Label>Notifications par email</Label>
-                    <p className="text-sm text-gray-500">
+                <div className="flex items-center justify-between gap-4">
+                  <div className="space-y-0.5 flex-1">
+                    <Label className="text-sm sm:text-base">Notifications par email</Label>
+                    <p className="text-xs sm:text-sm text-gray-500">
                       Recevez des emails pour les notifications importantes
                     </p>
                   </div>
@@ -580,7 +596,7 @@ export default function SettingsClient() {
                 <Separator />
 
                 <div className="space-y-2">
-                  <Label htmlFor="reminderTime">Heure des rappels quotidiens</Label>
+                  <Label className="text-sm sm:text-base" htmlFor="reminderTime">Heure des rappels quotidiens</Label>
                   <Input
                     id="reminderTime"
                     type="time"
@@ -592,7 +608,7 @@ export default function SettingsClient() {
                 <Button 
                   onClick={handleSavePreferences}
                   disabled={isLoading}
-                  className="bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600"
+                  className="bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600 w-full sm:w-auto"
                 >
                   <Save className="w-4 h-4 mr-2" />
                   Sauvegarder les préférences
@@ -602,19 +618,19 @@ export default function SettingsClient() {
           </TabsContent>
 
           {/* Privacy Tab */}
-          <TabsContent value="privacy" className="space-y-6">
+          <TabsContent value="privacy" className="space-y-4 sm:space-y-6">
             <Card>
-              <CardHeader>
-                <CardTitle>Confidentialité des données</CardTitle>
-                <CardDescription>
+              <CardHeader className="p-4 sm:p-6">
+                <CardTitle className="text-lg sm:text-xl">Confidentialité des données</CardTitle>
+                <CardDescription className="text-xs sm:text-sm">
                   Contrôlez comment vos données sont utilisées
                 </CardDescription>
               </CardHeader>
-              <CardContent className="space-y-4">
-                <div className="flex items-center justify-between">
-                  <div className="space-y-0.5">
-                    <Label>Partage de données</Label>
-                    <p className="text-sm text-gray-500">
+              <CardContent className="space-y-4 p-4 sm:p-6">
+                <div className="flex items-center justify-between gap-4">
+                  <div className="space-y-0.5 flex-1">
+                    <Label className="text-sm sm:text-base">Partage de données</Label>
+                    <p className="text-xs sm:text-sm text-gray-500">
                       Autoriser le partage anonyme des données pour la recherche
                     </p>
                   </div>
@@ -628,10 +644,10 @@ export default function SettingsClient() {
 
                 <Separator />
 
-                <div className="flex items-center justify-between">
-                  <div className="space-y-0.5">
-                    <Label>Statistiques anonymes</Label>
-                    <p className="text-sm text-gray-500">
+                <div className="flex items-center justify-between gap-4">
+                  <div className="space-y-0.5 flex-1">
+                    <Label className="text-sm sm:text-base">Statistiques anonymes</Label>
+                    <p className="text-xs sm:text-sm text-gray-500">
                       Aider à améliorer l'application avec des statistiques anonymes
                     </p>
                   </div>
@@ -645,10 +661,10 @@ export default function SettingsClient() {
 
                 <Separator />
 
-                <div className="flex items-center justify-between">
-                  <div className="space-y-0.5">
-                    <Label>Emails marketing</Label>
-                    <p className="text-sm text-gray-500">
+                <div className="flex items-center justify-between gap-4">
+                  <div className="space-y-0.5 flex-1">
+                    <Label className="text-sm sm:text-base">Emails marketing</Label>
+                    <p className="text-xs sm:text-sm text-gray-500">
                       Recevoir des offres et actualités par email
                     </p>
                   </div>
@@ -663,14 +679,15 @@ export default function SettingsClient() {
                 <Separator />
 
                 <div className="space-y-3">
-                  <h3 className="font-medium">Exporter vos données</h3>
-                  <p className="text-sm text-gray-500">
+                  <h3 className="font-medium text-sm sm:text-base">Exporter vos données</h3>
+                  <p className="text-xs sm:text-sm text-gray-500">
                     Téléchargez une copie complète de toutes vos données
                   </p>
                   <Button 
                     onClick={handleExportData}
                     disabled={isLoading}
                     variant="outline"
+                    className="w-full sm:w-auto"
                   >
                     <Download className="w-4 h-4 mr-2" />
                     Télécharger mes données
@@ -680,7 +697,7 @@ export default function SettingsClient() {
                 <Button 
                   onClick={handleSavePreferences}
                   disabled={isLoading}
-                  className="bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600"
+                  className="bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600 w-full sm:w-auto"
                 >
                   <Save className="w-4 h-4 mr-2" />
                   Sauvegarder les préférences
@@ -690,19 +707,19 @@ export default function SettingsClient() {
           </TabsContent>
 
           {/* Security Tab */}
-          <TabsContent value="security" className="space-y-6">
+          <TabsContent value="security" className="space-y-4 sm:space-y-6">
             <Card>
-              <CardHeader>
-                <CardTitle>Apparence</CardTitle>
-                <CardDescription>
+              <CardHeader className="p-4 sm:p-6">
+                <CardTitle className="text-lg sm:text-xl">Apparence</CardTitle>
+                <CardDescription className="text-xs sm:text-sm">
                   Personnalisez l'apparence de l'application
                 </CardDescription>
               </CardHeader>
-              <CardContent>
-                <div className="flex items-center justify-between">
-                  <div className="space-y-0.5">
-                    <Label>Mode sombre</Label>
-                    <p className="text-sm text-gray-500">
+              <CardContent className="p-4 sm:p-6">
+                <div className="flex items-center justify-between gap-4">
+                  <div className="space-y-0.5 flex-1">
+                    <Label className="text-sm sm:text-base">Mode sombre</Label>
+                    <p className="text-xs sm:text-sm text-gray-500">
                       Activer le thème sombre
                     </p>
                   </div>
@@ -719,14 +736,14 @@ export default function SettingsClient() {
             </Card>
 
             <Card>
-              <CardHeader>
-                <CardTitle>Sécurité du compte</CardTitle>
-                <CardDescription>
+              <CardHeader className="p-4 sm:p-6">
+                <CardTitle className="text-lg sm:text-xl">Sécurité du compte</CardTitle>
+                <CardDescription className="text-xs sm:text-sm">
                   Gérez la sécurité de votre compte
                 </CardDescription>
               </CardHeader>
-              <CardContent className="space-y-4">
-                <Button variant="outline" className="w-full justify-start">
+              <CardContent className="space-y-4 p-4 sm:p-6">
+                <Button variant="outline" className="w-full justify-start text-sm">
                   <Lock className="w-4 h-4 mr-2" />
                   Changer le mot de passe
                 </Button>
@@ -734,13 +751,13 @@ export default function SettingsClient() {
                 <Separator />
 
                 <div className="space-y-3">
-                  <h3 className="text-sm font-medium text-red-600">Zone dangereuse</h3>
-                  <p className="text-sm text-gray-500">
+                  <h3 className="text-sm sm:text-base font-medium text-red-600">Zone dangereuse</h3>
+                  <p className="text-xs sm:text-sm text-gray-500">
                     Supprimer définitivement votre compte et toutes vos données
                   </p>
                   <Button 
                     variant="destructive" 
-                    className="w-full justify-start"
+                    className="w-full justify-start text-sm"
                     onClick={() => {
                       if (confirm('Êtes-vous sûr de vouloir supprimer votre compte ? Cette action est irréversible.')) {
                         toast.error('Fonctionnalité de suppression de compte à venir');
