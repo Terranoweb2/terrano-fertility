@@ -15,7 +15,10 @@ import {
   LogOut,
   Plus,
   TrendingUp,
-  Users
+  Users,
+  Baby,
+  MessageCircle,
+  Sparkles
 } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { motion } from 'framer-motion';
@@ -209,7 +212,7 @@ export default function DashboardClient() {
             </Card>
           </Link>
 
-          <Link href="/symptoms">
+          <Link href="/dashboard/symptoms">
             <Card className="hover:shadow-lg transition-all duration-200 cursor-pointer group">
               <CardHeader>
                 <div className="flex items-center space-x-3">
@@ -228,6 +231,64 @@ export default function DashboardClient() {
                 <Button className="w-full bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700">
                   <Plus className="w-4 h-4 mr-2" />
                   Ajouter symptômes
+                </Button>
+              </CardContent>
+            </Card>
+          </Link>
+
+          <Link href="/dashboard/chat">
+            <Card className="hover:shadow-lg transition-all duration-200 cursor-pointer group border-2 border-purple-200 bg-gradient-to-br from-purple-50 to-pink-50">
+              <CardHeader>
+                <div className="flex items-center space-x-3">
+                  <div className="bg-gradient-to-br from-purple-500 to-pink-500 p-2 rounded-lg group-hover:from-purple-600 group-hover:to-pink-600 transition-colors">
+                    <Sparkles className="w-6 h-6 text-white" />
+                  </div>
+                  <div>
+                    <CardTitle className="text-lg flex items-center gap-2">
+                      Chatbot IA 
+                      <Badge variant="secondary" className="bg-purple-100 text-purple-700 text-xs">
+                        NOUVEAU
+                      </Badge>
+                    </CardTitle>
+                    <CardDescription>
+                      Posez vos questions sur la fertilité et la grossesse
+                    </CardDescription>
+                  </div>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <Button className="w-full bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white">
+                  <MessageCircle className="w-4 h-4 mr-2" />
+                  Discuter maintenant
+                </Button>
+              </CardContent>
+            </Card>
+          </Link>
+
+          <Link href="/dashboard/pregnancy">
+            <Card className="hover:shadow-lg transition-all duration-200 cursor-pointer group border-2 border-pink-200 bg-gradient-to-br from-pink-50 to-rose-50">
+              <CardHeader>
+                <div className="flex items-center space-x-3">
+                  <div className="bg-gradient-to-br from-pink-500 to-rose-500 p-2 rounded-lg group-hover:from-pink-600 group-hover:to-rose-600 transition-colors">
+                    <Baby className="w-6 h-6 text-white" />
+                  </div>
+                  <div>
+                    <CardTitle className="text-lg flex items-center gap-2">
+                      Suivi de Grossesse
+                      <Badge variant="secondary" className="bg-pink-100 text-pink-700 text-xs">
+                        NOUVEAU
+                      </Badge>
+                    </CardTitle>
+                    <CardDescription>
+                      Suivez votre grossesse semaine par semaine
+                    </CardDescription>
+                  </div>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <Button className="w-full bg-gradient-to-r from-pink-500 to-rose-500 hover:from-pink-600 hover:to-rose-600 text-white">
+                  <Baby className="w-4 h-4 mr-2" />
+                  Voir mon suivi
                 </Button>
               </CardContent>
             </Card>

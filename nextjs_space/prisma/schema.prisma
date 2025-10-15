@@ -56,6 +56,8 @@ model User {
   cycles         MenstrualCycle[]
   symptoms       DailySymptom[]
   reminders      Reminder[]
+  chatMessages   ChatMessage[]
+  pregnancies    PregnancyTracking[]
   
   @@map(name: "users")
 }
@@ -164,4 +166,77 @@ model EducationalContent {
   updatedAt       DateTime  @updatedAt
   
   @@map(name: "educational_content")
+}
+
+model ChatMessage {
+  id              String    @id @default(cuid())
+  userId          String
+  role            String    // user, assistant
+  content         String    @db.Text
+  metadata        Json?     // Store additional context (cycle day, symptoms, etc.)
+  createdAt       DateTime  @default(now())
+  
+  user            User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  @@index([userId, createdAt])
+  @@map(name: "chat_messages")
+}
+
+model PregnancyTracking {
+  id                    String    @id @default(cuid())
+  userId                String
+  dueDate               DateTime
+  lastPeriodDate        DateTime
+  conceptionDate        DateTime?
+  currentWeek           Int?
+  currentDay            Int?
+  isActive              Boolean   @default(true)
+  weightStart           Float?
+  bloodType             String?
+  notes                 String?   @db.Text
+  createdAt             DateTime  @default(now())
+  updatedAt             DateTime  @updatedAt
+  
+  user                  User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  appointments          PregnancyAppointment[]
+  weeklyProgress        PregnancyWeeklyProgress[]
+  
+  @@map(name: "pregnancy_tracking")
+}
+
+model PregnancyAppointment {
+  id              String    @id @default(cuid())
+  pregnancyId     String
+  appointmentType String    // ultrasound, blood-test, checkup, etc.
+  scheduledDate   DateTime
+  doctorName      String?
+  location        String?
+  notes           String?   @db.Text
+  results         String?   @db.Text
+  completed       Boolean   @default(false)
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+  
+  pregnancy       PregnancyTracking @relation(fields: [pregnancyId], references: [id], onDelete: Cascade)
+  
+  @@map(name: "pregnancy_appointments")
+}
+
+model PregnancyWeeklyProgress {
+  id              String    @id @default(cuid())
+  pregnancyId     String
+  weekNumber      Int
+  weight          Float?
+  bloodPressure   String?
+  babyMovements   Int?
+  symptoms        String[]
+  mood            String?
+  notes           String?   @db.Text
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+  
+  pregnancy       PregnancyTracking @relation(fields: [pregnancyId], references: [id], onDelete: Cascade)
+  
+  @@unique([pregnancyId, weekNumber])
+  @@map(name: "pregnancy_weekly_progress")
 }
