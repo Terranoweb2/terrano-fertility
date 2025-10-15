@@ -8,6 +8,8 @@ import { Textarea } from '@/components/ui/textarea';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { useSession } from 'next-auth/react';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 
 interface Message {
   id: string;
@@ -246,7 +248,33 @@ export function AiChat() {
                     }`}
                   >
                     <div className="prose prose-sm dark:prose-invert max-w-none">
-                      <div className="whitespace-pre-wrap">{message.content}</div>
+                      {message.role === 'assistant' ? (
+                        <ReactMarkdown
+                          remarkPlugins={[remarkGfm]}
+                          components={{
+                            // Personnalisation du rendu pour les messages du bot
+                            h1: ({ node, ...props }) => <h2 className="text-lg font-bold mt-4 mb-2" {...props} />,
+                            h2: ({ node, ...props }) => <h3 className="text-base font-semibold mt-3 mb-2" {...props} />,
+                            h3: ({ node, ...props }) => <h4 className="text-sm font-semibold mt-2 mb-1" {...props} />,
+                            p: ({ node, ...props }) => <p className="mb-2 leading-relaxed" {...props} />,
+                            ul: ({ node, ...props }) => <ul className="list-disc ml-4 mb-2 space-y-1" {...props} />,
+                            ol: ({ node, ...props }) => <ol className="list-decimal ml-4 mb-2 space-y-1" {...props} />,
+                            li: ({ node, ...props }) => <li className="leading-relaxed" {...props} />,
+                            strong: ({ node, ...props }) => <strong className="font-semibold" {...props} />,
+                            em: ({ node, ...props }) => <em className="italic" {...props} />,
+                            code: ({ node, inline, ...props }: any) => 
+                              inline ? (
+                                <code className="bg-background/50 px-1 py-0.5 rounded text-sm" {...props} />
+                              ) : (
+                                <code className="block bg-background/50 p-2 rounded text-sm my-2" {...props} />
+                              ),
+                          }}
+                        >
+                          {message.content}
+                        </ReactMarkdown>
+                      ) : (
+                        <div className="whitespace-pre-wrap">{message.content}</div>
+                      )}
                     </div>
                   </div>
                   {message.role === 'user' && (
