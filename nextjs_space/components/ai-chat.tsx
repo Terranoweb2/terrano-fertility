@@ -167,16 +167,16 @@ export function AiChat() {
   }
 
   return (
-    <div className="flex flex-col h-[calc(100vh-12rem)]">
+    <div className="flex flex-col h-[calc(100vh-10rem)] sm:h-[calc(100vh-12rem)]">
       {/* Header */}
-      <div className="flex items-center justify-between mb-4">
-        <div className="flex items-center gap-3">
-          <div className="bg-gradient-to-br from-purple-500 to-pink-500 p-2 rounded-lg">
-            <Bot className="w-6 h-6 text-white" />
+      <div className="flex items-center justify-between mb-3 sm:mb-4">
+        <div className="flex items-center gap-2 sm:gap-3">
+          <div className="bg-gradient-to-br from-purple-500 to-pink-500 p-1.5 sm:p-2 rounded-lg">
+            <Bot className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
           </div>
           <div>
-            <h2 className="text-xl font-semibold">FertiliBot</h2>
-            <p className="text-sm text-muted-foreground">
+            <h2 className="text-base sm:text-xl font-semibold">FertiliBot</h2>
+            <p className="text-xs sm:text-sm text-muted-foreground hidden xs:block">
               Votre assistante IA experte en fertilité et grossesse
             </p>
           </div>
@@ -199,49 +199,49 @@ export function AiChat() {
         <ScrollArea className="flex-1 p-4">
           {messages.length === 0 ? (
             <div className="flex flex-col items-center justify-center h-full text-center p-8">
-              <div className="bg-gradient-to-br from-purple-100 to-pink-100 p-4 rounded-full mb-4">
-                <Sparkles className="w-12 h-12 text-purple-600" />
+              <div className="bg-gradient-to-br from-purple-100 to-pink-100 p-3 sm:p-4 rounded-full mb-3 sm:mb-4">
+                <Sparkles className="w-8 h-8 sm:w-12 sm:h-12 text-purple-600" />
               </div>
-              <h3 className="text-xl font-semibold mb-2">
+              <h3 className="text-lg sm:text-xl font-semibold mb-2 px-2">
                 Bienvenue ! Je suis là pour vous aider 💜
               </h3>
-              <p className="text-muted-foreground mb-6 max-w-md">
+              <p className="text-sm sm:text-base text-muted-foreground mb-4 sm:mb-6 max-w-md px-2">
                 Posez-moi toutes vos questions sur la fertilité, le cycle menstruel, 
                 la conception ou la grossesse. Je suis là pour vous accompagner !
               </p>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-2 w-full max-w-2xl">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 w-full max-w-2xl px-2">
                 {suggestedQuestions.map((question, index) => (
                   <Button
                     key={index}
                     variant="outline"
-                    className="text-left justify-start h-auto py-3 px-4"
+                    className="text-left justify-start h-auto py-2 sm:py-3 px-3 sm:px-4"
                     onClick={() => {
                       setInput(question);
                       textareaRef.current?.focus();
                     }}
                   >
-                    <Sparkles className="w-4 h-4 mr-2 flex-shrink-0" />
-                    <span className="text-sm">{question}</span>
+                    <Sparkles className="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2 flex-shrink-0" />
+                    <span className="text-xs sm:text-sm">{question}</span>
                   </Button>
                 ))}
               </div>
             </div>
           ) : (
-            <div className="space-y-4">
+            <div className="space-y-3 sm:space-y-4">
               {messages.map((message) => (
                 <div
                   key={message.id}
-                  className={`flex gap-3 ${
+                  className={`flex gap-2 sm:gap-3 ${
                     message.role === 'user' ? 'justify-end' : 'justify-start'
                   }`}
                 >
                   {message.role === 'assistant' && (
-                    <div className="bg-gradient-to-br from-purple-500 to-pink-500 p-2 rounded-lg h-fit">
-                      <Bot className="w-5 h-5 text-white" />
+                    <div className="bg-gradient-to-br from-purple-500 to-pink-500 p-1.5 sm:p-2 rounded-lg h-fit flex-shrink-0">
+                      <Bot className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
                     </div>
                   )}
                   <div
-                    className={`rounded-lg p-4 max-w-[80%] ${
+                    className={`rounded-lg p-3 sm:p-4 max-w-[85%] sm:max-w-[80%] ${
                       message.role === 'user'
                         ? 'bg-primary text-primary-foreground'
                         : 'bg-muted'
@@ -278,8 +278,8 @@ export function AiChat() {
                     </div>
                   </div>
                   {message.role === 'user' && (
-                    <div className="bg-primary p-2 rounded-lg h-fit">
-                      <User className="w-5 h-5 text-primary-foreground" />
+                    <div className="bg-primary p-1.5 sm:p-2 rounded-lg h-fit flex-shrink-0">
+                      <User className="w-4 h-4 sm:w-5 sm:h-5 text-primary-foreground" />
                     </div>
                   )}
                 </div>
@@ -290,28 +290,28 @@ export function AiChat() {
         </ScrollArea>
 
         {/* Input */}
-        <div className="border-t p-4">
+        <div className="border-t p-3 sm:p-4">
           <div className="flex gap-2">
             <Textarea
               ref={textareaRef}
-              placeholder="Posez votre question sur la fertilité, le cycle ou la grossesse..."
+              placeholder="Posez votre question..."
               value={input}
               onChange={(e) => setInput(e.target.value)}
               onKeyDown={handleKeyDown}
               disabled={isLoading}
-              className="min-h-[60px] resize-none"
+              className="min-h-[50px] sm:min-h-[60px] resize-none text-sm sm:text-base"
               rows={2}
             />
             <Button
               onClick={sendMessage}
               disabled={isLoading || !input.trim()}
               size="icon"
-              className="h-[60px] w-[60px]"
+              className="h-[50px] w-[50px] sm:h-[60px] sm:w-[60px] flex-shrink-0"
             >
-              <Send className="w-5 h-5" />
+              <Send className="w-4 h-4 sm:w-5 sm:h-5" />
             </Button>
           </div>
-          <p className="text-xs text-muted-foreground mt-2">
+          <p className="text-[10px] sm:text-xs text-muted-foreground mt-2 hidden sm:block">
             Appuyez sur Entrée pour envoyer, Shift+Entrée pour une nouvelle ligne
           </p>
         </div>

@@ -69,28 +69,28 @@ export default function DashboardClient() {
     <div className="min-h-screen bg-gradient-to-br from-pink-50 via-purple-50 to-indigo-50">
       {/* Header */}
       <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-pink-100 shadow-sm">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-16">
-            <div className="flex items-center space-x-3">
-              <div className="bg-gradient-to-r from-pink-500 to-purple-500 p-2 rounded-lg">
-                <Heart className="w-6 h-6 text-white" />
+        <div className="max-w-6xl mx-auto px-3 sm:px-6 lg:px-8">
+          <div className="flex justify-between items-center h-14 sm:h-16">
+            <div className="flex items-center gap-2 sm:gap-3">
+              <div className="bg-gradient-to-r from-pink-500 to-purple-500 p-1.5 sm:p-2 rounded-lg">
+                <Heart className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
               </div>
               <div>
-                <h1 className="text-xl font-semibold text-gray-900">FertiliCare</h1>
-                <p className="text-sm text-gray-600">
+                <h1 className="text-base sm:text-xl font-semibold text-gray-900">FertiliCare</h1>
+                <p className="text-xs sm:text-sm text-gray-600 hidden xs:block">
                   Bonjour, {session?.user?.name || 'Utilisatrice'} 👋
                 </p>
               </div>
             </div>
             
-            <div className="flex items-center space-x-4">
-              <Button variant="ghost" size="sm">
+            <div className="flex items-center gap-1 sm:gap-2">
+              <Button variant="ghost" size="sm" className="h-8 w-8 sm:h-9 sm:w-9 p-0">
                 <Bell className="w-4 h-4" />
               </Button>
-              <Button variant="ghost" size="sm">
+              <Button variant="ghost" size="sm" className="h-8 w-8 sm:h-9 sm:w-9 p-0">
                 <Settings className="w-4 h-4" />
               </Button>
-              <Button variant="ghost" size="sm" onClick={handleSignOut}>
+              <Button variant="ghost" size="sm" onClick={handleSignOut} className="h-8 w-8 sm:h-9 sm:w-9 p-0">
                 <LogOut className="w-4 h-4" />
               </Button>
             </div>
@@ -99,17 +99,17 @@ export default function DashboardClient() {
       </header>
 
       {/* Main Content */}
-      <main className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <main className="max-w-6xl mx-auto px-3 sm:px-6 lg:px-8 py-4 sm:py-8">
         {/* Welcome Section */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="text-center mb-8"
+          className="text-center mb-4 sm:mb-8"
         >
-          <h2 className="text-3xl font-bold text-gray-900 mb-2">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-2">
             Votre tableau de bord de fertilité
           </h2>
-          <p className="text-gray-600 max-w-2xl mx-auto">
+          <p className="text-sm sm:text-base text-gray-600 max-w-2xl mx-auto px-2">
             Suivez votre cycle, enregistrez vos symptômes et obtenez des insights personnalisés 
             pour optimiser votre santé reproductive
           </p>
@@ -120,7 +120,7 @@ export default function DashboardClient() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.1 }}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 lg:gap-6 mb-4 sm:mb-8"
         >
           <Card className="bg-gradient-to-br from-pink-50 to-pink-100 border-pink-200 hover:shadow-lg transition-shadow">
             <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
@@ -186,26 +186,26 @@ export default function DashboardClient() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 lg:gap-6"
         >
           <Link href="/calendar">
             <Card className="hover:shadow-lg transition-all duration-200 cursor-pointer group">
-              <CardHeader>
-                <div className="flex items-center space-x-3">
-                  <div className="bg-pink-100 p-2 rounded-lg group-hover:bg-pink-200 transition-colors">
-                    <Calendar className="w-6 h-6 text-pink-600" />
+              <CardHeader className="pb-3 sm:pb-6">
+                <div className="flex items-center gap-2 sm:gap-3">
+                  <div className="bg-pink-100 p-1.5 sm:p-2 rounded-lg group-hover:bg-pink-200 transition-colors flex-shrink-0">
+                    <Calendar className="w-5 h-5 sm:w-6 sm:h-6 text-pink-600" />
                   </div>
-                  <div>
-                    <CardTitle className="text-lg">Calendrier menstruel</CardTitle>
-                    <CardDescription>
+                  <div className="min-w-0 flex-1">
+                    <CardTitle className="text-base sm:text-lg truncate">Calendrier menstruel</CardTitle>
+                    <CardDescription className="text-xs sm:text-sm line-clamp-2">
                       Enregistrez vos règles et suivez votre cycle
                     </CardDescription>
                   </div>
                 </div>
               </CardHeader>
-              <CardContent>
-                <Button className="w-full bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700">
-                  <Plus className="w-4 h-4 mr-2" />
+              <CardContent className="pt-0">
+                <Button className="w-full bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-sm sm:text-base h-9 sm:h-10">
+                  <Plus className="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2" />
                   Nouvelle période
                 </Button>
               </CardContent>
@@ -214,22 +214,22 @@ export default function DashboardClient() {
 
           <Link href="/dashboard/symptoms">
             <Card className="hover:shadow-lg transition-all duration-200 cursor-pointer group">
-              <CardHeader>
-                <div className="flex items-center space-x-3">
-                  <div className="bg-blue-100 p-2 rounded-lg group-hover:bg-blue-200 transition-colors">
-                    <Thermometer className="w-6 h-6 text-blue-600" />
+              <CardHeader className="pb-3 sm:pb-6">
+                <div className="flex items-center gap-2 sm:gap-3">
+                  <div className="bg-blue-100 p-1.5 sm:p-2 rounded-lg group-hover:bg-blue-200 transition-colors flex-shrink-0">
+                    <Thermometer className="w-5 h-5 sm:w-6 sm:h-6 text-blue-600" />
                   </div>
-                  <div>
-                    <CardTitle className="text-lg">Symptômes quotidiens</CardTitle>
-                    <CardDescription>
+                  <div className="min-w-0 flex-1">
+                    <CardTitle className="text-base sm:text-lg truncate">Symptômes quotidiens</CardTitle>
+                    <CardDescription className="text-xs sm:text-sm line-clamp-2">
                       Enregistrez température, humeur et autres signes
                     </CardDescription>
                   </div>
                 </div>
               </CardHeader>
-              <CardContent>
-                <Button className="w-full bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700">
-                  <Plus className="w-4 h-4 mr-2" />
+              <CardContent className="pt-0">
+                <Button className="w-full bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-sm sm:text-base h-9 sm:h-10">
+                  <Plus className="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2" />
                   Ajouter symptômes
                 </Button>
               </CardContent>
@@ -238,27 +238,27 @@ export default function DashboardClient() {
 
           <Link href="/dashboard/chat">
             <Card className="hover:shadow-lg transition-all duration-200 cursor-pointer group border-2 border-purple-200 bg-gradient-to-br from-purple-50 to-pink-50">
-              <CardHeader>
-                <div className="flex items-center space-x-3">
-                  <div className="bg-gradient-to-br from-purple-500 to-pink-500 p-2 rounded-lg group-hover:from-purple-600 group-hover:to-pink-600 transition-colors">
-                    <Sparkles className="w-6 h-6 text-white" />
+              <CardHeader className="pb-3 sm:pb-6">
+                <div className="flex items-center gap-2 sm:gap-3">
+                  <div className="bg-gradient-to-br from-purple-500 to-pink-500 p-1.5 sm:p-2 rounded-lg group-hover:from-purple-600 group-hover:to-pink-600 transition-colors flex-shrink-0">
+                    <Sparkles className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
                   </div>
-                  <div>
-                    <CardTitle className="text-lg flex items-center gap-2">
-                      Chatbot IA 
-                      <Badge variant="secondary" className="bg-purple-100 text-purple-700 text-xs">
+                  <div className="min-w-0 flex-1">
+                    <CardTitle className="text-base sm:text-lg flex items-center gap-1 sm:gap-2 flex-wrap">
+                      <span>Chatbot IA</span>
+                      <Badge variant="secondary" className="bg-purple-100 text-purple-700 text-[10px] sm:text-xs px-1 sm:px-2 py-0">
                         NOUVEAU
                       </Badge>
                     </CardTitle>
-                    <CardDescription>
+                    <CardDescription className="text-xs sm:text-sm line-clamp-2">
                       Posez vos questions sur la fertilité et la grossesse
                     </CardDescription>
                   </div>
                 </div>
               </CardHeader>
-              <CardContent>
-                <Button className="w-full bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white">
-                  <MessageCircle className="w-4 h-4 mr-2" />
+              <CardContent className="pt-0">
+                <Button className="w-full bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white text-sm sm:text-base h-9 sm:h-10">
+                  <MessageCircle className="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2" />
                   Discuter maintenant
                 </Button>
               </CardContent>
@@ -267,27 +267,27 @@ export default function DashboardClient() {
 
           <Link href="/dashboard/pregnancy">
             <Card className="hover:shadow-lg transition-all duration-200 cursor-pointer group border-2 border-pink-200 bg-gradient-to-br from-pink-50 to-rose-50">
-              <CardHeader>
-                <div className="flex items-center space-x-3">
-                  <div className="bg-gradient-to-br from-pink-500 to-rose-500 p-2 rounded-lg group-hover:from-pink-600 group-hover:to-rose-600 transition-colors">
-                    <Baby className="w-6 h-6 text-white" />
+              <CardHeader className="pb-3 sm:pb-6">
+                <div className="flex items-center gap-2 sm:gap-3">
+                  <div className="bg-gradient-to-br from-pink-500 to-rose-500 p-1.5 sm:p-2 rounded-lg group-hover:from-pink-600 group-hover:to-rose-600 transition-colors flex-shrink-0">
+                    <Baby className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
                   </div>
-                  <div>
-                    <CardTitle className="text-lg flex items-center gap-2">
-                      Suivi de Grossesse
-                      <Badge variant="secondary" className="bg-pink-100 text-pink-700 text-xs">
+                  <div className="min-w-0 flex-1">
+                    <CardTitle className="text-base sm:text-lg flex items-center gap-1 sm:gap-2 flex-wrap">
+                      <span>Suivi de Grossesse</span>
+                      <Badge variant="secondary" className="bg-pink-100 text-pink-700 text-[10px] sm:text-xs px-1 sm:px-2 py-0">
                         NOUVEAU
                       </Badge>
                     </CardTitle>
-                    <CardDescription>
+                    <CardDescription className="text-xs sm:text-sm line-clamp-2">
                       Suivez votre grossesse semaine par semaine
                     </CardDescription>
                   </div>
                 </div>
               </CardHeader>
-              <CardContent>
-                <Button className="w-full bg-gradient-to-r from-pink-500 to-rose-500 hover:from-pink-600 hover:to-rose-600 text-white">
-                  <Baby className="w-4 h-4 mr-2" />
+              <CardContent className="pt-0">
+                <Button className="w-full bg-gradient-to-r from-pink-500 to-rose-500 hover:from-pink-600 hover:to-rose-600 text-white text-sm sm:text-base h-9 sm:h-10">
+                  <Baby className="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2" />
                   Voir mon suivi
                 </Button>
               </CardContent>
@@ -296,22 +296,22 @@ export default function DashboardClient() {
 
           <Link href="/statistics">
             <Card className="hover:shadow-lg transition-all duration-200 cursor-pointer group">
-              <CardHeader>
-                <div className="flex items-center space-x-3">
-                  <div className="bg-purple-100 p-2 rounded-lg group-hover:bg-purple-200 transition-colors">
-                    <TrendingUp className="w-6 h-6 text-purple-600" />
+              <CardHeader className="pb-3 sm:pb-6">
+                <div className="flex items-center gap-2 sm:gap-3">
+                  <div className="bg-purple-100 p-1.5 sm:p-2 rounded-lg group-hover:bg-purple-200 transition-colors flex-shrink-0">
+                    <TrendingUp className="w-5 h-5 sm:w-6 sm:h-6 text-purple-600" />
                   </div>
-                  <div>
-                    <CardTitle className="text-lg">Statistiques</CardTitle>
-                    <CardDescription>
+                  <div className="min-w-0 flex-1">
+                    <CardTitle className="text-base sm:text-lg truncate">Statistiques</CardTitle>
+                    <CardDescription className="text-xs sm:text-sm line-clamp-2">
                       Visualisez vos données et tendances
                     </CardDescription>
                   </div>
                 </div>
               </CardHeader>
-              <CardContent>
-                <Button className="w-full bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700">
-                  <TrendingUp className="w-4 h-4 mr-2" />
+              <CardContent className="pt-0">
+                <Button className="w-full bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-sm sm:text-base h-9 sm:h-10">
+                  <TrendingUp className="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2" />
                   Voir graphiques
                 </Button>
               </CardContent>
@@ -320,22 +320,22 @@ export default function DashboardClient() {
 
           <Link href="/reminders">
             <Card className="hover:shadow-lg transition-all duration-200 cursor-pointer group">
-              <CardHeader>
-                <div className="flex items-center space-x-3">
-                  <div className="bg-orange-100 p-2 rounded-lg group-hover:bg-orange-200 transition-colors">
-                    <Bell className="w-6 h-6 text-orange-600" />
+              <CardHeader className="pb-3 sm:pb-6">
+                <div className="flex items-center gap-2 sm:gap-3">
+                  <div className="bg-orange-100 p-1.5 sm:p-2 rounded-lg group-hover:bg-orange-200 transition-colors flex-shrink-0">
+                    <Bell className="w-5 h-5 sm:w-6 sm:h-6 text-orange-600" />
                   </div>
-                  <div>
-                    <CardTitle className="text-lg">Rappels</CardTitle>
-                    <CardDescription>
+                  <div className="min-w-0 flex-1">
+                    <CardTitle className="text-base sm:text-lg truncate">Rappels</CardTitle>
+                    <CardDescription className="text-xs sm:text-sm line-clamp-2">
                       Gérez vos notifications personnalisées
                     </CardDescription>
                   </div>
                 </div>
               </CardHeader>
-              <CardContent>
-                <Button className="w-full bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700">
-                  <Plus className="w-4 h-4 mr-2" />
+              <CardContent className="pt-0">
+                <Button className="w-full bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-sm sm:text-base h-9 sm:h-10">
+                  <Plus className="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2" />
                   Nouveau rappel
                 </Button>
               </CardContent>
@@ -344,22 +344,22 @@ export default function DashboardClient() {
 
           <Link href="/education">
             <Card className="hover:shadow-lg transition-all duration-200 cursor-pointer group">
-              <CardHeader>
-                <div className="flex items-center space-x-3">
-                  <div className="bg-green-100 p-2 rounded-lg group-hover:bg-green-200 transition-colors">
-                    <BookOpen className="w-6 h-6 text-green-600" />
+              <CardHeader className="pb-3 sm:pb-6">
+                <div className="flex items-center gap-2 sm:gap-3">
+                  <div className="bg-green-100 p-1.5 sm:p-2 rounded-lg group-hover:bg-green-200 transition-colors flex-shrink-0">
+                    <BookOpen className="w-5 h-5 sm:w-6 sm:h-6 text-green-600" />
                   </div>
-                  <div>
-                    <CardTitle className="text-lg">Éducation</CardTitle>
-                    <CardDescription>
+                  <div className="min-w-0 flex-1">
+                    <CardTitle className="text-base sm:text-lg truncate">Éducation</CardTitle>
+                    <CardDescription className="text-xs sm:text-sm line-clamp-2">
                       Apprenez sur la fertilité et votre corps
                     </CardDescription>
                   </div>
                 </div>
               </CardHeader>
-              <CardContent>
-                <Button className="w-full bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700">
-                  <BookOpen className="w-4 h-4 mr-2" />
+              <CardContent className="pt-0">
+                <Button className="w-full bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-sm sm:text-base h-9 sm:h-10">
+                  <BookOpen className="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2" />
                   Lire articles
                 </Button>
               </CardContent>
@@ -368,22 +368,22 @@ export default function DashboardClient() {
 
           <Link href="/community">
             <Card className="hover:shadow-lg transition-all duration-200 cursor-pointer group">
-              <CardHeader>
-                <div className="flex items-center space-x-3">
-                  <div className="bg-indigo-100 p-2 rounded-lg group-hover:bg-indigo-200 transition-colors">
-                    <Users className="w-6 h-6 text-indigo-600" />
+              <CardHeader className="pb-3 sm:pb-6">
+                <div className="flex items-center gap-2 sm:gap-3">
+                  <div className="bg-indigo-100 p-1.5 sm:p-2 rounded-lg group-hover:bg-indigo-200 transition-colors flex-shrink-0">
+                    <Users className="w-5 h-5 sm:w-6 sm:h-6 text-indigo-600" />
                   </div>
-                  <div>
-                    <CardTitle className="text-lg">Communauté</CardTitle>
-                    <CardDescription>
+                  <div className="min-w-0 flex-1">
+                    <CardTitle className="text-base sm:text-lg truncate">Communauté</CardTitle>
+                    <CardDescription className="text-xs sm:text-sm line-clamp-2">
                       Connectez-vous avec d'autres femmes
                     </CardDescription>
                   </div>
                 </div>
               </CardHeader>
-              <CardContent>
-                <Button className="w-full bg-gradient-to-r from-indigo-500 to-indigo-600 hover:from-indigo-600 hover:to-indigo-700">
-                  <Users className="w-4 h-4 mr-2" />
+              <CardContent className="pt-0">
+                <Button className="w-full bg-gradient-to-r from-indigo-500 to-indigo-600 hover:from-indigo-600 hover:to-indigo-700 text-sm sm:text-base h-9 sm:h-10">
+                  <Users className="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2" />
                   Rejoindre
                 </Button>
               </CardContent>
