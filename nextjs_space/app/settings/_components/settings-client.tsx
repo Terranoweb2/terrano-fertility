@@ -18,6 +18,7 @@ import { Separator } from '@/components/ui/separator';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
+import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
 
 export default function SettingsClient() {
   const { data: session, update } = useSession();
@@ -25,6 +26,12 @@ export default function SettingsClient() {
   const [isLoading, setIsLoading] = useState(false);
   const [profileImageUrl, setProfileImageUrl] = useState<string | null>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
+  const [isPasswordDialogOpen, setIsPasswordDialogOpen] = useState(false);
+  const [passwordForm, setPasswordForm] = useState({
+    currentPassword: '',
+    newPassword: '',
+    confirmPassword: '',
+  });
   
   const [formData, setFormData] = useState({
     firstName: session?.user?.name?.split(' ')[0] || '',
@@ -206,6 +213,48 @@ export default function SettingsClient() {
       }
     } catch (error) {
       toast.error('Erreur lors de l\'exportation des données');
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  const handleChangePassword = async () => {
+    if (passwordForm.newPassword !== passwordForm.confirmPassword) {
+      toast.error('Les mots de passe ne correspondent pas');
+      return;
+    }
+
+    if (passwordForm.newPassword.length < 6) {
+      toast.error('Le mot de passe doit contenir au moins 6 caractères');
+      return;
+    }
+
+    setIsLoading(true);
+    try {
+      const response = await fetch('/api/profile/change-password', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          currentPassword: passwordForm.currentPassword,
+          newPassword: passwordForm.newPassword,
+        }),
+      });
+
+      const data = await response.json();
+
+      if (response.ok) {
+        toast.success('Mot de passe modifié avec succès !');
+        setIsPasswordDialogOpen(false);
+        setPasswordForm({
+          currentPassword: '',
+          newPassword: '',
+          confirmPassword: '',
+        });
+      } else {
+        toast.error(data.error || 'Erreur lors du changement de mot de passe');
+      }
+    } catch (error) {
+      toast.error('Erreur lors du changement de mot de passe');
     } finally {
       setIsLoading(false);
     }
@@ -743,10 +792,82 @@ export default function SettingsClient() {
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-4 p-4 sm:p-6">
-                <Button variant="outline" className="w-full justify-start text-sm">
-                  <Lock className="w-4 h-4 mr-2" />
-                  Changer le mot de passe
-                </Button>
+                <Dialog open={isPasswordDialogOpen} onOpenChange={setIsPasswordDialogOpen}>
+                  <DialogTrigger asChild>
+                    <Button variant="outline" className="w-full justify-start text-sm">
+                      <Lock className="w-4 h-4 mr-2" />
+                      Changer le mot de passe
+                    </Button>
+                  </DialogTrigger>
+                  <DialogContent className="sm:max-w-[425px]">
+                    <DialogHeader>
+                      <DialogTitle>Changer le mot de passe</DialogTitle>
+                      <DialogDescription>
+                        Entrez votre mot de passe actuel et choisissez un nouveau mot de passe sécurisé.
+                      </DialogDescription>
+                    </DialogHeader>
+                    <div className="space-y-4 py-4">
+                      <div className="space-y-2">
+                        <Label className="text-sm sm:text-base" htmlFor="current-password">
+                          Mot de passe actuel
+                        </Label>
+                        <Input
+                          id="current-password"
+                          type="password"
+                          value={passwordForm.currentPassword}
+                          onChange={(e) => setPasswordForm({ ...passwordForm, currentPassword: e.target.value })}
+                          placeholder="Entrez votre mot de passe actuel"
+                        />
+                      </div>
+                      <div className="space-y-2">
+                        <Label className="text-sm sm:text-base" htmlFor="new-password">
+                          Nouveau mot de passe
+                        </Label>
+                        <Input
+                          id="new-password"
+                          type="password"
+                          value={passwordForm.newPassword}
+                          onChange={(e) => setPasswordForm({ ...passwordForm, newPassword: e.target.value })}
+                          placeholder="Minimum 6 caractères"
+                        />
+                      </div>
+                      <div className="space-y-2">
+                        <Label className="text-sm sm:text-base" htmlFor="confirm-password">
+                          Confirmer le nouveau mot de passe
+                        </Label>
+                        <Input
+                          id="confirm-password"
+                          type="password"
+                          value={passwordForm.confirmPassword}
+                          onChange={(e) => setPasswordForm({ ...passwordForm, confirmPassword: e.target.value })}
+                          placeholder="Confirmez votre mot de passe"
+                        />
+                      </div>
+                    </div>
+                    <DialogFooter>
+                      <Button
+                        variant="outline"
+                        onClick={() => {
+                          setIsPasswordDialogOpen(false);
+                          setPasswordForm({
+                            currentPassword: '',
+                            newPassword: '',
+                            confirmPassword: '',
+                          });
+                        }}
+                      >
+                        Annuler
+                      </Button>
+                      <Button
+                        onClick={handleChangePassword}
+                        disabled={isLoading || !passwordForm.currentPassword || !passwordForm.newPassword || !passwordForm.confirmPassword}
+                        className="bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600"
+                      >
+                        {isLoading ? 'Modification...' : 'Modifier'}
+                      </Button>
+                    </DialogFooter>
+                  </DialogContent>
+                </Dialog>
                 
                 <Separator />
 
