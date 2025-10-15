@@ -1,0 +1,167 @@
+generator client {
+    provider = "prisma-client-js"
+    binaryTargets = ["native", "linux-musl-arm64-openssl-3.0.x"]
+    output = "/home/ubuntu/gestion_fertilite/nextjs_space/node_modules/.prisma/client"
+}
+
+datasource db {
+    provider = "postgresql"
+    url      = env("DATABASE_URL")
+}
+
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String? @db.Text
+  access_token      String? @db.Text
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String? @db.Text
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model User {
+  id            String    @id @default(cuid())
+  firstName     String?
+  lastName      String?
+  email         String    @unique
+  emailVerified DateTime?
+  hashedPassword String?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+  
+  // User profile for fertility tracking
+  dateOfBirth    DateTime?
+  averageCycleLength Int? @default(28)
+  averagePeriodLength Int? @default(5)
+  
+  accounts       Account[]
+  sessions       Session[]
+  cycles         MenstrualCycle[]
+  symptoms       DailySymptom[]
+  reminders      Reminder[]
+  
+  @@map(name: "users")
+}
+
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+}
+
+model MenstrualCycle {
+  id              String    @id @default(cuid())
+  userId          String
+  startDate       DateTime
+  endDate         DateTime?
+  cycleLength     Int?
+  periodLength    Int?
+  ovulationDate   DateTime?
+  isRegular       Boolean   @default(true)
+  notes           String?
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+  
+  user            User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  symptoms        DailySymptom[]
+  
+  @@map(name: "menstrual_cycles")
+}
+
+model DailySymptom {
+  id              String    @id @default(cuid())
+  userId          String
+  cycleId         String?
+  date            DateTime
+  
+  // Physical symptoms
+  temperature     Float?    // Basal body temperature
+  cervicalMucus   String?   // dry, sticky, creamy, watery, egg-white
+  
+  // Pain and discomfort (1-10 scale)
+  cramps          Int?
+  headache        Int?
+  breastTenderness Int?
+  backPain        Int?
+  
+  // Mood and energy (1-10 scale)
+  mood            String?   // happy, sad, irritable, anxious, normal
+  energy          Int?
+  stress          Int?
+  
+  // Flow tracking
+  flowHeaviness   String?   // none, light, medium, heavy, very-heavy
+  flowColor       String?   // bright-red, dark-red, brown, pink
+  
+  // Other symptoms
+  bloating        Boolean   @default(false)
+  acne            Boolean   @default(false)
+  foodCravings    String?
+  sleep           Int?      // Sleep quality 1-10
+  
+  // Custom notes
+  notes           String?
+  
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+  
+  user            User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  cycle           MenstrualCycle? @relation(fields: [cycleId], references: [id], onDelete: SetNull)
+  
+  @@unique([userId, date])
+  @@map(name: "daily_symptoms")
+}
+
+model Reminder {
+  id              String    @id @default(cuid())
+  userId          String
+  title           String
+  description     String?
+  type            String    // period, ovulation, temperature, medication, appointment
+  scheduledDate   DateTime
+  isActive        Boolean   @default(true)
+  isRecurring     Boolean   @default(false)
+  recurringType   String?   // daily, weekly, monthly
+  lastSent        DateTime?
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+  
+  user            User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  @@map(name: "reminders")
+}
+
+model EducationalContent {
+  id              String    @id @default(cuid())
+  title           String
+  category        String    // cycle-basics, fertility, symptoms, nutrition, lifestyle
+  content         String    @db.Text
+  summary         String?
+  tags            String[]
+  readTime        Int?      // in minutes
+  isPublished     Boolean   @default(true)
+  publishedAt     DateTime  @default(now())
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+  
+  @@map(name: "educational_content")
+}
