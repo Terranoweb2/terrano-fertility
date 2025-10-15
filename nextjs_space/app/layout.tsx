@@ -7,11 +7,11 @@ import { Providers } from '@/components/providers';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'FertiliCare - Gestion de Fertilité',
+  title: 'Terrano Fertility - Gestion de Fertilité',
   description: 'Application complète de suivi de fertilité et cycle menstruel',
   icons: {
-    icon: '/favicon.svg',
-    shortcut: '/favicon.svg',
+    icon: '/logo.png',
+    shortcut: '/logo.png',
   },
 };
 

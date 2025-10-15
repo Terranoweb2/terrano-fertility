@@ -72,11 +72,11 @@ export default function DashboardClient() {
         <div className="max-w-6xl mx-auto px-3 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-14 sm:h-16">
             <div className="flex items-center gap-2 sm:gap-3">
-              <div className="bg-gradient-to-r from-pink-500 to-purple-500 p-1.5 sm:p-2 rounded-lg">
-                <Heart className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
+              <div className="bg-white p-1.5 sm:p-2 rounded-lg shadow-sm">
+                <img src="/logo.png" alt="Terrano Fertility" className="w-8 h-8 sm:w-10 sm:h-10 object-contain" />
               </div>
               <div>
-                <h1 className="text-base sm:text-xl font-semibold text-gray-900">FertiliCare</h1>
+                <h1 className="text-base sm:text-xl font-semibold text-gray-900">Terrano Fertility</h1>
                 <p className="text-xs sm:text-sm text-gray-600 hidden xs:block">
                   Bonjour, {session?.user?.name || 'Utilisatrice'} 👋
                 </p>

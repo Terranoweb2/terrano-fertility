@@ -53,11 +53,11 @@ export default function SignInPage() {
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
           <div className="flex justify-center mb-4">
-            <div className="bg-gradient-to-r from-pink-500 to-purple-500 p-3 rounded-full">
-              <Heart className="w-8 h-8 text-white" />
+            <div className="bg-white p-3 rounded-full shadow-lg">
+              <img src="/logo.png" alt="Terrano Fertility" className="w-16 h-16 object-contain" />
             </div>
           </div>
-          <h1 className="text-3xl font-bold text-gray-900">FertiliCare</h1>
+          <h1 className="text-3xl font-bold text-gray-900">Terrano Fertility</h1>
           <p className="text-gray-600 mt-2">Votre compagnon de fertilité personnalisé</p>
         </div>
 
