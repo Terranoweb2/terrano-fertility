@@ -87,9 +87,11 @@ export default function DashboardClient() {
               <Button variant="ghost" size="sm" className="h-8 w-8 sm:h-9 sm:w-9 p-0">
                 <Bell className="w-4 h-4" />
               </Button>
-              <Button variant="ghost" size="sm" className="h-8 w-8 sm:h-9 sm:w-9 p-0">
-                <Settings className="w-4 h-4" />
-              </Button>
+              <Link href="/settings">
+                <Button variant="ghost" size="sm" className="h-8 w-8 sm:h-9 sm:w-9 p-0">
+                  <Settings className="w-4 h-4" />
+                </Button>
+              </Link>
               <Button variant="ghost" size="sm" onClick={handleSignOut} className="h-8 w-8 sm:h-9 sm:w-9 p-0">
                 <LogOut className="w-4 h-4" />
               </Button>
