@@ -1,39 +1,40 @@
-
 'use client';
 
 import { useSession, signOut } from 'next-auth/react';
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { 
-  ArrowLeft,
-  User,
-  Bell,
-  Lock,
-  Globe,
-  Moon,
-  Sun,
-  Mail,
-  Save,
-  Trash2
+  ArrowLeft, User, Bell, Lock, Globe, Moon, Sun, Mail, Save, Trash2,
+  Camera, Upload, Download, Shield, Calendar, Heart, MapPin, Languages
 } from 'lucide-react';
 import Link from 'next/link';
 import { toast } from 'sonner';
 import { useTheme } from 'next-themes';
 import { Switch } from '@/components/ui/switch';
 import { Separator } from '@/components/ui/separator';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
+import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 
 export default function SettingsClient() {
-  const { data: session } = useSession();
+  const { data: session, update } = useSession();
   const { theme, setTheme } = useTheme();
   const [isLoading, setIsLoading] = useState(false);
+  const [profileImageUrl, setProfileImageUrl] = useState<string | null>(null);
+  const fileInputRef = useRef<HTMLInputElement>(null);
   
   const [formData, setFormData] = useState({
     firstName: session?.user?.name?.split(' ')[0] || '',
     lastName: session?.user?.name?.split(' ')[1] || '',
     email: session?.user?.email || '',
+    dateOfBirth: '',
+    averageCycleLength: '28',
+    averagePeriodLength: '5',
+    language: 'fr',
+    country: '',
   });
 
   const [notifications, setNotifications] = useState({
@@ -42,14 +43,121 @@ export default function SettingsClient() {
     symptomReminders: false,
     educationalContent: true,
     emailNotifications: false,
+    pushNotifications: true,
+    reminderTime: '09:00',
   });
+
+  const [privacy, setPrivacy] = useState({
+    dataSharing: false,
+    anonymousUsage: true,
+    marketingEmails: false,
+  });
+
+  useEffect(() => {
+    fetchProfileImage();
+    fetchUserPreferences();
+  }, []);
+
+  const fetchProfileImage = async () => {
+    try {
+      const response = await fetch('/api/profile/image');
+      if (response.ok) {
+        const data = await response.json();
+        setProfileImageUrl(data.imageUrl);
+      }
+    } catch (error) {
+      console.error('Error fetching profile image:', error);
+    }
+  };
+
+  const fetchUserPreferences = async () => {
+    try {
+      const response = await fetch('/api/profile/preferences');
+      if (response.ok) {
+        const data = await response.json();
+        if (data.notifications) {
+          setNotifications({ ...notifications, ...data.notifications });
+        }
+        if (data.privacy) {
+          setPrivacy({ ...privacy, ...data.privacy });
+        }
+      }
+    } catch (error) {
+      console.error('Error fetching preferences:', error);
+    }
+  };
+
+  const handleImageUpload = async (event: React.ChangeEvent<HTMLInputElement>) => {
+    const file = event.target.files?.[0];
+    if (!file) return;
+
+    if (file.size > 5 * 1024 * 1024) {
+      toast.error('Le fichier ne doit pas dépasser 5MB');
+      return;
+    }
+
+    setIsLoading(true);
+    try {
+      const formData = new FormData();
+      formData.append('file', file);
+
+      const response = await fetch('/api/profile/image', {
+        method: 'POST',
+        body: formData,
+      });
+
+      if (response.ok) {
+        const data = await response.json();
+        setProfileImageUrl(data.imageUrl);
+        await update();
+        toast.success('Photo de profil mise à jour !');
+      } else {
+        const error = await response.json();
+        toast.error(error.error || 'Erreur lors du téléchargement');
+      }
+    } catch (error) {
+      toast.error('Erreur lors du téléchargement de l\'image');
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  const handleDeleteImage = async () => {
+    if (!confirm('Voulez-vous vraiment supprimer votre photo de profil ?')) return;
+
+    setIsLoading(true);
+    try {
+      const response = await fetch('/api/profile/image', {
+        method: 'DELETE',
+      });
+
+      if (response.ok) {
+        setProfileImageUrl(null);
+        await update();
+        toast.success('Photo de profil supprimée');
+      }
+    } catch (error) {
+      toast.error('Erreur lors de la suppression');
+    } finally {
+      setIsLoading(false);
+    }
+  };
 
   const handleSaveProfile = async () => {
     setIsLoading(true);
     try {
-      // Simuler la sauvegarde
-      await new Promise(resolve => setTimeout(resolve, 1000));
-      toast.success('Profil mis à jour avec succès !');
+      const response = await fetch('/api/profile/update', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        await update();
+        toast.success('Profil mis à jour avec succès !');
+      } else {
+        toast.error('Erreur lors de la mise à jour du profil');
+      }
     } catch (error) {
       toast.error('Erreur lors de la mise à jour du profil');
     } finally {
@@ -57,23 +165,76 @@ export default function SettingsClient() {
     }
   };
 
-  const handleSaveNotifications = async () => {
+  const handleSavePreferences = async () => {
     setIsLoading(true);
     try {
-      await new Promise(resolve => setTimeout(resolve, 1000));
-      toast.success('Préférences de notifications mises à jour !');
+      const response = await fetch('/api/profile/preferences', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ notifications, privacy }),
+      });
+
+      if (response.ok) {
+        toast.success('Préférences mises à jour !');
+      } else {
+        toast.error('Erreur lors de la mise à jour');
+      }
     } catch (error) {
-      toast.error('Erreur lors de la mise à jour des notifications');
+      toast.error('Erreur lors de la mise à jour des préférences');
     } finally {
       setIsLoading(false);
     }
   };
 
+  const handleExportData = async () => {
+    setIsLoading(true);
+    try {
+      const response = await fetch('/api/profile/export');
+      if (response.ok) {
+        const blob = await response.blob();
+        const url = window.URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `terrano-fertility-export-${Date.now()}.json`;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        window.URL.revokeObjectURL(url);
+        toast.success('Données exportées avec succès !');
+      } else {
+        toast.error('Erreur lors de l\'exportation');
+      }
+    } catch (error) {
+      toast.error('Erreur lors de l\'exportation des données');
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  const getInitials = () => {
+    if (session?.user?.name) {
+      return session.user.name
+        .split(' ')
+        .map(n => n[0])
+        .join('')
+        .toUpperCase();
+    }
+    return session?.user?.email?.[0].toUpperCase() || 'U';
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-pink-50 via-purple-50 to-indigo-50">
+      <input
+        ref={fileInputRef}
+        type="file"
+        accept="image/*"
+        className="hidden"
+        onChange={handleImageUpload}
+      />
+      
       {/* Header */}
       <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-pink-100 shadow-sm">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-4 h-16">
             <Link href="/dashboard">
               <Button variant="ghost" size="sm">
@@ -89,80 +250,250 @@ export default function SettingsClient() {
       </header>
 
       {/* Content */}
-      <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div className="space-y-6">
-          {/* Profile Settings */}
-          <Card>
-            <CardHeader>
-              <div className="flex items-center gap-2">
-                <User className="w-5 h-5 text-pink-500" />
+      <main className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <Tabs defaultValue="profile" className="space-y-6">
+          <TabsList className="grid w-full grid-cols-2 md:grid-cols-5 bg-white/80">
+            <TabsTrigger value="profile" className="data-[state=active]:bg-gradient-to-r data-[state=active]:from-pink-500 data-[state=active]:to-purple-500 data-[state=active]:text-white">
+              <User className="w-4 h-4 mr-2" />
+              <span className="hidden sm:inline">Profil</span>
+            </TabsTrigger>
+            <TabsTrigger value="health" className="data-[state=active]:bg-gradient-to-r data-[state=active]:from-pink-500 data-[state=active]:to-purple-500 data-[state=active]:text-white">
+              <Heart className="w-4 h-4 mr-2" />
+              <span className="hidden sm:inline">Santé</span>
+            </TabsTrigger>
+            <TabsTrigger value="notifications" className="data-[state=active]:bg-gradient-to-r data-[state=active]:from-pink-500 data-[state=active]:to-purple-500 data-[state=active]:text-white">
+              <Bell className="w-4 h-4 mr-2" />
+              <span className="hidden sm:inline">Notifications</span>
+            </TabsTrigger>
+            <TabsTrigger value="privacy" className="data-[state=active]:bg-gradient-to-r data-[state=active]:from-pink-500 data-[state=active]:to-purple-500 data-[state=active]:text-white">
+              <Shield className="w-4 h-4 mr-2" />
+              <span className="hidden sm:inline">Confidentialité</span>
+            </TabsTrigger>
+            <TabsTrigger value="security" className="data-[state=active]:bg-gradient-to-r data-[state=active]:from-pink-500 data-[state=active]:to-purple-500 data-[state=active]:text-white">
+              <Lock className="w-4 h-4 mr-2" />
+              <span className="hidden sm:inline">Sécurité</span>
+            </TabsTrigger>
+          </TabsList>
+
+          {/* Profile Tab */}
+          <TabsContent value="profile" className="space-y-6">
+            {/* Photo de profil */}
+            <Card>
+              <CardHeader>
+                <CardTitle>Photo de profil</CardTitle>
+                <CardDescription>
+                  Personnalisez votre photo de profil
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="flex flex-col sm:flex-row items-center gap-6">
+                  <Avatar className="w-24 h-24">
+                    <AvatarImage src={profileImageUrl || undefined} />
+                    <AvatarFallback className="text-2xl bg-gradient-to-r from-pink-500 to-purple-500 text-white">
+                      {getInitials()}
+                    </AvatarFallback>
+                  </Avatar>
+                  
+                  <div className="flex flex-col gap-3 flex-1">
+                    <div className="flex flex-wrap gap-2">
+                      <Button
+                        onClick={() => fileInputRef.current?.click()}
+                        disabled={isLoading}
+                        className="bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600"
+                      >
+                        <Upload className="w-4 h-4 mr-2" />
+                        Changer la photo
+                      </Button>
+                      {profileImageUrl && (
+                        <Button
+                          variant="outline"
+                          onClick={handleDeleteImage}
+                          disabled={isLoading}
+                        >
+                          <Trash2 className="w-4 h-4 mr-2" />
+                          Supprimer
+                        </Button>
+                      )}
+                    </div>
+                    <p className="text-sm text-gray-500">
+                      JPG, PNG ou GIF. Maximum 5MB.
+                    </p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Informations personnelles */}
+            <Card>
+              <CardHeader>
                 <CardTitle>Informations personnelles</CardTitle>
-              </div>
-              <CardDescription>
-                Gérez vos informations de compte
-              </CardDescription>
-            </CardHeader>
-            <CardContent className="space-y-4">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <CardDescription>
+                  Gérez vos informations de compte
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div className="space-y-2">
+                    <Label htmlFor="firstName">Prénom</Label>
+                    <Input
+                      id="firstName"
+                      value={formData.firstName}
+                      onChange={(e) => setFormData({ ...formData, firstName: e.target.value })}
+                      placeholder="Votre prénom"
+                    />
+                  </div>
+                  <div className="space-y-2">
+                    <Label htmlFor="lastName">Nom</Label>
+                    <Input
+                      id="lastName"
+                      value={formData.lastName}
+                      onChange={(e) => setFormData({ ...formData, lastName: e.target.value })}
+                      placeholder="Votre nom"
+                    />
+                  </div>
+                </div>
+                
                 <div className="space-y-2">
-                  <Label htmlFor="firstName">Prénom</Label>
+                  <Label htmlFor="email">Adresse email</Label>
                   <Input
-                    id="firstName"
-                    value={formData.firstName}
-                    onChange={(e) => setFormData({ ...formData, firstName: e.target.value })}
-                    placeholder="Votre prénom"
+                    id="email"
+                    type="email"
+                    value={formData.email}
+                    disabled
+                  />
+                  <p className="text-xs text-gray-500">
+                    L'adresse email ne peut pas être modifiée
+                  </p>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div className="space-y-2">
+                    <Label htmlFor="language">
+                      <Languages className="w-4 h-4 inline mr-1" />
+                      Langue
+                    </Label>
+                    <Select value={formData.language} onValueChange={(value) => setFormData({ ...formData, language: value })}>
+                      <SelectTrigger>
+                        <SelectValue placeholder="Sélectionner" />
+                      </SelectTrigger>
+                      <SelectContent>
+                        <SelectItem value="fr">Français</SelectItem>
+                        <SelectItem value="en">English</SelectItem>
+                        <SelectItem value="es">Español</SelectItem>
+                        <SelectItem value="de">Deutsch</SelectItem>
+                      </SelectContent>
+                    </Select>
+                  </div>
+
+                  <div className="space-y-2">
+                    <Label htmlFor="country">
+                      <MapPin className="w-4 h-4 inline mr-1" />
+                      Pays
+                    </Label>
+                    <Select value={formData.country} onValueChange={(value) => setFormData({ ...formData, country: value })}>
+                      <SelectTrigger>
+                        <SelectValue placeholder="Sélectionner" />
+                      </SelectTrigger>
+                      <SelectContent>
+                        <SelectItem value="FR">France</SelectItem>
+                        <SelectItem value="BE">Belgique</SelectItem>
+                        <SelectItem value="CH">Suisse</SelectItem>
+                        <SelectItem value="CA">Canada</SelectItem>
+                        <SelectItem value="US">États-Unis</SelectItem>
+                      </SelectContent>
+                    </Select>
+                  </div>
+                </div>
+
+                <Button 
+                  onClick={handleSaveProfile}
+                  disabled={isLoading}
+                  className="bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600"
+                >
+                  <Save className="w-4 h-4 mr-2" />
+                  Sauvegarder les modifications
+                </Button>
+              </CardContent>
+            </Card>
+          </TabsContent>
+
+          {/* Health Tab */}
+          <TabsContent value="health" className="space-y-6">
+            <Card>
+              <CardHeader>
+                <CardTitle>Informations de santé</CardTitle>
+                <CardDescription>
+                  Paramètres liés à votre cycle et fertilité
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <div className="space-y-2">
+                  <Label htmlFor="dateOfBirth">
+                    <Calendar className="w-4 h-4 inline mr-1" />
+                    Date de naissance
+                  </Label>
+                  <Input
+                    id="dateOfBirth"
+                    type="date"
+                    value={formData.dateOfBirth}
+                    onChange={(e) => setFormData({ ...formData, dateOfBirth: e.target.value })}
                   />
                 </div>
-                <div className="space-y-2">
-                  <Label htmlFor="lastName">Nom</Label>
-                  <Input
-                    id="lastName"
-                    value={formData.lastName}
-                    onChange={(e) => setFormData({ ...formData, lastName: e.target.value })}
-                    placeholder="Votre nom"
-                  />
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div className="space-y-2">
+                    <Label htmlFor="cycleLength">Durée moyenne du cycle (jours)</Label>
+                    <Input
+                      id="cycleLength"
+                      type="number"
+                      min="21"
+                      max="35"
+                      value={formData.averageCycleLength}
+                      onChange={(e) => setFormData({ ...formData, averageCycleLength: e.target.value })}
+                    />
+                    <p className="text-xs text-gray-500">
+                      Généralement entre 21 et 35 jours
+                    </p>
+                  </div>
+
+                  <div className="space-y-2">
+                    <Label htmlFor="periodLength">Durée moyenne des règles (jours)</Label>
+                    <Input
+                      id="periodLength"
+                      type="number"
+                      min="2"
+                      max="7"
+                      value={formData.averagePeriodLength}
+                      onChange={(e) => setFormData({ ...formData, averagePeriodLength: e.target.value })}
+                    />
+                    <p className="text-xs text-gray-500">
+                      Généralement entre 2 et 7 jours
+                    </p>
+                  </div>
                 </div>
-              </div>
-              
-              <div className="space-y-2">
-                <Label htmlFor="email">Adresse email</Label>
-                <Input
-                  id="email"
-                  type="email"
-                  value={formData.email}
-                  onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                  placeholder="votre@email.com"
-                  disabled
-                />
-                <p className="text-xs text-gray-500">
-                  L'adresse email ne peut pas être modifiée
-                </p>
-              </div>
 
-              <Button 
-                onClick={handleSaveProfile}
-                disabled={isLoading}
-                className="bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600"
-              >
-                <Save className="w-4 h-4 mr-2" />
-                Sauvegarder les modifications
-              </Button>
-            </CardContent>
-          </Card>
+                <Button 
+                  onClick={handleSaveProfile}
+                  disabled={isLoading}
+                  className="bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600"
+                >
+                  <Save className="w-4 h-4 mr-2" />
+                  Sauvegarder
+                </Button>
+              </CardContent>
+            </Card>
+          </TabsContent>
 
-          {/* Notification Settings */}
-          <Card>
-            <CardHeader>
-              <div className="flex items-center gap-2">
-                <Bell className="w-5 h-5 text-pink-500" />
-                <CardTitle>Notifications</CardTitle>
-              </div>
-              <CardDescription>
-                Gérez vos préférences de notifications
-              </CardDescription>
-            </CardHeader>
-            <CardContent className="space-y-4">
-              <div className="space-y-4">
+          {/* Notifications Tab */}
+          <TabsContent value="notifications" className="space-y-6">
+            <Card>
+              <CardHeader>
+                <CardTitle>Préférences de notifications</CardTitle>
+                <CardDescription>
+                  Gérez comment vous souhaitez être notifiée
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="space-y-4">
                 <div className="flex items-center justify-between">
                   <div className="space-y-0.5">
                     <Label>Rappels de période</Label>
@@ -245,87 +576,185 @@ export default function SettingsClient() {
                     }
                   />
                 </div>
-              </div>
 
-              <Button 
-                onClick={handleSaveNotifications}
-                disabled={isLoading}
-                className="bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600"
-              >
-                <Save className="w-4 h-4 mr-2" />
-                Sauvegarder les préférences
-              </Button>
-            </CardContent>
-          </Card>
+                <Separator />
 
-          {/* Appearance Settings */}
-          <Card>
-            <CardHeader>
-              <div className="flex items-center gap-2">
-                <Globe className="w-5 h-5 text-pink-500" />
-                <CardTitle>Apparence</CardTitle>
-              </div>
-              <CardDescription>
-                Personnalisez l'apparence de l'application
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <div className="flex items-center justify-between">
-                <div className="space-y-0.5">
-                  <Label>Mode sombre</Label>
-                  <p className="text-sm text-gray-500">
-                    Activer le thème sombre
-                  </p>
-                </div>
-                <div className="flex items-center gap-2">
-                  <Sun className="w-4 h-4" />
-                  <Switch
-                    checked={theme === 'dark'}
-                    onCheckedChange={(checked) => setTheme(checked ? 'dark' : 'light')}
+                <div className="space-y-2">
+                  <Label htmlFor="reminderTime">Heure des rappels quotidiens</Label>
+                  <Input
+                    id="reminderTime"
+                    type="time"
+                    value={notifications.reminderTime}
+                    onChange={(e) => setNotifications({ ...notifications, reminderTime: e.target.value })}
                   />
-                  <Moon className="w-4 h-4" />
                 </div>
-              </div>
-            </CardContent>
-          </Card>
 
-          {/* Security Settings */}
-          <Card>
-            <CardHeader>
-              <div className="flex items-center gap-2">
-                <Lock className="w-5 h-5 text-pink-500" />
-                <CardTitle>Sécurité</CardTitle>
-              </div>
-              <CardDescription>
-                Gérez la sécurité de votre compte
-              </CardDescription>
-            </CardHeader>
-            <CardContent className="space-y-4">
-              <Button variant="outline" className="w-full justify-start">
-                <Lock className="w-4 h-4 mr-2" />
-                Changer le mot de passe
-              </Button>
-              
-              <Separator />
-
-              <div className="space-y-2">
-                <h3 className="text-sm font-medium text-red-600">Zone dangereuse</h3>
                 <Button 
-                  variant="destructive" 
-                  className="w-full justify-start"
-                  onClick={() => {
-                    if (confirm('Êtes-vous sûr de vouloir supprimer votre compte ? Cette action est irréversible.')) {
-                      toast.error('Fonctionnalité de suppression de compte à venir');
-                    }
-                  }}
+                  onClick={handleSavePreferences}
+                  disabled={isLoading}
+                  className="bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600"
                 >
-                  <Trash2 className="w-4 h-4 mr-2" />
-                  Supprimer mon compte
+                  <Save className="w-4 h-4 mr-2" />
+                  Sauvegarder les préférences
                 </Button>
-              </div>
-            </CardContent>
-          </Card>
-        </div>
+              </CardContent>
+            </Card>
+          </TabsContent>
+
+          {/* Privacy Tab */}
+          <TabsContent value="privacy" className="space-y-6">
+            <Card>
+              <CardHeader>
+                <CardTitle>Confidentialité des données</CardTitle>
+                <CardDescription>
+                  Contrôlez comment vos données sont utilisées
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <div className="flex items-center justify-between">
+                  <div className="space-y-0.5">
+                    <Label>Partage de données</Label>
+                    <p className="text-sm text-gray-500">
+                      Autoriser le partage anonyme des données pour la recherche
+                    </p>
+                  </div>
+                  <Switch
+                    checked={privacy.dataSharing}
+                    onCheckedChange={(checked) => 
+                      setPrivacy({ ...privacy, dataSharing: checked })
+                    }
+                  />
+                </div>
+
+                <Separator />
+
+                <div className="flex items-center justify-between">
+                  <div className="space-y-0.5">
+                    <Label>Statistiques anonymes</Label>
+                    <p className="text-sm text-gray-500">
+                      Aider à améliorer l'application avec des statistiques anonymes
+                    </p>
+                  </div>
+                  <Switch
+                    checked={privacy.anonymousUsage}
+                    onCheckedChange={(checked) => 
+                      setPrivacy({ ...privacy, anonymousUsage: checked })
+                    }
+                  />
+                </div>
+
+                <Separator />
+
+                <div className="flex items-center justify-between">
+                  <div className="space-y-0.5">
+                    <Label>Emails marketing</Label>
+                    <p className="text-sm text-gray-500">
+                      Recevoir des offres et actualités par email
+                    </p>
+                  </div>
+                  <Switch
+                    checked={privacy.marketingEmails}
+                    onCheckedChange={(checked) => 
+                      setPrivacy({ ...privacy, marketingEmails: checked })
+                    }
+                  />
+                </div>
+
+                <Separator />
+
+                <div className="space-y-3">
+                  <h3 className="font-medium">Exporter vos données</h3>
+                  <p className="text-sm text-gray-500">
+                    Téléchargez une copie complète de toutes vos données
+                  </p>
+                  <Button 
+                    onClick={handleExportData}
+                    disabled={isLoading}
+                    variant="outline"
+                  >
+                    <Download className="w-4 h-4 mr-2" />
+                    Télécharger mes données
+                  </Button>
+                </div>
+
+                <Button 
+                  onClick={handleSavePreferences}
+                  disabled={isLoading}
+                  className="bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600"
+                >
+                  <Save className="w-4 h-4 mr-2" />
+                  Sauvegarder les préférences
+                </Button>
+              </CardContent>
+            </Card>
+          </TabsContent>
+
+          {/* Security Tab */}
+          <TabsContent value="security" className="space-y-6">
+            <Card>
+              <CardHeader>
+                <CardTitle>Apparence</CardTitle>
+                <CardDescription>
+                  Personnalisez l'apparence de l'application
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="flex items-center justify-between">
+                  <div className="space-y-0.5">
+                    <Label>Mode sombre</Label>
+                    <p className="text-sm text-gray-500">
+                      Activer le thème sombre
+                    </p>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Sun className="w-4 h-4" />
+                    <Switch
+                      checked={theme === 'dark'}
+                      onCheckedChange={(checked) => setTheme(checked ? 'dark' : 'light')}
+                    />
+                    <Moon className="w-4 h-4" />
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardHeader>
+                <CardTitle>Sécurité du compte</CardTitle>
+                <CardDescription>
+                  Gérez la sécurité de votre compte
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <Button variant="outline" className="w-full justify-start">
+                  <Lock className="w-4 h-4 mr-2" />
+                  Changer le mot de passe
+                </Button>
+                
+                <Separator />
+
+                <div className="space-y-3">
+                  <h3 className="text-sm font-medium text-red-600">Zone dangereuse</h3>
+                  <p className="text-sm text-gray-500">
+                    Supprimer définitivement votre compte et toutes vos données
+                  </p>
+                  <Button 
+                    variant="destructive" 
+                    className="w-full justify-start"
+                    onClick={() => {
+                      if (confirm('Êtes-vous sûr de vouloir supprimer votre compte ? Cette action est irréversible.')) {
+                        toast.error('Fonctionnalité de suppression de compte à venir');
+                      }
+                    }}
+                  >
+                    <Trash2 className="w-4 h-4 mr-2" />
+                    Supprimer mon compte
+                  </Button>
+                </div>
+              </CardContent>
+            </Card>
+          </TabsContent>
+        </Tabs>
       </main>
     </div>
   );
